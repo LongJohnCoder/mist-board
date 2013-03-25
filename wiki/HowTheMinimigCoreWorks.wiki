@@ -17,7 +17,7 @@ The original Minimig consists of very few components as depicted above. These ar
     * This is the heart of the device. It's the CPU executing the Amiga software in exact the same way it would do in a real Amiga.
   * FPGA
     * This is the part doing most of the work all other chips besides the 68k CPU would do in a real Amiga.
-  * 2 * 1MB SRAM
+  * 2 x 1MB SRAM
     * This is used as Amiga main memory as well as ROM replacement for the kickstart
   * PS/2
     * The FPGA contains a converter from PS/2 to amiga mouse and keyboard, so the 68k doesn't see the ps/2 but instead accepts it as a standard amiga mouse and keybord
@@ -26,7 +26,7 @@ The original Minimig consists of very few components as depicted above. These ar
   * VGA
     * The VGA output can output an Amiga compatible PAL RGB signal. Additional logic inside the FPGA can double each line for output and thus creating a signal that is accepted by VGA displays that can cope with 50 Hz PAL vsync frequency.
   * Audio
-     * Audio is generated via a simple 2 * 1 bit audio output which is driven directly by the FPGA using a sigmal delta converter.
+     * Audio is generated via a simple 2 x 1 bit audio output which is driven directly by the FPGA using a sigmal delta converter.
   * Microcontroller
     * The microcontroller has two main purposes: It configures the FPGA + SRAM and while the system is running and it acts as a floppy disk emulator and general system controller. In the original minimig this is a PIC. A more powerful ARM based replacement is available as an update.
   * SD card
@@ -66,7 +66,7 @@ There's one small exception of comunication that does not go over SPI: The INIT_
 
 Bytes returned by the FPGA on SPI:
 
-`
+{{{
 byte 0:   sel[1:0], drives[0:1], hdd_dat_req, hdd_cmd_req, trackwr, trackrd&~fifo_cnt[10]
   sel[0:1]     - index 0..3 of the currently selected floppy drive
   drives[0:1]  - number of "installed" floppy drives
@@ -102,11 +102,12 @@ byte 6/7: cmd_fdd:
              hdd_data_in
           else
              0
-`
+}}}
 
 == SPI Commands: == 
 
-`CMD_FDD:       000xxxxx xxxxxxxx
+{{{
+CMD_FDD:       000xxxxx xxxxxxxx
 
 FDD_STATUS_RD: 0001xxxx WWWWPPPP
    WWWW = Disk Writable
@@ -121,13 +122,13 @@ CMD_DATA_RD:   1010xxxx xxxxxxxx
 CMD_DATA_WR:   1011xxxx xxxxxxxx
 
 HDD_STATUS_WR: 1111xxxx xxxxxxxx
-`
+}}}
 
 == OSD SPI Commands ==
 
 OSD SPI commands:
 
-`
+{{{
 00000000 	NOP
 001H0NNN 	write data to osd buffer line <NNN> (H - highlight)
 0100--KE	enable OSD display (E) and disable Amiga keyboard (K)
@@ -140,7 +141,7 @@ OSD SPI commands:
 1101-EAN	set chipset features (N - ntsc, A - OCS A1000, E - ECS)
 1110HHLL	set interpolation filter (H - Hires, L - Lores)
 1111SSCC	set memory configuration (S - Slow, C - Chip)
-`
+}}}
 
 = Minimig ports = 
 
