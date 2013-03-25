@@ -9,7 +9,7 @@ This document is not for you if you don't know what the minimig is or how to use
 
 = System overview =
 
-<img src="minimig.svg">
+http://mist-board.googlecode.com/svn/wiki/minimig.png
 
 The original Minimig consists of very few components as depicted above. These are:
 
