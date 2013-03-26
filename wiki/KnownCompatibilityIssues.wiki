@@ -7,6 +7,5 @@ This page lists games and applications which are known to have issues on MIST.
 = Atari ST games =
 
 Add your content here.  Format your content with:
-  * No Second Prize - Seems to halt during loading, music continues to play
   * Oxyd2 - two bombs when music is going to start. Playable otherwise
   * R-Type - Stuck at title
