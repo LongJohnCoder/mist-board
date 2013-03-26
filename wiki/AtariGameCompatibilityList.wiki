@@ -1,0 +1,26 @@
+#summary Compatibility of Atari Games
+
+This pages lists the state of games on the Atari ST core.
+
+= Games =
+
+Colors: <font color="green">runs good</font>, <font color="orange">has minor issues that don't affect gameplay</font>, <font color="red">is unplayable</font>
+
+|| *Game* || *Disk* || *Core Version* || *Comment* ||
+|| <font color="green">Bolo</font> || || || Needs monochrome mode ||
+|| <font color="green">Oxyd</font> || || || Needs monochrome mode ||
+|| <font color="orange">Oxyd 2</font> || || 130321 || Crashes when music starts, can be played if started before that ||
+|| <font color="green">Spacola</font> || || || Needs monochrome mode ||
+|| <font color="green">Xenon II</font> || A_133 || || ||
+|| <font color="green">Deflektor</font> || A_012 || || ||
+|| <font color="green">Frontier Elite</font> || || || ||
+|| <font color="red">R-Type</font> || A_046 || || Hangs in intro ||
+|| <font color="red">No Second Place</font> || || || Hangs in loading screen ||
+|| <font color="green">Sinbad</font> || A_001 || || ||
+|| <font color="green">Myth</font> || A_001 || || ||
+|| <font color="green">Crystal Castles</font> || A_002 || || ||
+|| <font color="green">Trail Blazer</font> || A_002 || || ||
+|| <font color="green">Titus Arcade Classics</font> || A_003 || || ||
+|| <font color="green">Arkanoid II</font> || A_003 || || ||
+|| <font color="green">Goldrunner</font> || A_008 || || ||
+|| <font color="red">Paradroid 90</font> || || || ||
