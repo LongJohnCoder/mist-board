@@ -25,3 +25,4 @@ Colors: <font color="green">runs good</font>, <font color="orange">has minor iss
 || <font color="green">Arkanoid II</font> || A_003 || || ||
 || <font color="green">Goldrunner</font> || A_008 || || ||
 || <font color="red">Paradroid 90</font> || || || ||
+|| <font color="green">Moon Patrol</font> || A_004 || || ||
