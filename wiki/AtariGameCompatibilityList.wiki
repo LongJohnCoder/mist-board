@@ -6,7 +6,9 @@ This pages lists the state of games on the Atari ST core.
 
 Colors: <font color="green">runs good</font>, <font color="orange">has minor issues that don't affect gameplay</font>, <font color="red">is unplayable</font>
 
-|| *Game* || *Disk* || *Core Version* || *Comment* ||
+Compact Disks: A_XXX = Automation Compact Disk X, PP_XXX = Pompey Pirates Compact Disk X
+
+|| *Game* || *CD* || *Core Version* || *Comment* ||
 || <font color="green">Bolo</font> || || || Needs monochrome mode ||
 || <font color="green">Oxyd</font> || || || Needs monochrome mode ||
 || <font color="orange">Oxyd 2</font> || || 130321 || Crashes when music starts, can be played if started before that ||
@@ -26,3 +28,4 @@ Colors: <font color="green">runs good</font>, <font color="orange">has minor iss
 || <font color="green">Goldrunner</font> || A_008 || || ||
 || <font color="red">Paradroid 90</font> || || || ||
 || <font color="green">Moon Patrol</font> || A_004 || || ||
+|| <font color="green">Rick Dangerous</font> || PP_001 || || ||
