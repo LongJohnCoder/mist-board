@@ -11,10 +11,12 @@ Compact Disks: A_XXX = Automation Compact Disk X, PP_XXX = Pompey Pirates Compac
 || *Game* || *CD* || *Core Version* || *Comment* ||
 || <font color="green">Arkanoid II</font> || A_003 || || ||
 || <font color="green">Bolo</font> || || || Needs monochrome mode ||
+|| <font color="green">Blast</font> || A_060 || || ||
 || <font color="green">Bubble Bobble</font> || PP_026 || || ||
 || <font color="green">Crystal Castles</font> || A_002 || || ||
 || <font color="green">Deflektor</font> || A_012 || || ||
 || <font color="green">Frontier Elite II</font> || || || ||
+|| <font color="green">Livingstone</font> || A_060 || || ||
 || <font color="green">Goldrunner</font> || A_008 || || ||
 || <font color="green">Menace</font> || A_046 || || ||
 || <font color="green">Moon Patrol</font> || A_004 || || ||
@@ -27,6 +29,7 @@ Compact Disks: A_XXX = Automation Compact Disk X, PP_XXX = Pompey Pirates Compac
 || <font color="red">R-Type</font> || A_046 || || Hangs in intro ||
 || <font color="green">Sinbad</font> || A_001 || || ||
 || <font color="green">Spacola</font> || || || Needs monochrome mode ||
+|| <font color="green">Starglider I</font> || A_060 || || ||
 || <font color="green">Titus Arcade Classics</font> || A_003 || || ||
 || <font color="green">Trail Blazer</font> || A_002 || || ||
 || <font color="green">Virus</font> || A_002 || || ||
