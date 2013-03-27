@@ -1,0 +1,61 @@
+#summary This pages explains how to install the firmware
+
+= Firmware files =
+
+The firmware comes in three formats:
+
+  * *firmware.bin* is the raw binary of the firmware. This can be uploaded to the MIST board using special flashers
+  * *firmware.hex* is the same firmware in intel hex format as required by some uploaders
+  * *firmware.upg* is the same firmware in a format suited for self-update via the on-screen-display (OSD)
+
+= Updating the IO controller using the OSD =
+
+The easiest way to update the IO controller is via the OSD menu of the Minimig core. This requires a working Minimig setup. In order to update via the OSD the following steps are required:
+
+  # Place the _firmware.upd_ on the SD card
+  # Boot into Minimig
+  # Open the OSD (F12)
+  # Go into the Misc menu (press right key two times)
+  # Select _Firmware_
+  # Make sure the Version numbers displayed are the ones you want to flash
+  # Press _Update_ and select _Yes_
+  # The update will take about 5 seconds
+  # The new firmware will reboot automatically
+
+= Updating the IO controller via SAM-BA under Windows =
+
+Alternally the SAM.BA self programming capabilities of the AT91SAM7 based IO controller can be used. This does not require a working Minimig setup and can even be used to flash an IO controller with broken firmware after e.g. a failed update attempt or the like.
+
+The following steps are necessary to update the MIST firmware under Windows:
+
+   # Install [http://www.atmel.com/tools/ATMELSAM-BAIN-SYSTEMPROGRAMMER.aspx Atmel SAM-BA for Windows] on your PC
+   # Switch the board off and remove the SD card
+   # Close the TST jumper (next to the three bush buttons on the early dev boards, next to the Atmel ARM controller on the series boards)
+   # Switch the board on, wait 10 seconds and switch it off again. The SAM-BA boot loader is now installed
+   # Remove the jumper and connect the board to the PC using a USB cable connected to the square USB plug next to the three push buttons
+   # Power the board on. The PC should recognize the board and install install a COM port for it
+   # Start SAM.BA on the PC. Select the COM device and set board type to _at91sam7s256-ek_ as depicted below
+
+http://code.google.com/p/mist-board/source/browse/wiki/mist_samba1.jpg
+
+   # Select _Connect_
+   # In the SAM-BA main screen under Scripts select _Erase_ _all_ _flash_ and hit the _Execute_ button
+
+http://code.google.com/p/mist-board/source/browse/wiki/mist_samba2.jpg
+
+   # Select _yes_ when being asked if you want to unlock the flash regions
+   # Select the MIST firmware file _firmware.bin_ under _Send_ _File_ _Name_ and hit the _Send_ _File_ button
+   # The new firmware will now be flashed
+   # Say _No_ when being asked whether you want lock the involved flash regions
+   # Power the board off, disconnect the USB cable, insert the SD card
+   # Power the board on. The new firmware should load.
+
+= Updating the IO controller via SAM-BA under Linux =
+
+Some people have problems to get the Linux version of SAM-BA to work. Instead Sam_I_Am under Linux works fine. The firmware source archive comes with a matching Makefile entry. Install the SAM-BA boot loader as explained above in the Windows section. Then just type make flash_sam to flash the new firmware. The installation of Sam_I_Am on a recent Ubuntu machine required some moving around of files which i don't exactly remember. If in doubt use the windows installer as explained above.
+
+= Updating the IO controller via JTAG =
+
+Another way to flash the IO controller is via an ARM JTAG cable connected to the 20 pin JTAG header. You need an ARM JTAG cable and the apropriate software.
+
+This is primarily intended for developers or for bulk flashing several devices.

@@ -1,0 +1,23 @@
+#summary This pages explains how to compile the firmware
+
+Up to now the firmware has only be compiled under Linux. This page thus only describes the necessary Linux setup. Windows instructions are welcome.
+
+= Prerequisites =
+
+The firmware is written in C. Thus a matching C compiler is needed. The current firmware setup expects a matching version of the gnu compiler collection (GCC) to be installed as desribed in [http://retroramblings.net/?p=315 this blog posting]. A [http://mist-board.googlecode.com/svn/trunk/tools/install_arm-none-eabi-gcc.sh shell script] is available to automate the setup.
+
+= Compiling =
+
+The firmware source code is available from the [http://code.google.com/p/mist-board/source/checkout MIST svn repository].
+
+Once the compiler is installed a simple `make` in the firmware subdirectory will build the latest firmware.
+
+= Installation =
+
+Three files are generated during compilation:
+
+  * *firmware.bin* is the raw binary of the firmware. This can be uploaded to the MIST board using special flashers
+  * *firmware.hex* is the same firmware in intel hex format as required by some uploaders
+  * *firmware.upg* is the same firmware in a format suited for self-update via the on-screen-display (OSD)
+
+For more details on firmware installation read HowToInstallTheFirmware
