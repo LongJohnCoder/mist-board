@@ -36,12 +36,12 @@ The following steps are necessary to update the MIST firmware under Windows:
    # Power the board on. The PC should recognize the board and install install a COM port for it
    # Start SAM.BA on the PC. Select the COM device and set board type to _at91sam7s256-ek_ as depicted below
 
-http://code.google.com/p/mist-board/source/browse/wiki/mist_samba1.jpg
+http://mist-board.googlecode.com/svn/wiki/mist_samba1.jpg
 
    # Select _Connect_
    # In the SAM-BA main screen under Scripts select _Erase_ _all_ _flash_ and hit the _Execute_ button
 
-http://code.google.com/p/mist-board/source/browse/wiki/mist_samba2.jpg
+http://mist-board.googlecode.com/svn/wiki/mist_samba2.jpg
 
    # Select _yes_ when being asked if you want to unlock the flash regions
    # Select the MIST firmware file _firmware.bin_ under _Send_ _File_ _Name_ and hit the _Send_ _File_ button
