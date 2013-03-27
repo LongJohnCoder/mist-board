@@ -29,4 +29,5 @@ Compact Disks: A_XXX = Automation Compact Disk X, PP_XXX = Pompey Pirates Compac
 || <font color="green">Spacola</font> || || || Needs monochrome mode ||
 || <font color="green">Titus Arcade Classics</font> || A_003 || || ||
 || <font color="green">Trail Blazer</font> || A_002 || || ||
+|| <font color="green">Virus</font> || A_002 || || ||
 || <font color="green">Xenon II</font> || PP_007 || || ||
