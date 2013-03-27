@@ -14,6 +14,7 @@ Compact Disks: A_XXX = Automation Compact Disk X, PP_XXX = Pompey Pirates Compac
 || <font color="green">Blast</font> || A_060 || || ||
 || <font color="green">Bubble Bobble</font> || PP_026 || || ||
 || <font color="green">Crystal Castles</font> || A_002 || || ||
+|| <font color="green">Elite</font> || A_014 || || ||
 || <font color="green">Deflektor</font> || A_012 || || ||
 || <font color="green">Frontier Elite II</font> || || || ||
 || <font color="green">Livingstone</font> || A_060 || || ||
