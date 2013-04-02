@@ -27,6 +27,7 @@ Compact Disks: A_XXX = Automation Compact Disk X, PP_XXX = Pompey Pirates Compac
 || <font color="green">No Second Price</font> || || || ||
 || <font color="green">Oxyd</font> || || || Needs monochrome mode ||
 || <font color="orange">Oxyd 2</font> || || 130321 || Crashes when music starts, can be played if started before that ||
+|| <font color="red">Oids</font> || A_097 || || ||
 || <font color="green">Pac-Mania</font> || A_025 || || ||
 || <font color="red">Paradroid 90</font> || || || ||
 || <font color="green">Rick Dangerous</font> || PP_001 || || ||
