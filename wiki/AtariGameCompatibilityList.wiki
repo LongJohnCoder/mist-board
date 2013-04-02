@@ -33,7 +33,8 @@ Compact Disks: A_XXX = Automation Compact Disk X, PP_XXX = Pompey Pirates Compac
 || <font color="red">R-Type</font> || A_046 || || Hangs in intro ||
 || <font color="green">Sinbad</font> || A_001 || || ||
 || <font color="green">Spacola</font> || || || Needs monochrome mode ||
-|| <font color="green">Starglider I</font> || A_060 || || ||
+|| <font color="green">Starglider</font> || A_060 || || ||
+|| <font color="green">Starglider II</font> || A_158 || || ||
 || <font color="green">Titus Arcade Classics</font> || A_003 || || ||
 || <font color="green">Trail Blazer</font> || A_002 || || ||
 || <font color="green">Uridium</font> || A_021 || || ||
