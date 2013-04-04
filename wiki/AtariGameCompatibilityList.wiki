@@ -8,6 +8,8 @@ Colors: <font color="green">runs good</font>, <font color="orange">has minor iss
 
 Compact Disks: A_XXX = Automation Compact Disk X, PP_XXX = Pompey Pirates Compact Disk X
 
+If a game is listed as running this usually means that at least one version exists that runs fine. Other versions (cracks) of the same game may not work.
+
 || *Game* || *CD* || *Core Version* || *Comment* ||
 || <font color="green">Arkanoid II</font> || A_003 || || ||
 || <font color="green">Bolo</font> || || || Needs monochrome mode ||
@@ -27,13 +29,15 @@ Compact Disks: A_XXX = Automation Compact Disk X, PP_XXX = Pompey Pirates Compac
 || <font color="green">No Second Price</font> || || || ||
 || <font color="green">Oxyd</font> || || || Needs monochrome mode ||
 || <font color="orange">Oxyd 2</font> || || 130321 || Crashes when music starts, can be played if started before that ||
-|| <font color="red">Oids</font> || A_097 || || ||
+|| <font color="green">Oids</font> || || || Version from A_097 does not work! ||
 || <font color="green">Pac-Mania</font> || A_025 || || ||
 || <font color="red">Paradroid 90</font> || || || ||
 || <font color="green">Rick Dangerous</font> || PP_001 || || ||
 || <font color="red">R-Type</font> || A_046 || || Hangs in intro ||
+|| <font color="green">R-Type II</font> || || || ||
 || <font color="green">Sinbad</font> || A_001 || || ||
 || <font color="green">Spacola</font> || || || Needs monochrome mode ||
+|| <font color="green">Spherical</font> || || || ||
 || <font color="green">Starglider</font> || A_060 || || ||
 || <font color="green">Starglider II</font> || A_158 || || ||
 || <font color="green">Titus Arcade Classics</font> || A_003 || || ||
