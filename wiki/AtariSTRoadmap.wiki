@@ -3,21 +3,24 @@
 = Already implemented =
 
   * 8Mhz CPU (faster core slowed down by memory interface)
-  * Up to 14MB DMA and video capable ST RAM
+  * Up to 14MB fully DMA supported and video capable ST RAM
   * ROM cartridge support
   * Support for 256k and 192k ROM images
-  * TOS versions 1.00, 1.02, 1.04, 2.06 and EmuTOS
+  * TOS versions 1.00, 1.02, 1.04, 2.06 and EmuTOS 0.8.7
   * All three ST video modes
   * Scan doubler for color modes for VGA compatibility
   * PAL 56 HZ for VGA compatibility
   * Floppy disk emulation via SD card (.ST formats incl. HD (1.44MB) and ED (2.88MB)) 
-  * AHDI compatible ACSI/HDD emulation via SD card. Hatari compatible images
+  * AHDI compatible ACSI/HDD emulation via SD card using Hatari compatible ACSI images
   * MFP (Timers, RS232 redirection, IRQs, ...)
   * Sound
   * IKBD emulation (joysticks, mouse, keyboard)
   * USB mice and keyboards
+  * Minimig on screen display (OSD)
+  * Ability to change the core (to e.g. boot into Minimig)
 
 = Planned/Possible =
+
   * Faster CPU (by using already existing fast ram interface, perhaps cache)
   * Extended video modes (e.g. 1280x960 monochrome, 640x480 16 colors)
   * MIDI add-on board
@@ -26,3 +29,13 @@
   * STE DMA sound
   * Blitter (Optional for ST, mandatory for STE)
   * USB joysticks and gamepads
+
+= Frequently asked things that will most likely never happen =
+  
+  * Falcon compatibility (This requires a DSP and various other complex things that don't fit into the MIST FPGA)
+  * 68040/68060 add-on board (the MIST doesn't have enough spare IO pins for this)
+  * 68040/68060 FPGA implementation (the MIST FPGA is too small for this)
+
+= Summary =
+
+An STE or Mega STE is likely possible, everything else like TT or even Falcon is unlikely.
