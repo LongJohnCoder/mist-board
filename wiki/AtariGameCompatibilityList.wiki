@@ -28,7 +28,7 @@ If a game is listed as running this usually means that at least one version exis
 || <font color="green">Nebulus</font> || A_009 || || ||
 || <font color="green">No Second Price</font> || || || ||
 || <font color="green">Oxyd</font> || || || Needs monochrome mode ||
-|| <font color="orange">Oxyd 2</font> || || 130321 || Crashes when music starts, can be played if started before that ||
+|| <font color="green">Oxyd 2</font> || || 130414 || ||
 || <font color="green">Oids</font> || || || Version from A_097 does not work! ||
 || <font color="green">Pac-Mania</font> || A_025 || || ||
 || <font color="red">Paradroid 90</font> || || || ||
