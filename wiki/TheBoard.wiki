@@ -1,0 +1,16 @@
+#summary Overview over the MIST board
+
+http://mist-board.googlecode.com/svn/wiki/mist12.png
+
+
+  * Altera Cyclone EP3C25 FPGA
+  * 32 MBytes 16 bit wide SDR SDRAM
+  * AT91SAM7S56 ARM IO controller
+  * MAX3421E USB host controller
+  * TUSB2046 USB HUB
+  * 4 USB host ports
+  * 3*6 bit analog VGA output
+  * stereo analog audio output
+  * Powered from Micro USB charger
+  * Fully user configurable
+  * 100% open source

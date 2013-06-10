@@ -12,6 +12,8 @@ Some additional hardware may be handy during development:
   * A ARM JTAG cable (tested with Olimex ARM-USB-Tiny-H https://www.olimex.com/Products/ARM/JTAG/ARM-USB-TINY-H/) can be connected to SV4 to be used to flash the ARM controller directly speeding up turn around times significantly
   * A Altera Byte Blaster USB cable (tested with various cheap china clones) can be connected to SV1 allowing for fast FPGA upload and advanced FPGA debugging
 
+http://mist-board.googlecode.com/svn/wiki/adapters.jpg
+
 = IO controller vs. FPGA development =
 
 There are two main devices that drive the MIST board:
