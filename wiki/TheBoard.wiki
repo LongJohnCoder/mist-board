@@ -16,7 +16,7 @@ http://mist-board.googlecode.com/svn/wiki/mist12.png
   * Analog VGA output with 3*6 bits colour depth
   * Stereo analog audio output
   * Micro USB for Power Supply and IO Controller flash update
-  * 2 * classic DB9 Atari style joysticks
+  * 2 classic DB9 Atari style joystick connectors
   * SD Card slot
   * 3 LEDs (Power, FPGA and IO Controller)
   * 3 Pushbuttons (Board Reset, Menu, Core defined)
