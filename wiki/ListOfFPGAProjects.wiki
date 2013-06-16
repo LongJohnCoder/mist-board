@@ -1,0 +1,33 @@
+#summary List of FPGA projects
+
+This page lists various known FPGA (Verilog and/or VHDL) implementations of classic computers, game consoles and similar. All of these could potentially be ported to the MIST.
+
+= Classic Computers =
+
+== Atari ST == 
+
+|| *Platform* || *Link* || *Source Available/License* || *Remarks* ||
+|| Atari STE || http://experiment-s.de || yes/GPL || Probably won't fit into the MIST FPGA||
+|| Atari ST || http://www.fpgaarcade.com/atari_amiga.htm || no || ||
+|| Atari ST || http://www.youtube.com/watch?v=bsp5dlPwHHk || unknown || Just a youtube video||
+|| Atari ST || http://www.youtube.com/user/sleary7878 || yes, on request || Has been ported to MIST ||
+|| Unknown || http://stlabs.free.fr/ || no || Looks like a minimig ||
+
+== Commodore Amiga ==
+
+|| *Platform* || *Link* || *Source Available/License* || *Remarks* ||
+|| || || || ||
+
+== Apple Macintosh ==
+
+|| *Platform* || *Link* || *Source Available/License* || *Remarks* ||
+
+== Acorn Archimedes ==
+
+|| *Platform* || *Link* || *Source Available/License* || *Remarks* ||
+
+= Game Consoles =
+
+== Nintendo Entertainment System (NES) ==
+
+== Super Nintendo Entertainment System (SNES) ==
