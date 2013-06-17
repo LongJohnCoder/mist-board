@@ -29,3 +29,7 @@ http://mist-board.googlecode.com/svn/wiki/midi_pcb.png
 =Core support=
 
 The Atari ST core supports the MIDI add-on out of the box. The Minimig/Amiga core may easily get support using the setup from [http://retroramblings.net/?p=412 ProjectXG Redux]
+
+== Supported/tested software ==
+
+The Atari ST core has been tested against a PC running a MIDI synthesizer. Also a MIDIMAZE2 session has successfully been initiated between two boards.
