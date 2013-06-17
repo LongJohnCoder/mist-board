@@ -1,0 +1,31 @@
+#summary MIDI addon
+
+=Overview=
+
+The MIDI addon board adds a physical Atari ST compatible MIDI port to the MIST board.
+
+http://www.youtube.com/watch?v=M6nnBp4Z0YE
+
+=Schematic=
+
+The board implements a simple MIDI compliant current loop. The MIST runs at 3.3V unlike the orifinal Atari ST which ran on 5V. The values of resistors R1, R2, R5 and R6 reflect this as well as the fact that IC1 is a low voltagle variant.
+
+The MIDI add-on implements MIDI through exactly like the original Atari ST did on Pin 1 and 3 of the MIDI out connector.
+
+The board connects directly via SV1 to the FPGA expansion connector of the MIST board V1.2 or V1.3.
+
+http://mist-board.googlecode.com/svn/wiki/midi_schematic.png 
+
+[http://mist-board.googlecode.com/svn/wiki/midi_schematic.pdf Schematic(PDF)]
+
+=Printed Circuit Board=
+
+The board fits exactly at the left side of a MIST V1.2 or V1.3 (the first series board) board. Previous development boards may also be connected but need some extra wires.
+
+http://mist-board.googlecode.com/svn/wiki/midi_pcb.png 
+
+[http://mist-board.googlecode.com/svn/wiki/midi_pcb.pdf Board(PDF)]
+
+=Core support=
+
+The Atari ST core supports the MIDI add-on out of the box. The Minimig/Amiga core may easily get support using the setup from [http://retroramblings.net/?p=412 ProjectXG Redux]
