@@ -54,14 +54,14 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 
 || *Platform* || *Link* || *Source Available/License* || *Remarks* ||
 || Kevtris' FPGA NES || http://www.youtube.com/watch?v=xiEZIma5FI0 || unknown || Youtube video only ||
-|| FPGA NES || http://www.youtube.com/watch?v=h7TWjnaF_U4 || no || also youtube-only ||
+|| NES on FPGA || http://www.youtube.com/watch?v=NyhbJ-KhHaM || no || also youtube-only ||
 || Danstrother's FPGA NES || http://danstrother.com/fpga-nes/ || no ||  ||
 || Ludde's FPGA NES || http://fpganes.blogspot.de/2013/01/luddes-fpga-nes.html || no || ||
 
 == Super Nintendo Entertainment System (SNES) ==
 
 || *Platform* || *Link* || *Source Available/License* || *Remarks* ||
-|| FPGA NES || http://www.youtube.com/watch?v=h7TWjnaF_U4 || no || also youtube-only ||
+|| SNES on FPGA || http://www.youtube.com/watch?v=h7TWjnaF_U4 || no || Another youtube-only ||
 
 = Other stuff =
 
