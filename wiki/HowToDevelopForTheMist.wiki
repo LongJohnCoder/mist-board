@@ -6,6 +6,8 @@ The MIST board is a work in progress. All code and all tools required to work on
 
 The only thing you'll unfortunately have to pay for is the board itself which we've tried to keep as cheap as possible. But the board itself is a must. There are no simulators or similar for the board.
 
+See TheBoard for a detailed view of the connectors being used.
+
 Some additional hardware may be handy during development:
 
   * A "ttl uart usb" converter can be connected to the 4 pin header SV3 right to the SD card slot. This serial port carries debug output of the ARM IO controller at 115200/8N1
@@ -41,4 +43,3 @@ And there are things that affect both componentes equally. Examples are:
 
   * Floppy and harddisk emulation
   * FPGA configuation
-
