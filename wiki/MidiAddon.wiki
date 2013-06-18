@@ -1,16 +1,18 @@
-#summary MIDI addon
+#summary MIDI expansion board
 
 =Overview=
 
-The MIDI addon board adds a physical Atari ST compatible MIDI port to the MIST board.
+The MIDI expansion board board adds a physical Atari ST compatible MIDI port to the MIST board.
 
-http://www.youtube.com/watch?v=M6nnBp4Z0YE
+http://mist-board.googlecode.com/svn/wiki/midi_addon.jpg
+
+The MIDI expansion board connected to a V1.2 pre-production board.
 
 =Schematic=
 
 The board implements a simple MIDI compliant current loop. The MIST runs at 3.3V unlike the orifinal Atari ST which ran on 5V. The values of resistors R1, R2, R5 and R6 reflect this as well as the fact that IC1 is a low voltagle variant.
 
-The MIDI add-on implements MIDI through exactly like the original Atari ST did on Pin 1 and 3 of the MIDI out connector.
+The MIDI expansion board implements MIDI through exactly like the original Atari ST did on Pin 1 and 3 of the MIDI out connector.
 
 The board connects directly via SV1 to the FPGA expansion connector of the MIST board V1.2 or V1.3.
 
@@ -28,8 +30,8 @@ http://mist-board.googlecode.com/svn/wiki/midi_pcb.png
 
 =Core support=
 
-The Atari ST core supports the MIDI add-on out of the box. The Minimig/Amiga core may easily get support using the setup from [http://retroramblings.net/?p=412 ProjectXG Redux]
+The Atari ST core supports the MIDI expansion board out of the box. The Minimig/Amiga core may easily get support using the setup from [http://retroramblings.net/?p=412 ProjectXG Redux]
 
 == Supported/tested software ==
 
-The Atari ST core has been tested against a PC running a MIDI synthesizer. Also a MIDIMAZE2 session has successfully been initiated between two boards.
+The Atari ST core has been tested against a PC running a MIDI synthesizer. Also a MIDIMAZE2 session has successfully been initiated between two boards. Here's a [http://www.youtube.com/watch?v=M6nnBp4Z0YE youtube video].
