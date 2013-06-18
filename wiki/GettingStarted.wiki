@@ -1,0 +1,50 @@
+#summary Getting started
+
+= What you need =
+
+The MIST board was designed for simplicity. 
+
+Mandatory:
+
+  * The MIST board
+  * A USB keyboard
+  * A micro USB phone charger for power supply (a micro USB cable connected to a USB hub or PC also works)
+  * An SD card (1GB recommended)
+  * A VGA screen
+
+Optional:
+
+  * A USB mouse
+  * A classic Atari style joystick 
+  * A set of PC speakers
+
+= Preparations =
+
+First you have to prepare the SD card. Place the following files in the root directory of a standard FAT formatted SD card:
+
+  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/core.rbf The Atari ST FPGA core (core.rbf)]
+  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/tos.img A (Emu-)TOS rom image (tos.img)]
+
+= Setup =
+
+Insert the SD card into the MIST. Connect VGA screen and USB keyboard. Finally connect the phone charger.
+
+= Go! =
+
+Switch the board on. It should boot into the Atari ST desktop.
+
+= Troubleshooting =
+
+The board doesn't boot? Please read about TroubleShooting
+
+= Things to do next =
+
+Once the board works there are many things to explore:
+
+  * Connect a USB keyboard and press F12 (or the menu key) to explore the on screen display (OSD)
+  * Press the "NumLock" key to cycle through mouse and joystick emulation (use the cursor keys for this) 
+  * Connect a USB mouse
+  * Connect speakers
+  * Add atari st floppy disk images (.st format) to the SD card and select them via the OSD
+  * Visit the [http://www.atari-forum.com/viewforum.php?f=101 MIST section in the Atari Forum]
+
