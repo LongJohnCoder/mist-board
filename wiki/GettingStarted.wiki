@@ -35,7 +35,7 @@ Switch the board on. It should boot into the Atari ST desktop.
 
 = Troubleshooting =
 
-The board doesn't boot? Please read about TroubleShooting
+The board doesn't boot? Please read about [Troubleshooting]
 
 = Things to do next =
 
@@ -47,4 +47,3 @@ Once the board works there are many things to explore:
   * Connect speakers
   * Add atari st floppy disk images (.st format) to the SD card and select them via the OSD
   * Visit the [http://www.atari-forum.com/viewforum.php?f=101 MIST section in the Atari Forum]
-
