@@ -1,4 +1,4 @@
-#wummary Projects the MIST is based on
+#summary Projects the MIST is based on
 
 The MIST project wouldn't have been possible without the following projects and contributions:
 
