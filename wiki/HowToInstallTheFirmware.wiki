@@ -56,6 +56,13 @@ Some people have problems to get the Linux version of SAM-BA to work. Instead Sa
 
 = Updating the IO controller via JTAG =
 
-Another way to flash the IO controller is via an ARM JTAG cable connected to the 20 pin JTAG header. You need an ARM JTAG cable and the apropriate software.
+Another way to flash the IO controller is via an ARM JTAG cable connected to the 20 pin JTAG header. You need an ARM JTAG cable and the apropriate software. The Makefile in the firmware source code comes with a flash target, so a simple 
+{{{make flash}}} will use the ARM JTAG interface to flash the IO controller. No manual interaction is required besides connecting the JTAG cable.
 
 This is primarily intended for developers or for bulk flashing several devices.
+
+Two types of arm jtag adapters have so far been tested. The [https://www.olimex.com/Products/ARM/JTAG/ARM-USB-TINY-H/ Olimex arm-usb-tiny-h] and the [http://dangerousprototypes.com/docs/Bus_Blaster busblaster], both depicted below.
+
+http://mist-board.googlecode.com/svn/wiki/arm_jtag.jpg
+
+The arm-usb-tiny-h (in the grey db25 case) worked out of the box. The busblaster (the red pcb in the front) needed some tweaking as explained in the [http://dangerousprototypes.com/forum/viewtopic.php?f=37&t=5598 dangerous prototypes forum]. Once successfully setup both devices perform equally well. The busblaster is a little cheaper but doesn't come with a case and without the 20 pin ribbon cable required to connect to the MIST.

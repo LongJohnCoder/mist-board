@@ -12,7 +12,7 @@ Some additional hardware may be handy during development:
 
   * A "ttl uart usb" converter can be connected to the 4 pin header SV3 right to the SD card slot. This serial port carries debug output of the ARM IO controller at 115200/8N1
   * A ARM JTAG cable (tested with Olimex ARM-USB-Tiny-H https://www.olimex.com/Products/ARM/JTAG/ARM-USB-TINY-H/) can be connected to SV4 to be used to flash the ARM controller directly speeding up turn around times significantly
-  * A Altera Byte Blaster USB cable (tested with various cheap china clones) can be connected to SV1 allowing for fast FPGA upload and advanced FPGA debugging
+  * A Altera Byte Blaster USB cable (tested with various cheap china clones, although some of them only worked under Windows) can be connected to SV1 allowing for fast FPGA upload and advanced FPGA debugging
 
 http://mist-board.googlecode.com/svn/wiki/adapters.jpg
 
