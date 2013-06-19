@@ -14,7 +14,7 @@ The board implements a simple MIDI compliant current loop. The MIST runs at 3.3V
 
 The MIDI expansion board implements MIDI through exactly like the original Atari ST did on Pin 1 and 3 of the MIDI out connector.
 
-The board connects directly via SV1 to the FPGA expansion connector of the MIST board V1.2 or V1.3.
+The board connects directly via SV2 to the FPGA expansion connector of the MIST board V1.2 or V1.3.
 
 http://mist-board.googlecode.com/svn/wiki/midi_schematic.png 
 
