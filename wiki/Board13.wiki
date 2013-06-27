@@ -1,0 +1,14 @@
+#summary MIST V1.3 hardware schematics and pcb
+
+= The schematic =
+
+http://mist-board.googlecode.com/svn/wiki/mist13_schematic.png
+
+[http://mist-board.googlecode.com/svn/wiki/mist13_schematic.pdf Board V1.3 schematic PDF]
+
+= The pcb =
+
+http://mist-board.googlecode.com/svn/wiki/mist13_pcb.png
+
+[http://mist-board.googlecode.com/svn/wiki/mist13_pcb.pdf Board V1.3 pcb PDF]
+
