@@ -1,0 +1,70 @@
+#summary Peripherals on the MIST
+
+= What peripherals are supported? =
+
+The MIST currently supports:
+
+  * Power supply
+  * USB keyboards
+  * USB mice
+  * Classic C64 style joysticks
+  * SD cards
+  * VGA screens
+  * Speakers
+
+Currently unsupported are:
+
+  * Original Atari ST and Amiga mice
+  * USB joysticks/gamepads
+  * USB storage devices (thumb drives)
+  * USB bluetooth dongles
+
+Support for these is a matter of firmware support and they may be supported one day. 
+
+= Power supply =
+
+The board is powered via micro USB. The board draws ca. 300mA/5V. Additional power is required for attached perpherals. A total of 400mA is sufficient. The board can thus easily be powered from any PC USB port (providing 500mA) or standard USB phone charger (providing 1200mA).
+
+= USB keyboards =
+
+A USB keyboard to be used with the MIST needs to support the so-called "USB HID Boot mode". This is a simplified mode of communication with the keyboard mainly intended to be used when controlling the BIOS of a PC via USB keyboard. All USB keyboards tested so far support this and work properly on the MIST. This includes the keyboard part of all wireless keyboard mouse combos tested so far (inkl. the Rii and the K400).
+ 
+= USB mice =
+
+USB mice to be used with the MIST also need to support the "USB HID Boot mode". Most simple mice tested so far work fine. Very few mice have been reported not to work. Also the mouse part in some wireless keyboard mouse combos doesn't work properly. If in doubt use a simple wheel mouse of a well-known brand. 
+
+The symptoms of mice not working typically is a mouse cursor "jumping around" when moving the mouse. The reason for this behaviour is that the mouse did not properly switch into Boot mode and sends movement information in a format other than the one used in Boot mode.
+
+Only one mouse is presented to the system. If more than one mouse is connected they all drive the system mouse. From the embedded systems view (Atari ST / Amiga) only one mouse is connected. E.g. it's currently not possible to play two player dual-mouse games like Lemmings for the Amiga this way.
+
+= Wireless USB keyboard/mouse combos =
+
+For unknwn reason small wireless USB keyboard mouse combo devices have a high probability to run into the boot mode problem. A device know to work well is the [http://www.logitech.com/de-de/product/wireless-touch-keyboard-k400-business?crid=656 Logitech K400]. The touchpad of a [http://www.riitek.com/en/product-detail-424.html Rii mini wireless] on the other hand does not work.
+
+It is currently unclear whether this is a bug in those devices or whether this is a bug in the MIST firmware.
+
+= Bluetooth USB and mice =
+
+Bluetooth devies are currently not supported.
+
+= Classic C64 style joysticks =
+
+Two classic C64/Atari/Amiga style joysticks with standard DB9 connector are fully supported. Two fire buttons are also supported on systems that support this. The joystick ports are provided with up to 100mA each so that auto fire functions and LEDs are supposed to work as expected.
+
+Not supported on these ports are mice (Atari ST nor Amiga mice), light guns or analog paddles.
+
+= SD cards =
+
+Standard form factor classic SD cards (<= 2GB) as well as SDHC cards (> 2GB) are supported. The use of a 1GB card of a well-known brand is recommended.
+
+The card has to be FAT formatted. If in doubt use a windows PC or even better a device like a digital camera to format the card.
+
+= VGA screens =
+
+The video timing on the VGA output depends on the core being used (Atari ST / Amiga / whatever) and the compatibility varies from core to core and from screen to screen. Some of the classic TV video modes (e.g. the Atari ST color video modes) use a screen refresh rate that's outside the VGA standard although many screens can display it, anyway.
+
+For further information read e.g. the video section in HowTheAtariStCoreWorks.
+
+= Speakers =
+
+Any type of active PC speakers with built-in amplifier should be fine.
