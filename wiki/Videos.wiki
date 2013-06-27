@@ -1,0 +1,15 @@
+#summary Various videos showing the MIST board in action
+
+= Pre-production V1.2 board =
+
+<wiki:video url="http://www.youtube.com/watch?v=phqs-UzhIL4"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=_cxeYKdnYuc"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=M6nnBp4Z0YE"/>
+
+= Prototype boards V1.0 and V1.1 =
+
+<wiki:video url="http://www.youtube.com/watch?v=J-ByuOa5MCQ"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=Q_ZtzkkJjtY"/>
