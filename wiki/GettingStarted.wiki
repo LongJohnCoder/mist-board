@@ -2,7 +2,7 @@
 
 = What you need =
 
-The MIST board was designed for simplicity. 
+The MIST board was designed for simplicity. Getting it up and running is thus pretty easy. First of all you'll need a few additional things.
 
 Mandatory:
 
@@ -17,6 +17,8 @@ Optional:
   * A USB mouse
   * A classic Atari style joystick 
   * A set of PC speakers
+
+For potential compatibility issues see the [Peripherals peripherals wiki page].
 
 = Preparations =
 
