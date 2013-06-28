@@ -34,6 +34,13 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || *C64* || || || ||
 || Syntiac's FPGA-64 || http://www.syntiac.com/fpga64.html || yes/non-commercial || ||
 || Sabbi's FPGA64 || http://fpga64.blogspot.de/ || no || ||
+|| || || || ||
+|| *ZX Spectrum* || || || ||
+|| ZX Spectrum on FPGA || http://www.mike-stirling.com/retro-fpga/zx-spectrum-on-an-fpga/ || yes || ||
+|| Speccy 2010 || http://code.google.com/p/speccy2010/ || yes || ||
+|| || || || ||
+|| *ZX81* || || || ||
+|| ZXGATE || http://zxgate.sourceforge.net/index.html || yes || ||
 
 = Game Consoles =
 
