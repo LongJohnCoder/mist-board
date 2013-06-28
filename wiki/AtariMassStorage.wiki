@@ -1,0 +1,55 @@
+#summary Using mass storage emulation on the Atari ST core
+
+= Mass storage? =
+
+The original Atari ST primarily used 3.5 inch double density floppy disks. These were able to hold either 360k data (single sided) or 720k (double sided). It was possible to connect a second floppy drive via the floppy port and one or more SCSI harddisks via ACSI.
+
+Later hardware modifications allowed the usage of HD (1.4M) and ED (2.8M) floppy drives as well IDE harddisks.
+
+The MIST board does not support physical floppy disks nor real harddisks. Instead the only mass storage option available on the MIST board is the SD card slot. This is being used to emulate floppy disks and harddisks not only for the Atari ST but also for the Amiga. 
+
+It is likely possible to support USB thumb drives as well. This has not been implemented yet.
+
+= Floppy disks =
+
+The Atari MIST core supports raw floppy disk images usually using the .ST file extension. The MIST supports up to two such disk images for disk with 80-85 tracks, one or two sides and 9 to 12 sectors per track. These cover 99% of the disk formats typically used in the Atari ST. Also HD floppy disk images with 18 sectors per track and ED disk images with 36 sectors per track are supported giving a total of 1.44 or even 2.88 MBytes available floppy disk space per floppy disk images.
+
+To use such flpppy disk images simply copy them onto the SD card used in your MIST board. Once booted into TOS press F12 to open the main menu. A image for floppy drive A: can conveniently be selected on the main menu page. Floppy drive B: as well as the write protection switch can be found in the "storage" submenu.
+
+== Default floppy images ==
+
+At boot time the firmware of the MIST board checks for floppy disk images named disk_a.st and disk_b.st. If these are found they are inserted automatically at boot time.
+
+== Copy protecttions ==
+
+A floppy disk is organized in tracks (typically 80 on a ST floppy disk). Each track contains a number of 512 bytes sectors (typically 9 per track on a ST floppy disk). The Atari floppy disk controller can be used to read and write single sectors or whole tracks incl. control bytes atored in between the sectors.
+
+The TOS operating system and the vast majority of software only works with sectors and doesn't care for any additional information stored on a track outside the sectors. The Atari MIST core also only supported the read/write sectors commands of the floppy disk controller (FDC) and ot the read/write track commands.
+
+Fianlly the .ST images being used are simple dumps of all data sectors of a floppy disk and don't include any further information stored on a track outside the sectors.
+
+The additional data hidden between sectors is typically used by copy protections. Since the MIST board currently doesn't support the read/write track commands and also doesn't support any disk image format that is able to hold the additional track information (e.g. .STX) copy protected disk images cannot be used on the MIST board. If you want to use a software that uses a floppy disk based copy protection you might have to look for a version that has the copy protection removed.
+
+In the furture it may be possible to add support for disk images containing those parts of a floppy disk that contain parts of the copy protection. This requires changes in the core (to support the read/write track commands) as well as the io controller firmware (to handle the extended disk image formats).
+
+== Exchanging data ==
+
+The Atari core for the MIST board treats the .ST disk images just like any emulator does. This means that disk images created or modified by emulators like hatari can be copied onto SD card and used on the MIST and floppy disk images modified by the MIST can be copied back to the PC and used with an enulator there.
+
+== Creating floppy disk images ==
+
+The most convenient way to create disk images is to use an emulator like hatari. The following assumes that you have at least a very basic working hatari setup.
+
+In hatari press F12 to open the menu. Then select the "Floppy disks" button to open the Floppy disks submenu. Click the "Create blank image" button and to create a disk image of any size you want. The default settings with give you a 720kBytes disk image which was the most common format used on the ST. Click "create" and choose a file name for your new image. You can now insert this into a virtual disk drive inside hatari to e.g. fill your fresh image with data or you can simply copy the new empty disk image to the SD card and use it with the MIST board.
+
+== Importing single files into the MIST ==
+
+The Atari core for the MIST cannot read single files directly from the SD card. Any data to be used must be stored inside floppy or harddisk images. If you have seperate files the easiest way is to use hatari. Hatari can mount the PCs directories as if they were a harddisk. To do so go to the "Hard disks" submenu in the hatari main menu. Click the "Browse" button for the "GEMDOS drive" section and select the directory on the PC containing the single files you'd like to import. 
+
+Then select a floppy disk image for drive A: (or create an empty one as previously explained). Finally boot hatari into the ST desktop. Your fies should show up on drive C: and you can use TOS inside hatari to copy them to the floppy disk image A:. Once you are done close hatari and copy the updated floppy disk image onto your SD card. MIST will now be able to use that image and to access the files that once were on the harddisk of your PC.
+
+Of course there are limitations regarding maximum file sizes and also file names might get truncated when being converted to the 8+3 Atari ST file naming scheme.
+
+== Exporting files from the MIST ==
+
+Export works like import above, just copy the data from drive A: back to drive C: being mapped to a directory of your PCs harddisk.
