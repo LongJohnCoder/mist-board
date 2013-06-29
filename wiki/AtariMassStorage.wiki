@@ -16,6 +16,8 @@ The Atari MIST core supports raw floppy disk images usually using the .ST file e
 
 To use such flpppy disk images simply copy them onto the SD card used in your MIST board. Once booted into TOS press F12 to open the main menu. A image for floppy drive A: can conveniently be selected on the main menu page. Floppy drive B: as well as the write protection switch can be found in the "storage" submenu.
 
+http://mist-board.googlecode.com/svn/wiki/menu_storage.jpg
+
 == Default floppy images ==
 
 At boot time the firmware of the MIST board checks for floppy disk images named disk_a.st and disk_b.st. If these are found they are inserted automatically at boot time.
@@ -51,8 +53,6 @@ The Atari core for the MIST cannot read single files directly from the SD card. 
 Then select a floppy disk image for drive A: (or create an empty one as previously explained). Finally boot hatari into the ST desktop. Your fies should show up on drive C: and you can use TOS inside hatari to copy them to the floppy disk image A:. Once you are done close hatari and copy the updated floppy disk image onto your SD card. MIST will now be able to use that image and to access the files that once were on the harddisk of your PC.
 
 Of course there are limitations regarding maximum file sizes and also file names might get truncated when being converted to the 8+3 Atari ST file naming scheme.
-
-http://mist-board.googlecode.com/svn/wiki/menu_storage.jpg
 
 == Exporting files from the MIST ==
 
