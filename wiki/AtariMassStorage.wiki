@@ -20,7 +20,7 @@ To use such flpppy disk images simply copy them onto the SD card used in your MI
 
 At boot time the firmware of the MIST board checks for floppy disk images named disk_a.st and disk_b.st. If these are found they are inserted automatically at boot time.
 
-== Copy protecttions ==
+== Copy protections ==
 
 A floppy disk is organized in tracks (typically 80 on a ST floppy disk). Each track contains a number of 512 bytes sectors (typically 9 per track on a ST floppy disk). The Atari floppy disk controller can be used to read and write single sectors or whole tracks incl. control bytes atored in between the sectors.
 
@@ -42,6 +42,8 @@ The most convenient way to create disk images is to use an emulator like hatari.
 
 In hatari press F12 to open the menu. Then select the "Floppy disks" button to open the Floppy disks submenu. Click the "Create blank image" button and to create a disk image of any size you want. The default settings with give you a 720kBytes disk image which was the most common format used on the ST. Click "create" and choose a file name for your new image. You can now insert this into a virtual disk drive inside hatari to e.g. fill your fresh image with data or you can simply copy the new empty disk image to the SD card and use it with the MIST board.
 
+http://mist-board.googlecode.com/svn/wiki/hatari_floppy.png
+
 == Importing single files into the MIST ==
 
 The Atari core for the MIST cannot read single files directly from the SD card. Any data to be used must be stored inside floppy or harddisk images. If you have seperate files the easiest way is to use hatari. Hatari can mount the PCs directories as if they were a harddisk. To do so go to the "Hard disks" submenu in the hatari main menu. Click the "Browse" button for the "GEMDOS drive" section and select the directory on the PC containing the single files you'd like to import. 
@@ -50,6 +52,58 @@ Then select a floppy disk image for drive A: (or create an empty one as previous
 
 Of course there are limitations regarding maximum file sizes and also file names might get truncated when being converted to the 8+3 Atari ST file naming scheme.
 
+http://mist-board.googlecode.com/svn/wiki/menu_storage.jpg
+
 == Exporting files from the MIST ==
 
 Export works like import above, just copy the data from drive A: back to drive C: being mapped to a directory of your PCs harddisk.
+
+= Hard disk =
+
+Emulating a harddisk with the Atari MIST core is very simple. Only two things are needed: The Atari ST harddisk driver and a big file on SD card to be used as the hardisk.
+
+Make sure you have a working Atari ST setup for your MIST. Any TOS version will do, but TOS 1.04 or TOS 2.06 are preferred.
+
+== Atari Harddisk Driver (AHDI) ==
+
+First of all you need to get a floppy disk image containing the Atari Harddisk driver (AHDI). This can e.g. be found [http://www.atarimuseum.de/download.htm here]. Since this does not come as a disk image but as a set of files the aforementioned method of creating a floppy disk image will have to be used. 
+
+Copy the AHDI floppy disk image to the SD card to be used on the MIST.
+
+== Harddisk image file ==
+
+The second thing required is a big file to be used as the harddisk. Under Linux these can easily be created using the dd command:
+
+{{{
+dd if=/dev/zero of=hd64m.hd count=64k bs=1k
+}}}
+
+This creates a file named hd64m.hd which is exactly 64MBytes big resulting in a harddisk similar to the Megafile 60.
+
+Copy this file to the same SD card as the AHDI floppy disk image.
+
+== Setting up the MIST ==
+
+Insert the SD card and power up your MIST board. Open the OSD (hit F12) and select the AHDI floppy disk image for floppy drive A:. Go to the storage submenu and select the hd64m.hd as the harddisk.
+
+You are now done doing the MIST specific stuff. In the next steps will format and partition the harddisk as if it was a real harddisk on a real ST.
+
+== Setting up the harddisk ==
+
+Inside the Atari desktop open the floppy A:, go to the HDX folder and start HDX: Select Disk/Format from the menu and just click yourself right through the dialogs until your harddisk is being formatted. This will take some time.
+
+This will also automatically partition your harddisk with four partitionas of 16MB each. You might select Disk/Partition from the menu to change this.
+
+Quit HDX, the Atari will now reset. If the AHDI floppy disk image has the AHDI driver in the auto folder it will automatically detect the harddisk and you'll get a C: icon in the desktop for the first partition. You can create icons for drives D: to F: also if you want to.
+
+== Make the harddisk bootable ==
+
+To boot without the AHDI floppy image inserted you need to the make the harddisk image bootable. To do so run HINSTALL from the AHDI floppy, select File/Install from the menu and select drive C:. 
+
+You are done, you can now "eject" the AHDI floppy image and reset the embedded ST by pressing CTRL/ALT/DEL or by selecting SYSTEM/RESET from the OSD. Do NOT reset the entire MIST board using the reset button on the front! 
+
+The Atari ST will now boot from harddisk.
+
+== Default harddisk image ==
+
+If you want your Atari ST to boot from harddisk automatically whenever you switch on your MIST board (or press the reset button on the front) you can name the harddisk image *harddisk.hd*. It will then be selected automatically on system powerup and the embedded Atari ST will boot immediately from the harddisk image.
