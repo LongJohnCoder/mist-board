@@ -43,3 +43,4 @@ And there are things that affect both componentes equally. Examples are:
 
   * Floppy and harddisk emulation
   * FPGA configuation
+

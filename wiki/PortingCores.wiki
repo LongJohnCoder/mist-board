@@ -1,0 +1,38 @@
+#summary Explanations related to the porting of FPGA cores from other projects
+
+The MIST is not the first FPGA board and not the first FPGA project. ListOfFPGAProjects lists FPGA based projects that may be interesting for the MIST board as well. The effort of porting depends very much on the complexity of the project to be ported.
+
+For further details regarding the pins being used on the FPGA refer to [Pins].
+
+= The simple case: FPGA only projects =
+
+Projects only using a single FPGA without any additional hardware are very simple to port. The only things you habe to take care of is the fact that the MIST uses a single 27MHz clock source only. You might need to use a PLL inside the FPGA to adjust to the clock requirements the project you are going to port demands. 
+
+For simple tests the LED output of the FPGA may be used.
+
+= Audio and Video output =
+
+A single LED is usually not sufficient for output. The MIST board provides 3*6 bit video output via VGA and 2 outputs for audio. Many FPGA setups use similar outputs and many such projects can directly be ported to the MIST by just specifying the correct pins. It's even possible to output other signals than VGA on the VGA port. E.g. a analog RGB TV signal may be created there and be used with e.g. a simple VGA to SCART cable like the "hama 43192". 
+
+The two audio outputs are connected to a low pass filter stage so that pwm signals can be used to create analog signals.
+
+= SDRAM =
+
+The EP3C25 FPGA of the MIST provides slightly more than 64kBytes of internal memory. You can use major parts of this as RAM and ROM for your design. Small devices like the Sinclair ZX81 or the Commodore VIC-20 or the Pacman arcade machine can be implemented without using any external memory. For designs demanding more memory the external 32MBytes SDRAM of the MIST has to be used. This is a similar chip to the 8Mbyte one being used on the Terasic DE1 board and HDL code written for that board can directly be used on the MIST board as well (SDRAM_A[12] has to be tied to GND then). 
+
+If ROM images bigger than a few kilobytes are to be used a means to upload ROM contents from SD card into SDRAM is needed. The Atari ST core provides an example for that.
+
+= SPI / IO Controller =
+
+The FPGA on the MIST board is not directly connected to any input. Instead it is connected via a SPI channel to the ARM IO Controller which in turn is connected to the SD card as well as the USB and joystick ports. The firmware of the IO Controller handles all IO and sends events into the FPGA via SPI. The FPGA core needs to provide a ID code via SPI so the IO Controller knows how to communicate with the FPGA. Currently four modes are implemented:
+
+  * Atari ST mode for floppy/hdd emulation and mouse, joystick and keyboard io and OSD
+  * Amiga/Minimig mode for floppy/hdd emulation and mouse, joystick and keyboard io and OSD
+  * PACE mode for joystick IO
+  * Dumb mode for no IO at all
+
+Further modes can be implemented. We plan to extend the PACE mode into a more flexible mode providing basic functions to access USB mice and keyboards as well as to upload ROM images. Contact us if you need help with this.
+
+= Expansion Pins =
+
+The FPGA has two unsed expansion pins UART_TX and UART_RX. These can e.g. be used to implement a [MidiAddon MIDI interface].
