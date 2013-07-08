@@ -1,32 +1,32 @@
 #summary Pin usage on the MIST FPGA
 
-| *Pin No* | *Pin name* | *Description* |
-| 7 | LED | FPGA LED output (second led), active low |
-| 54-55 | CLOCK_27[0..1] | 27Mhz clock inputs |
-| 135, 137, 141-144 | VGA_R[0..5] | 6 bit VGA output red channel |
-| 115, 120-121, 125, 132-133 | VGA_B[0..5] | 6 bit VGA output blue channel |
-| 106, 110-114 | VGA_G[0..5] | 6 bit VGA output green channel |
-| 136 | VGA_VS | VGA vertical sync |
-| 119 | VGA_HS | VGA horizontal sync |
-| 65 | AUDIO_L | left audio PWM output |
-| 80 | AUDIO_R | right audio PWM output |
-| 46 | UART_TX | general purpose IO, currently used for MIDI out |
-| 31 | UART_RX | general purpose IO, currently used for MIDI in |
-| 105 | SPI_DO | Serial data output to ARM for serial peripheral interface (SPI) |
-| 88 | SPI_DI | Serial data input from ARM for SPI |
-| 126 | SPI_SCK | Serial clock from ARM for SPI |
-| 127 | SPI_SS2 | Second chip select from ARM for SPI |
-| 91 | SPI_SS3 | Third chip select from ARM for SPI |
-| 90 | SPI_SS4 | Fourth chip select from ARM for SPI |
-| 13 | CONF_DATA | Config pin, dual use as fifth chip select from ARM for SPI |
-| 49, 44, 42, 39, 4, 6, 8, 10, 11, 28, 50, 30, 32 | SDRAM_A[0..12] | multiplexed SDRAM address input |
-| 83, 79, 77-76, 72-71, 69-68, 86-87, 98-101, 103-104 | SDRAM_DQ[0..15] | 16 bit SDRAM data bus | 
-| 58, 51 | SDRAM_BA[0..1] | SDRAM bank address |
-| 85 | SDRAM_DQMH | SDRAM high data mask |
-| 67 | SDRAM_DQML | SDRAM low data mask |
-| 60 | SDRAM_nRAS | SDRAM row select |
-| 64 | SDRAM_nCAS | SDRAM column select |
-| 66 | SDRAM_nWE | SDRAM write enable |
-| 59 | SDRAM_nCS | SDRAM chip select |
-| 33 | SDRAM_CKE | unused on boards >= 1.2, SDRAM clock enable on earlier boards |
-| 43 | SDRAM_CLK | SDRAM clock |
+|| *Pin No* || *Pin name* || *Description* ||
+|| 7 || LED || FPGA LED output (second led), active low ||
+|| 54-55 || CLOCK_27[0..1] || 27Mhz clock inputs ||
+|| 135, 137, 141-144 || VGA_R[0..5] || 6 bit VGA output red channel ||
+|| 115, 120-121, 125, 132-133 || VGA_B[0..5] || 6 bit VGA output blue channel ||
+|| 106, 110-114 || VGA_G[0..5] || 6 bit VGA output green channel ||
+|| 136 || VGA_VS || VGA vertical sync ||
+|| 119 || VGA_HS || VGA horizontal sync ||
+|| 65 || AUDIO_L || left audio PWM output ||
+|| 80 || AUDIO_R || right audio PWM output ||
+|| 46 || UART_TX || general purpose IO, currently used for MIDI out ||
+|| 31 || UART_RX || general purpose IO, currently used for MIDI in ||
+|| 105 || SPI_DO || Serial data output to ARM for serial peripheral interface (SPI) ||
+|| 88 || SPI_DI || Serial data input from ARM for SPI ||
+|| 126 || SPI_SCK || Serial clock from ARM for SPI ||
+|| 127 || SPI_SS2 || Second chip select from ARM for SPI ||
+|| 91 || SPI_SS3 || Third chip select from ARM for SPI ||
+|| 90 || SPI_SS4 || Fourth chip select from ARM for SPI ||
+|| 13 || CONF_DATA || Config pin, dual use as fifth chip select from ARM for SPI ||
+|| 49, 44, 42, 39, 4, 6, 8, 10, 11, 28, 50, 30, 32 || SDRAM_A[0..12] || multiplexed SDRAM address input ||
+|| 83, 79, 77-76, 72-71, 69-68, 86-87, 98-101, 103-104 || SDRAM_DQ[0..15] || 16 bit SDRAM data bus || 
+|| 58, 51 || SDRAM_BA[0..1] || SDRAM bank address ||
+|| 85 || SDRAM_DQMH || SDRAM high data mask ||
+|| 67 || SDRAM_DQML || SDRAM low data mask ||
+|| 60 || SDRAM_nRAS || SDRAM row select ||
+|| 64 || SDRAM_nCAS || SDRAM column select ||
+|| 66 || SDRAM_nWE || SDRAM write enable ||
+|| 59 || SDRAM_nCS || SDRAM chip select ||
+|| 33 || SDRAM_CKE || unused on boards >= 1.2, SDRAM clock enable on earlier boards ||
+|| 43 || SDRAM_CLK || SDRAM clock ||
