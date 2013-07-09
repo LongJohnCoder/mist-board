@@ -70,15 +70,16 @@ To boot without a workbench floppy image inserted you need to the make the hardd
 
 = Importing and exporting files =
 
-Amiga emulators often have the ability to access the hosts file system directly and present it to the emulated amiga as a hard disk. Examples for such an emulator is [http://fs-uae.net/ FS-UAE]. It's ability to access the hosts file system diretly is explained in detail in the [http://fs-uae.net/using-hard-drives Using directory Hard Drives] section.
+Amiga emulators often have the ability to access the hosts file system directly and present it to the emulated amiga as a hard disk. An example for such an emulator is [http://fs-uae.net/ FS-UAE]. Its ability to access the hosts file system directly is explained in detail in the [http://fs-uae.net/using-hard-drives Using directory Hard Drives] section of its manual.
 
-This emulator can mount ADF floppy disk images as well as the HDF harddisk image created in the previous section. Omce the Minimig has been used to initialize the HDF image on the SD card it can be transferred back to the PC and used with an emulator there.
+This emulator can mount ADF floppy disk images as well as the HDF harddisk image created in the previous section. Once the Minimig/MIST has been used to initialize the HDF image on the SD card it can be transferred back to the PC to be used with an emulator.
 
-In order to export or import single files to the hard disk image copy your hd64m.hdf back onto your PC. Start fs-uae-launcher and select the hdf file in the hard disk tab. Also choose the host file system as a second hard drive and boot the emulator. You'll now get two icons on the workbench. One is the hard disk image created with Minimig/MIST, the second one is your PCs file system. You can now copy files forth and back between both disks and move data from your PC into your Minimig/MIST hard disk image or back. 
+In order to export or import single files to or from the hard disk image copy your hd64m.hdf back to your PC or simply access it directly on the SD card inserted into the PC. Start fs-uae-launcher and select the hdf file as a hard disk image. Also choose the host file system as a second hard drive and boot the emulator. You'll now get two icons on the workbench. One is the hard disk image created with Minimig/MIST, the second one is your PCs file system. You can now copy files forth and back between both disks and move data from your PC into your Minimig/MIST hard disk image or back. 
 
-When finished just copy the hd64m.hdf modified by the emulator back to the SD card and boot your MIST board with it in order to use the newly installed files.
+When finished just copy the hd64m.hdf modified by the emulator back to the SD card and boot your MIST board with it in order to use the newly installed files. Or if you worked directly with the image in the SD card just plug it back into the MIST board.
 
 = Related =
 
+  * [http://fs-uae.net/ FS-UAE home page]
   * [http://faranheit.dyndns.org:8080/Minimig/HDF_Creation_Minimig_English.pdf Tutorial for setting up a harddisk inside minimig (PDF)]
   * [http://www.amigafuture.de/downloads.php?view=detail&df_id=3614&sid=acf7382d5067cbdab656dd08a8418de6 Directory Opus 5.5]
