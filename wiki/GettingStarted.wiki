@@ -22,10 +22,21 @@ For potential compatibility issues see the [Peripherals peripherals wiki page].
 
 = Preparations =
 
-First you have to prepare the SD card. Place the following files in the root directory of a standard FAT formatted SD card:
+First you have to prepare the SD card. Place the following files in the root directory of a standard FAT formatted SD card. You can choose to do a Atari ST or Amiga setup. It's recommanded to do the initial test with the Atari ST setup since all the required files are available for download below. The Amiga setup requires copies of copyrighted files.
+
+== Atari ST ==
 
   * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/core.rbf The Atari ST FPGA core (core.rbf)]
   * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/tos.img A (Emu-)TOS rom image (tos.img)]
+
+The Atari [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/system.fnt system.fnt] can optionally be placed on the SD card and will then be used for initial boot messages (otherwise the same font as for the OSD is being used).
+
+You may also replace the EmuTOS image with a real TOS image. Any language of version TOS 1.00, TOS 1.02, TOS 1.04 or TOS 2.06 should work. Please be aware that copyright still applies to these.
+
+== Amiga/Minimig ==
+
+  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/minimig/core.rbf The Minimig FPGA core (core.rbf)]
+  * A kickstart ROM image named kick.rom (Kickstart 1.2, 1.3 and 3.1 have been tested).
 
 = Setup =
 
@@ -33,7 +44,7 @@ Insert the SD card into the MIST. Connect VGA screen and USB keyboard. Finally c
 
 = Go! =
 
-Switch the board on. It should boot into the Atari ST desktop.
+Switch the board on. It should boot into the Atari ST desktop or into the kickstart splash screen.
 
 = Troubleshooting =
 
@@ -47,5 +58,6 @@ Once the board works there are many things to explore:
   * Press the "NumLock" key to cycle through mouse and joystick emulation (use the cursor keys for this) 
   * Connect a USB mouse
   * Connect speakers
-  * Add atari st floppy disk images (.st format) to the SD card and select them via the OSD
-  * Visit the [http://www.atari-forum.com/viewforum.php?f=101 MIST section in the Atari Forum]
+  * Add floppy disk images (.st format for the Atari ST and .adf files for the Amiga) to the SD card and select them via the OSD
+  * Visit the [http://www.atari-forum.com/viewforum.php?f=101 MIST section in the Atari Forum], or
+  * visit the [http://www.minimig.net/viewtopic.php?f=3&t=546 MIST thread in the Minimig Forum]
