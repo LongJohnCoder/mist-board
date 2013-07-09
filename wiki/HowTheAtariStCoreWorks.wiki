@@ -38,14 +38,20 @@ The Atari ST monochrome video mode with 640 x 400 Pixels at 72 Hz refresh rate u
 
 The first problem with the tv timing of the color modes is that the horizontal scan frequency of 15.75kHz is way to low for today's computer screens which usually expect this frequency to be at least 30kHz. One solution for this is to use an approach known as "scan doubling" which simply outputs each line twice.  The resulting horizontal scan frequency is 31.5kHz which is acceptable to any modern computer screen or TV set with VGA computer input. The Atari core for the MIST does this by implementing ram buffers inside it's implementation of the Atari shifter video chip. Two of these buffers exist and while one line of video data is being read from memory the other one is displayed twice from the buffer at double speed. The resulting video modes generate twice the hsync pulses per image as a real Atari ST and also the number of output enable events is twice their number on a real ST per frame. Since these signals can be evaluated by software fake signals have to be generated resembling the original ST timing of their original counterparts to let software use these signals at the correct speed to e.g. display more than standard 16 colors at once.       
                                       
-Still a second problem remains: The vertical scan frequency is 50Hz in PAL/50Hz mode. This is lower than the 56Hz required by many modern VGA screens which demand at least 56Hz. Still some screens cope with 50Hz.
+Still a second problem remains: The vertical scan frequency is 50Hz in PAL/50Hz mode. This is lower than the 56Hz required by many modern VGA screens which demand at least 56Hz. Still some screens cope with 50Hz. In NTSC mode (when e.g. using an amercian TOS) the screen refresh rate is 60Hz. This is directly compatible with most VGA screens.
 
 The Atari ST core provides a switch via the on-screen-display (OSD) to allow a  50Hz output or to tweak the 50Hz signal into a 56Hz signal. The downside of this is that this frequency is also available as a signal to generate software timings and some software may not work properly with 56Hz instead of 50Hz. The same video timing is used for both color video modes (ST mid 640x200 and ST low 320x200).
-                                                                                 The Atari ST core on the MIST thus supports four video timings:
-  * monochrome 640x400 at 72Hz
-  * color 640/320x200 at 60Hz, 
-  * color 640/320x200 at 50Hz, and
-  * color 640/320x200 at 56Hz.                                      
+
+The Atari ST core on the MIST thus supports four video timings:
+
+  * monochrome 640x400 at 72Hz (HIREZ)
+  * color 640/320x200 at 60Hz (NTSC), 
+  * color 640/320x200 at 50Hz (PAL), and
+  * color 640/320x200 at 56Hz (modified PAL).                                      
+
+The shifter implementation currently does not implement the undocumented features of the shifter. This primarily means that [http://dss.in.tum.de/files/brandt-research/fullscreen.txt "opening the borders" or "software overscan"] does not work. This is mainly used in demos and intro screens and games and normal applications are not affected by this. Adding this feature to the MIST shifter would be a little futile at the moment as this also requires a 100% exact CPU timing which all of the existing HDL implementations of he 68k CPU do not provide. Again, games and normal applications are usually not affected by this.
+
+It is technically possible to do a perfect 68k timing and a perfect shifter inside the MISTs FPGA (or any other FPGA). This has just not been done so far.
 
 === Misaligned video ===
                               
