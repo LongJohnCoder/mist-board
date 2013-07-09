@@ -16,8 +16,6 @@ To use such flpppy disk images simply copy them onto the SD card used in your MI
 
 http://mist-board.googlecode.com/svn/wiki/menu_minimig_main.jpg
 
-Select the Install 3.1 floppy image for DH0:.
-
 = Hard disk =
 
 Emulating a harddisk with the Minimig MIST core is very simple. Since the Amiga 600 IDE controller is being emulated workbench 3.1 is needed with a matching kickstart rom.
@@ -38,9 +36,9 @@ Copy this file to the same SD card as the floppy disk images.
 
 == Setting up the MIST ==
 
-Insert the SD card and power up your MIST board. Open the OSD (hit F12) and select the workbench 3.1 floppy disk image for floppy drive DH0: and the Install 3.1 disk image for DH1:. Go to the hard disk settings submenu and enable A600 IDE emulation and select the hd64m.hdf file as the Master Hardfile (disk img).
+Insert the SD card and power up your MIST board. Open the OSD (hit F12) and select Install 3.1 disk image for DF0:. 
 
-Set the Slave to be Disabled.
+Go to the hard disk settings submenu and enable A600 IDE emulation and select the hd64m.hdf file as the Master Hardfile (disk img). Set the Slave to be Disabled.
 
 http://mist-board.googlecode.com/svn/wiki/menu_minimig_harddisk.jpg
 
