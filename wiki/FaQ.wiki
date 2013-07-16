@@ -36,7 +36,6 @@ However, it may be possible to reach a speed similar to those machines. E.g. [ht
 
 Although FPGAs can be used to implement nearly any type of hardware interface, some support hardware is usually needed to adopt to the physical interface itself. E.g. voltage levels need to be adopted from the 0-3.3V range supported by an FPGA to the +/-12V range used by RS232 if such an interface is to be implemented. 
 
-The only legacy devices currently supported by the MIST are "C64 style" joysticks. A MIDI add-on is being developed. Support for other hardware (ROM cartridges, printers, Atari Mice, original Atari screens, ...) are not planned.
+The only legacy devices currently supported by the MIST are "C64 style" joysticks. A MIDI add-on is also available. Support for other hardware (ROM cartridges, printers, Atari Mice, original Atari screens, ...) are not planned. 
 
-
-
+It is often possible to implement the peripheral inside the FPGA. This is true for e.g. ROM cartridges and even dongles but also for graphic cards or memory expander cards.
