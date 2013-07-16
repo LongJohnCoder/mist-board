@@ -24,7 +24,7 @@ Also the Pacman arcade machine has been implemented.
 
 = What will be supported in the future? =
 
-The FPGA size limits the size/complexity of the hardware that can be re-implemented. The FPGA of the MIST board was chosen to be big enough to implement the intended machines and cheap enough to allow for an affordable setup. As a result the limits are somewhere in the range of an Amiga 1200 or Atari Mega STE. The MIST comes with 16MBytes RAM. Since kickstart or TOS ROM images are also stored in RAM the maximum RAM size for a re-implemented device is somewhere in the ranges of 14 Megabytes.
+The FPGA size limits the size/complexity of the hardware that can be re-implemented. The FPGA of the MIST board was chosen to be big enough to implement the intended machines and cheap enough to allow for an affordable setup. As a result the limits are somewhere in the range of an Amiga 1200 or Atari Mega STE. The MIST comes with 32 MBytes RAM. Since the 68k CPU can only address 16 MB and kickstart or TOS ROM images are also stored in RAM the maximum RAM size for a re-implemented device is somewhere in the ranges of 14 Megabytes. It is possible to use the remaining 16 MB for special RAM expansions using a banking approach. This may be used for ramdisks or the like and needs special drivers on Atari or Amiga side.
 
 = What about Amiga 3000 or Atari TT/Falcon? =
 
