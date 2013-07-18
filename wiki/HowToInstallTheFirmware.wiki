@@ -8,15 +8,25 @@ The firmware comes in three formats:
   * *firmware.hex* is the same firmware in intel hex format as required by some uploaders
   * *firmware.upg* is the same firmware in a format suited for self-update via the on-screen-display (OSD)
 
+These are required for the various ways to update the firmware. Three methods to do so exist:
+
+  * Update via OSD: This is the easiest way and is recommanded. But this requires a working firmware to be already present
+  * Update via Sam-BA: This requires a micro USB cable and is a little bit more tricky, but it even works if there's no working firmware present. This can thud be used for emergency flashing e.g. after an unsuccessful flash attempt.
+  * Update via JTAG: This is the fastest approach but needs a special jtag interface. This is mainly used during development. But this can also be used for emergency flashing.
+
+= Can i brick my MIST with this? =
+
+No, with a flash update you cannot bring the MIST into a state where it cannot be flashed with a working firmware again. If you broke the firmware (by e.g. unplugging the board while flashing it) you can always use the Sam-Ba approach. No further hardware (besides a USB cable) is required for that.
+
 = Updating the IO controller using the OSD =
 
-The easiest way to update the IO controller is via the OSD menu of the Minimig core. This requires a working Minimig setup. In order to update via the OSD the following steps are required:
+The easiest way to update the IO controller is via the OSD menu of the Minimig or Atari/MIST core. This requires a working Minimig setup. In order to update via the OSD the following steps are required:
 
   # Place the _firmware.upd_ on the SD card
-  # Boot into Minimig
+  # Boot into Minimig or Atari MIST
   # Open the OSD (F12)
-  # Go into the Misc menu (press right key two times)
-  # Select _Firmware_
+    # On the Minimig go into the Misc menu (press right key two times) and select "Firmware"
+    # On the Atari/MIST select the Firmware & Core submenu
   # Make sure the Version numbers displayed are the ones you want to flash
   # Press _Update_ and select _Yes_
   # The update will take about 5 seconds
