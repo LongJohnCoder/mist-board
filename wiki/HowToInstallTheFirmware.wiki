@@ -76,3 +76,10 @@ Two types of arm jtag adapters have so far been tested. The [https://www.olimex.
 http://mist-board.googlecode.com/svn/wiki/arm_jtag.jpg
 
 The arm-usb-tiny-h (in the grey db25 case) worked out of the box. The busblaster (the red pcb in the front) needed some tweaking as explained in the [http://dangerousprototypes.com/forum/viewtopic.php?f=37&t=5598 dangerous prototypes forum]. Once successfully setup both devices perform equally well. The busblaster is a little cheaper but doesn't come with a case and without the 20 pin ribbon cable required to connect to the MIST.
+
+The command to flash the firmware from *firmware.bin* via busblaster under Linux is e.g.:
+
+{{{
+openocd -f interface/busblaster.cfg -f target/at91sam7sx.cfg --command "adapter_khz 10000; init; reset init;  flash protect 0 0 7 off; sleep 1; arm7_9 fast_memory_access enable; flash write_bank 0 firmware.bin 0x0; resume; shutdown"
+}}}
+
