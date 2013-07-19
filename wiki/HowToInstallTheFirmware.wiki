@@ -25,8 +25,8 @@ The easiest way to update the IO controller is via the OSD menu of the Minimig o
   # Place the _firmware.upd_ on the SD card
   # Boot into Minimig or Atari MIST
   # Open the OSD (F12)
-    # On the Minimig go into the Misc menu (press right key two times) and select "Firmware"
-    # On the Atari/MIST select the Firmware & Core submenu
+    * On the Minimig go into the Misc menu (press right key two times) and select "Firmware"
+    * On the Atari/MIST select the Firmware & Core submenu
   # Make sure the Version numbers displayed are the ones you want to flash
   # Press _Update_ and select _Yes_
   # The update will take about 5 seconds
