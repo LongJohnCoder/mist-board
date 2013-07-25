@@ -78,6 +78,14 @@ The second thing required is a big file to be used as the harddisk. Under Linux 
 dd if=/dev/zero of=hd64m.hd count=64k bs=1k
 }}}
 
+under Windows the command 
+
+{{{
+fsutil file createnew hd64m.hd 67108864
+}}}
+
+does the same (thanks Chris, for the hint).
+
 This creates a file named hd64m.hd which is exactly 64MBytes big resulting in a harddisk similar to the Megafile 60.
 
 Copy this file to the same SD card as the AHDI floppy disk image.
