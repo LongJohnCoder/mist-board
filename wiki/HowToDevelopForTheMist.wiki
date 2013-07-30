@@ -44,3 +44,13 @@ And there are things that affect both componentes equally. Examples are:
   * Floppy and harddisk emulation
   * FPGA configuation
 
+= Core development =
+
+== Debugging the core ==
+
+Signaltap:
+
+http://mist-board.googlecode.com/svn/wiki/signaltap_1.jpg
+
+http://mist-board.googlecode.com/svn/wiki/signaltap_2.jpg
+
