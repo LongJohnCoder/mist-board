@@ -28,10 +28,10 @@ You need a soldering iron, some basic SMD soldering skills and a matching DC plu
 
 First you need to move the 0-ohms resistor from position R2 to position R1. This cuts the power connection to the micro USB port and connects the DC jack.
 
-http://mist-board.googlecode.com/svn/wiki/pwr_dcjack_1.png
+http://mist-board.googlecode.com/svn/wiki/pwr_dcjack_1.jpg
 
 Then add the connector.
 
-http://mist-board.googlecode.com/svn/wiki/pwr_dcjack_2.png
+http://mist-board.googlecode.com/svn/wiki/pwr_dcjack_2.jpg
 
 =Enjoy!=
