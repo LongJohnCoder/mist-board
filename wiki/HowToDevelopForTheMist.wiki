@@ -44,6 +44,10 @@ And there are things that affect both componentes equally. Examples are:
   * Floppy and harddisk emulation
   * FPGA configuation
 
+= Firmware development =
+
+http://mist-board.googlecode.com/svn/wiki/firmware.png
+
 = Core development =
 
 == Debugging the core ==
