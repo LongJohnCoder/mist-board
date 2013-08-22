@@ -19,15 +19,15 @@
   * Minimig on screen display (OSD)
   * Ability to change the core (to e.g. boot into Minimig)
   * MIDI add-on board
+  * Blitter (Optional for ST, mandatory for STE)
 
 = Planned/Possible =
 
+  * STE video (4 bit per color, soft scrolling)
+  * STE DMA sound
   * Faster CPU (by using already existing fast ram interface, perhaps cache)
   * Extended video modes (e.g. 1280x960 monochrome, 640x480 16 colors)
   * Support for STX (copy protoected) floppy disk images
-  * STE video (4 bit per color, soft scrolling)
-  * STE DMA sound
-  * Blitter (Optional for ST, mandatory for STE)
   * USB joysticks and gamepads
 
 = Frequently asked things that will most likely never happen =
