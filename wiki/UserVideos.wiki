@@ -1,0 +1,7 @@
+#summary User videos
+
+<wiki:video url="http://www.youtube.com/watch?v=DF0XlG4r_B0"/>
+Video and audio enhancements
+
+<wiki:video url="http://www.youtube.com/watch?v=6EQryBmATwM"/>
+A third party core running on the MIST
