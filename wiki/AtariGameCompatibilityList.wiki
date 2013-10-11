@@ -1,6 +1,6 @@
 #summary Compatibility of Atari Games
 
-*MIST user Gryzor has done a great list documenting [https://docs.google.com/spreadsheet/ccc?key=0AsWGxnbMv9fkdG52T0tPdzZOa0lnWm4tbTctYkdrakE&usp=sharing MIST Atari ST game] compatibility.*
+*MIST user Gryzor has done a great list about [https://docs.google.com/spreadsheet/ccc?key=0AsWGxnbMv9fkdG52T0tPdzZOa0lnWm4tbTctYkdrakE&usp=sharing MIST Atari Game Compatibility].*
 
 This pages lists the state of games on the Atari ST core as tested by me during development.
 
