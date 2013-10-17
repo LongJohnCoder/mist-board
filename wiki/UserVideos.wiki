@@ -1,5 +1,14 @@
 #summary User videos
 
+<wiki:video url="http://www.youtube.com/watch?v=HC-A0iN9HQw"/>
+MIST Atari ST
+
+<wiki:video url="http://www.youtube.com/watch?v=-2FaAtZO-98"/>
+Minimig core on MIST
+
+<wiki:video url="http://www.youtube.com/watch?v=WiaG75EFUaY"/>
+Unboxing the MIST
+
 <wiki:video url="http://www.youtube.com/watch?v=DF0XlG4r_B0"/>
 Video and audio enhancements
 
