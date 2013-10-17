@@ -6,7 +6,7 @@
   * Up to 14MB fully DMA supported and video capable ST RAM
   * ROM cartridge support
   * Support for 256k and 192k ROM images
-  * TOS versions 1.00, 1.02, 1.04, 2.06 and EmuTOS 0.8.7
+  * TOS versions 1.00, 1.02, 1.04, 1.06, 1,62 2.06 and EmuTOS 0.8.7, 0.9.0 and 0.9.1 and probably more ...
   * All three ST video modes
   * Scan doubler for color modes for VGA compatibility
   * PAL 56 HZ for VGA compatibility
@@ -20,11 +20,11 @@
   * Ability to change the core (to e.g. boot into Minimig)
   * MIDI add-on board
   * Blitter (Optional for ST, mandatory for STE)
+  * STE video (4 bit per color, hard scrolling, split screen, ...)
+  * STE DMA sound
 
 = Planned/Possible =
 
-  * STE video (4 bit per color, soft scrolling)
-  * STE DMA sound
   * Faster CPU (by using already existing fast ram interface, perhaps cache)
   * Extended video modes (e.g. 1280x960 monochrome, 640x480 16 colors)
   * Support for STX (copy protoected) floppy disk images
