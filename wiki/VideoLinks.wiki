@@ -1,5 +1,11 @@
 #summary Various videos showing the MIST board in action
 
+= Series V1.3 board =
+
+<wiki:video url="http://www.youtube.com/watch?v=IgpYiOwW114"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=MMiVfKTiAp0"/>
+
 = Pre-production V1.2 board =
 
 <wiki:video url="http://www.youtube.com/watch?v=v9TbTno_wi4"/>
