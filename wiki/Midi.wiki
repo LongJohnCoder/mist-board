@@ -89,6 +89,8 @@ http://mist-board.googlecode.com/svn/wiki/jack.png
 
 Afterwards it's possible to play back MIDI music from the MIST Atari ST through the Linux PC acting as a synthesizer.
 
+<wiki:video url="http://www.youtube.com/watch?v=Jrk_ftOi7z0"/>
+
 Tested with:
   * Cubase Lite
   * Cubase 3 (cracked version)
