@@ -88,3 +88,10 @@ or alternally a graphical interface like qjackontrol:
 http://mist-board.googlecode.com/svn/wiki/jack.png
 
 Afterwards it's possible to play back MIDI music from the MIST Atari ST through the Linux PC acting as a synthesizer.
+
+Tested with:
+  * Cubase Lite
+  * Cubase 3 (cracked version)
+  * Eco
+  * Karate Kid II
+  * Pirates
