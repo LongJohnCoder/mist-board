@@ -1,6 +1,8 @@
 #summary This page describes the basic principles of the Atari ST core(s)
 
-= Introduction =
+This document is not updated as often as the HDL code itself. Some information may thus be outdated.
+
+= The Basics =
 
 The Atari ST core for the MIST board is a hardware description of the entire hardware of the original Atari ST. This is unlike an emulation which consist of code making one CPU behave like a different one. Instead the hardware description is used to generate a configuration for a field programmable gate array (FPGA) which in turn behaves like the configuration tells it. The resulting device is not an emulation. Instead during configuration the FPGA really becomes the hardware described in the configuration.
 
@@ -11,24 +13,34 @@ A FPGA hardware configuration re-implementing a computer typically consist of so
   * A Memory controller
   * IO
 
-= CPU =
+== CPU ==
 
 In the case of an Atari ST, the CPU core needs to be the hardware description of the Motorola 68000 CPU the original Atari ST used. Several such cores exist, e.g.:
   * TG68 (http://opencores.org/project,tg68)
   * ao68000 (http://opencores.org/project,ao68000)
   * Suska 68000 (http://experiment-s.de/en)
 
-The first Atari core for the MIST included the TG68 as it was already used in the Minimig project to replicate an Commordore Amiga. However, some features required by the Atari ST, but not the Amiga were not present in that core (e.g. the bus error handling).
+The first Atari core for the MIST included the TG68 as it was already used in the Minimig project to replicate an Commordore Amiga. However, some features required by the Atari ST, but not the Amiga were not present in that core (e.g. the bus error handling). Furthermore the "TG68 wrapper" that came with the minimig port has been removed. The Atari core thus now uses the bare TG68K core.
 
 A second Atari ST core uses the ao68000 core.
 
-= Memory controller =
+== Memory controller ==
 
-The memory controller is very board specific. It needs to be able to address the RAM chip(s) used on the board in question. On the MIST board a single 16M*16bit SDR SDRAM is being used giving a total of 32 MBytes. This is a RAM chip very similar to the one use on the Terasic DE1 board. Thus the memory controller from the Minimig port of the minimig de1 port (https://github.com/rkrajnc/minimig-de1) is being used.
+The memory controller is very board specific. It needs to be able to address the RAM chip(s) used on the board in question. On the MIST board a single 16M*16bit SDR SDRAM is being used giving a total of 32 MBytes. This is a RAM chip very similar to the one use on the Terasic DE1 board. Thus the memory controller from the Minimig port of the minimig de1 port (https://github.com/rkrajnc/minimig-de1) was initially being used. Later this sdram controller has been removed and replaced by a much simpler one providing only exaclty those functionality required by the Atari ST core. 
 
-= IO  =
+== IO  ==
 
 The CPU core together with the memory controller and some glue logic already provide a working computer. But in order to get some input and output from the board various IO hardware needs to be implemented. This is where it gets Atari or Amiga specific. The Atari ST core includes descriptions of all the atari specific IO chips (mmu, glue, shifter, mfp68901, acia, dma, fdc, ...).
+
+= The Details =
+
+== Clocks and Bus Timing ==
+
+A original Atari ST ran at 8MHz. This means that the CPU ran at a 8Mhz clock signal. This 8Mhz clock was derived from a 32MHz clock source. Various other frequencies (16Mhz, 2MHz) are also derived from this and were used in different places in the ST (video used 32Mhz, audio used 2MHz, ...). The Atari ST was able to do one 16 bit RAM transfer within 250ns effectively requiring two 8Mhz cycles per RAM transfer cycle. One of these cycles was used by the CPU and another one by the video controller (shifter+mmu). A complete system cycles thus took 500ns (2 millions system cycles per second). This matches the fact that the 68k CPU itself also typically requires four 8Mhz clock cycles to perform one external bus transfer. 
+
+The Atari core tries to mimic this behaviour. The board itself runs on 27Mhz. This clock is not used in the Atari ST core itself. Instead the 27Mhz is fed into a PLL which generates various clocks of 128Mhz, 32Mhz and 2.4576Mhz. Just like in a real ST the 32Mhz is used to generate further clocks incl. the 8Mhz clock for the system cycle generation.
+
+In the Atari core the system cycle also is 500ns (2MHz). This includes four seperate 8 MHz bus cycles. In plain ST mode one of these cycles is used for the video generation and one for the CPU. The other two cycles are unused. In Mega STE 16 MHz mode another cycle is assigned to the CPU. 
 
 == Video ==
 
