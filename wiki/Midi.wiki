@@ -85,6 +85,6 @@ If these were not already connected one could connect them using the command lin
 
 or alternally a graphical interface like qjackontrol:
 
-
+http://mist-board.googlecode.com/svn/wiki/jack.png
 
 Afterwards it's possible to play back MIDI music from the MIST Atari ST through the Linux PC acting as a synthesizer.
