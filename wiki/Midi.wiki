@@ -38,4 +38,53 @@ Unfortunately these programs are not designed to work on raw byte streams as MID
 
 To allow programs like [http://timidity.sourceforge.net/ timidity] to operate on ordinary COM ports a additional software like [http://www.varal.org/ttymidi/ ttymidi] is required which feeds the raw byte stream coming from the CDC ACM interface into the MIDI channels of a typical Linux audio system.
 
+A typical setup for this starts with the redirection of the raw bytes stream into a MIDI source:
+
+{{{ttymidi -s /dev/ttyACM0}}}
+
+Then synthesizer is need as a MIDI sink. Timidity can be used for this:
+
+{{{timidity -iA}}}
+
+as well as fluidsynth:
+
+{{{fluidsynth -a pulseaudio -m alsa_seq /usr/share/sounds/sf2/FluidR3_GM.sf2}}}
+
+Then the MIDI sources and sinks need to be logically wired up. The command
+
+{{{aconnect -iol}}}
+
+will list all MIDI channels and their connections like this:
+
+{{{
+client 0: 'System' [type=kernel]
+    0 'Timer           '
+    1 'Announce        '
+        Connecting To: 131:0
+client 14: 'Midi Through' [type=kernel]
+    0 'Midi Through Port-0'
+client 128: 'TiMidity' [type=user]
+    0 'TiMidity port 0 '
+    1 'TiMidity port 1 '
+    2 'TiMidity port 2 '
+    3 'TiMidity port 3 '
+client 129: 'ttymidi' [type=user]
+    0 'MIDI out        '
+        Connecting To: 130:0
+    1 'MIDI in         '
+client 130: 'FLUID Synth (4184)' [type=user]
+    0 'Synth input port (4184:0)' 
+        Connected From: 129:0
+}}}
+
+In this case the MIDI out port of client 129 (the ttymidi program) is already connected to the input of client 130 (the FLUID Synth synthesizer).
+
+If these were not already connected one could connect them using the command line:
+
+{{{aconnect 129:0 130:0}}}
+
+or alternally a graphical interface like qjackontrol:
+
+
+
 Afterwards it's possible to play back MIDI music from the MIST Atari ST through the Linux PC acting as a synthesizer.
