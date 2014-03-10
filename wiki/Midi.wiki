@@ -1,0 +1,41 @@
+#summary MIDI with the Atari ST core
+
+= Introduction =
+
+The MIST board can be equipped with a physical MidiAddon interface or it can redirect MIDI OUT through its on-board USB device interface.
+
+In both cases the MIDI implementation looks like a genuine Atari ST MIDI port to the software and can be used without any further drivers.
+
+Both interfaces can even be used at the same time (with the USB device interface only supporting MIDI out).
+
+= Real MIDI =
+
+The physical MIDI interface requires a hardware MidiAddon and provides the same physical connectors a real Atari ST has typically on the left side.
+
+The timing implemented with this is very close to the timing of a real Atari ST and the latency of these signals is on-par with that of the original machine.
+
+Unfortunately the timing of the CPU core used on the MIST is not 100% perfect. While this doesn't effect MIDI timing in any way it does prevent many dongles from being implemented in the MISTs FPGA. This has been verified with the Cubase2 dongle. 
+
+A video of a synthesizer connected to the MIDI addon board:
+
+<wiki:video url="http://www.youtube.com/watch?v=phqs-UzhIL4"/>
+
+= Redirected MIDI via USB =
+
+The MIST board has a USB device port (the Micro USB one also used the power the board) which implements a CDC ACM interface. Under windows this shows up as a COM port ([http://code.google.com/p/mist-board/source/browse/trunk/bin/firmware/mist.inf windows driver inf]).  Under Linux or MacOS X similar device file entries are created under /dev without any special driver being required.
+
+This virtual COM port can be used for various purposes (e.g. debugging or redirecting printer or serial output). This can be selected using the "USB I/O" entry in the System submenu of the OSD. Select "midi" to redirect MIDI output to the CDC ACM interface.
+
+This interface can be used by most standard terminal programs and e.g. using rufus on the ST side and Tera Term on the PC side it's possible to send data from the ST to the PC with the ST using it's MIDI port internally.
+
+== Using Linux as a MIDI synthesizer ==
+
+A Linux PC can be used to playback MIDI audio sent from a MIST board via its USB device port. This can be used with most MIDI enabled software like certain games (e.g. ECO) or sequencing software (like cubase lite).
+
+Various MIDI software synthesizers exist for Linux. One popular example is the [http://timidity.sourceforge.net/ timidity] program. 
+
+Unfortunately these programs are not designed to work on raw byte streams as MIDI input. This is due to the fact that PCs are inherently bad at sustaining a precise timing without help. Thus typical PC based setups include MIDI interfaces that take care of certain timing constraints. The simple CDC ACM interface does not support this.
+
+To allow programs like [http://timidity.sourceforge.net/ timidity] to operate on ordinary COM ports a additional software like [http://www.varal.org/ttymidi/ ttymidi] is required which feeds the raw byte stream coming from the CDC ACM interface into the MIDI channels of a typical Linux audio system.
+
+Afterwards it's possible to play back MIDI music from the MIST Atari ST through the Linux PC acting as a synthesizer.
