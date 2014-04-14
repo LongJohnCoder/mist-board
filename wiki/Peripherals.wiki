@@ -11,11 +11,11 @@ The MIST currently supports:
   * SD cards
   * VGA screens
   * Speakers
+  * USB joysticks/gamepads
 
 Currently unsupported are:
 
   * Original Atari ST and Amiga mice
-  * USB joysticks/gamepads
   * USB storage devices (thumb drives)
   * USB bluetooth dongles
 
@@ -52,6 +52,10 @@ Bluetooth devies are currently not supported.
 Two classic C64/Atari/Amiga style joysticks with standard DB9 connector are fully supported. Two fire buttons are also supported on systems that support this. The joystick ports are provided with up to 100mA each so that auto fire functions and LEDs are supposed to work as expected.
 
 Not supported on these ports are mice (Atari ST nor Amiga mice), light guns or analog paddles.
+
+= USB joysticks and gamepads =
+
+USB joysticks and gamepads are not trivial to connect. The status reports they send vary from device to device. The MIST firmware supports many of them, but not all. Chances are better with cheap and/or simple devices.
 
 = SD cards =
 
