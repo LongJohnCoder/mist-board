@@ -2,50 +2,10 @@
 
 *MIST user Gryzor has done a great list about [https://docs.google.com/spreadsheet/ccc?key=0AsWGxnbMv9fkdG52T0tPdzZOa0lnWm4tbTctYkdrakE&rm=full&pli=1#gid=6 MIST Atari Game Compatibility].*
 
-This pages lists the state of games on the Atari ST core as tested by me during development.
+== The reasons for limited compatibility ==
 
-= Games =
+At the time of this writing about 99% of all games run. This doesn't mean that any version of these games run. Instead this means that a version of 99% of all games exists that runs.
 
-Colors: <font color="green">runs good</font>, <font color="orange">has minor issues that don't affect gameplay</font>, <font color="red">is unplayable</font>
+This is due to the fact that many games still carry remains of their copy protections even if they have been cracked. Examples are games checking for floppy disks rotation speeds or making other assumptions about certain hardware issues which are no problem on real hardware but which may cause problems on the MIST.
 
-Compact Disks: A_XXX = Automation Compact Disk X, PP_XXX = Pompey Pirates Compact Disk X
-
-If a game is listed as running this usually means that at least one version exists that runs fine. Other versions (cracks) of the same game may not work.
-
-|| *Game* || *CD* || *Core Version* || *Comment* ||
-|| <font color="green">Arkanoid II</font> || A_003 || || ||
-|| <font color="green">Bolo</font> || || || Needs monochrome mode ||
-|| <font color="green">Blast</font> || A_060 || || ||
-|| <font color="green">Bomb Jack</font> || A_016 || || ||
-|| <font color="green">Bubble Bobble</font> || PP_026 || || ||
-|| <font color="green">Crystal Castles</font> || A_002 || || ||
-|| <font color="green">Elite</font> || A_014 || || ||
-|| <font color="green">Deflektor</font> || A_012 || || ||
-|| <font color="green">Frontier Elite II</font> || || || ||
-|| <font color="green">Livingstone</font> || A_060 || || ||
-|| <font color="green">Goldrunner</font> || A_008 || || ||
-|| <font color="green">Menace</font> || A_046 || || ||
-|| <font color="green">Moon Patrol</font> || A_004 || || ||
-|| <font color="green">Myth</font> || A_001 || || ||
-|| <font color="green">Nebulus</font> || A_009 || || ||
-|| <font color="green">No Second Price</font> || || || ||
-|| <font color="green">Oxyd</font> || || || Needs monochrome mode ||
-|| <font color="green">Oxyd 2</font> || || 130414 || ||
-|| <font color="green">Oids</font> || || || Version from A_097 does not work! ||
-|| <font color="green">Pac-Mania</font> || A_025 || || ||
-|| <font color="red">Paradroid 90</font> || || || ||
-|| <font color="green">Rick Dangerous</font> || PP_001 || || ||
-|| <font color="red">R-Type</font> || A_046 || || Hangs in intro ||
-|| <font color="green">R-Type II</font> || || || ||
-|| <font color="green">Sinbad</font> || A_001 || || ||
-|| <font color="green">Spacola</font> || || || Needs monochrome mode ||
-|| <font color="green">Spherical</font> || || || ||
-|| <font color="green">Starglider</font> || A_060 || || ||
-|| <font color="green">Starglider II</font> || A_158 || || ||
-|| <font color="green">Titus Arcade Classics</font> || A_003 || || ||
-|| <font color="green">Trail Blazer</font> || A_002 || || ||
-|| <font color="green">Uridium</font> || A_021 || || ||
-|| <font color="green">Virus</font> || A_002 || || ||
-|| <font color="green">Wizball</font> || A_018 || || ||
-|| <font color="green">Xenon</font> || A_028 || || ||
-|| <font color="green">Xenon II</font> || PP_007 || || ||
+While it is possible to "fix" most of these things there may be reasons not to fix it. One major reason is e.g. floppy disk IO speed. The MISTs board floppy disk emulation is faster than any real floppy disk ever was. It's actually faster than any real hard disk ever was. Usually this is a nice thing as games load much faster than they did on the real thing. Unfortunately this causes some of the aforementioned problems. These incompatibilities are usually not limited to the MIST board but also prevent these games from running on machines like the Falcon, the TT oder the MegaSTE. One solution thus is to watch out for games that have been fixed to run on these machines. http://www.klapauzius.net/Old_Games.html is one example of a place listing such games, http://dbug.kicks-ass.net/patch.php is another one. These patched games usually run nicely on the MIST as well.
