@@ -57,6 +57,18 @@ Not supported on these ports are mice (Atari ST nor Amiga mice), light guns or a
 
 USB joysticks and gamepads are not trivial to connect. The status reports they send vary from device to device. The MIST firmware supports many of them, but not all. Chances are better with cheap and/or simple devices.
 
+== USB vs. atari style joysticks using more than two joysticks ==
+
+A real Atari ST has two Atari Style joystick ports. Port 0 is used for the mouse and port 1 is used for the joystick. If two joysticks are required the user has to unplug the mouse and use a second joystick in port 0. 
+
+The MIST board also has two such connectors. We call them the "physical joystick ports". Since the mouse is connected via USB to the MIST both physical ports can be used for classic atari style joysticks. 
+
+If you connect a classic atari joystick to physical port 1 you can play single player games. If you instead connect a USB joystick you can also play single player games. 
+
+If you connect two USB joysticks or one USB joystick and one classic Atari joystick to physical port 1 you can play two player games. The USB joystick will then become the "primary" joystick.
+
+If you plug more than two joysticks the additional ones behave like they were connected via a Gauntlet II compatible multi player adaptor.
+
 = SD cards =
 
 Standard form factor classic SD cards (<= 2GB) as well as SDHC cards (> 2GB) are supported. The use of a 1GB card of a well-known brand is recommended.
