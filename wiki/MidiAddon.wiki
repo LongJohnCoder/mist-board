@@ -48,11 +48,11 @@ The Atari ST core supports the MIDI expansion board out of the box. The Minimig/
 
 =Youtube videos=
 
-<wiki:video url=http://www.youtube.com/watch?v=_VaR5kkiBt8"/>
+<wiki:video url="http://www.youtube.com/watch?v=_VaR5kkiBt8"/>
 
-<wiki:video url=http://www.youtube.com/watch?v=phqs-UzhIL4"/>
+<wiki:video url="http://www.youtube.com/watch?v=phqs-UzhIL4"/>
 
-<wiki:video url=http://www.youtube.com/watch?v=M6nnBp4Z0YE"/>
+<wiki:video url="http://www.youtube.com/watch?v=M6nnBp4Z0YE"/>
 
 == Supported/tested software ==
 
