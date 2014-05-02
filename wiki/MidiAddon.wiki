@@ -46,6 +46,14 @@ The resulting setup is very small yet robust.
 
 The Atari ST core supports the MIDI expansion board out of the box. The Minimig/Amiga core may easily get support using the setup from [http://retroramblings.net/?p=412 ProjectXG Redux]
 
+=Youtube videos=
+
+<wiki:video url=http://www.youtube.com/watch?v=_VaR5kkiBt8"/>
+
+<wiki:video url=http://www.youtube.com/watch?v=phqs-UzhIL4"/>
+
+<wiki:video url=http://www.youtube.com/watch?v=M6nnBp4Z0YE"/>
+
 == Supported/tested software ==
 
 The Atari ST core has been tested against a PC running a MIDI synthesizer. Also a MIDIMAZE2 session has successfully been initiated between two boards. Here's a [http://www.youtube.com/watch?v=M6nnBp4Z0YE youtube video].
