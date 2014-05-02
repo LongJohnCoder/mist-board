@@ -6,7 +6,7 @@ The MIDI expansion board board adds a physical Atari ST compatible MIDI port to 
 
 http://mist-board.googlecode.com/svn/wiki/midi_addon.jpg
 
-The MIDI expansion board connected to a V1.2 pre-production board.
+The MIDI expansion board connected to a series V1.2 MIST board.
 
 =Schematic=
 
@@ -27,6 +27,20 @@ The board fits exactly at the left side of a MIST V1.2 or V1.3 (the first series
 http://mist-board.googlecode.com/svn/wiki/midi_pcb.png 
 
 [http://mist-board.googlecode.com/svn/wiki/midi_pcb.pdf Board(PDF)]
+
+The resulting board looks like this:
+
+http://mist-board.googlecode.com/svn/wiki/midi_addon_series.png 
+
+=Case mounting=
+
+Mounting the MIDI expansion board in the case your MIST came in requires some minor metal work. First you need to drill two holes in the bottom part to mount the expansion board left of the MISTs mainboard using stand-offs. You can seethis in the picture above. You might also need to shorten the left screw securing the white front panel as it may collide with one of the stand-offs.
+
+Then you need to drill two big holes in the left side of the top case so the MIDI plugs fit nicely and deep enough into the case to make secure contact.
+
+http://mist-board.googlecode.com/svn/wiki/midi_addon_in_case.png 
+
+The resulting setup is very small yet robust.
 
 =Core support=
 
