@@ -32,6 +32,16 @@ The series boards don't have the full rs232. Instead the serial port of the ARM 
 
 The parameters used on the RS232 port are 115200 bit/s 8n1. 
 
+== USB ==
+
+The MIST board is powered via USB. The USB device port used for this is in fact a fully functional USB link. Under Linux and MacOS it is detected by the host out of the box. Under Windows the following file can be used to install the appropriate driver: http://mist-board.googlecode.com/svn/trunk/bin/firmware/mist.inf
+
+This installs a COM: port under Windows or a device file like /dev/ttyACM0 under Linux. Both can be used by ordinary terminal programs like hyperterm under Windows or minicom under Linux. It doesn't matter which communication parameters (e.g. baud rate) is setup as these are meaningless for USB. Whenever you reboot the MIST, the connection is re-established and you might have to restart the terminal program on your PC.
+
+Boot into a Atari ST core and open the On Screen Display (OSD). Go to the System submenu and select "debug" at the "USB I/O" entry. From now on you the debug output that is usually sent via rs232 (see above) is also forwarded to the USB interface.
+
+To debug a Amiga/Minimig core you first have to boot into a Atari ST core. Make sure there's also a minimig core on the SD card named e.g. minimig.rbf. When in Atari ST mode open the OSD again, go into the "Firmware & Core" submenu and select "Change FPGA core". Select the minimig core and you should see IO controllers debug output.
+
 = VGA output =
 
 Some little debug output is also done via the VGA output. But this is rather limited as most parts on the board need to work in order to display something on the VGA output.
@@ -39,4 +49,3 @@ Some little debug output is also done via the VGA output. But this is rather lim
 = FPGA debugging =
 
 It is even possible to do live debegging of FPGA internals. This required in-depth know-how of the FPGA, the ability to synthesize special debug versions of the core and a USB-Blaster cable to connect to the core running inside the FPGA.
-
