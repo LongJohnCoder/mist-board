@@ -10,6 +10,10 @@ years ago i built a usb to i2c converter named  [http://www.harbaum.org/till/i2c
 
 http://mist-board.googlecode.com/svn/wiki/usbrtc_foto.jpg 
 
+=== Using the device on the MiST ===
+
+The latest firmware supports this device out of the box. Just plug it in and it will be used. No configuration required.
+
 === Using the device under Linux ===
 
 The device runs out of the box under Linux. The i2c-tiny-usb is detected by nearly all Linux distros out of the box. Also the ds1307 is supported. The only link missing is to tell Linux to probe for the RTC as the i2c doesn't have a auto detection mechanism.
