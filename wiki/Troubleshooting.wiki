@@ -14,9 +14,9 @@ The blink codes consist of a sequence of on-off events with a 1 second pause in 
 
   * Blinking once: The SD card could not be initialized. Please insert an SD card.
   * Blinking twice: No usable file system was found on the SD card. Please make sure the card is properly formatted (e.g. digital cameras usually can format SD cards).
-  * Blinking three times: FPGA configuration failed. Make sure there's a valid core.rbf on the card
+  * Blinking three times: FPGA doesn't respond to configuration request. There's a problem with the FPGA or the connection between FPGA and IO controller
   * Blinking four times: No valid FPGA file found on card. Make sure there's a valid core.rbf on the card
-  * Blinking five times: The FPGA did not respond to the initialization attempt. Make sure there's a valid core.rbf on the card
+  * Blinking five times: The FPGA did not respond properly to the initialization attempt. Make sure there's a valid core.rbf on the card
 
 = Troubleshooting the IO controller =
 
