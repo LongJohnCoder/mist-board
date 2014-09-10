@@ -33,6 +33,18 @@ The Atari [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mis
 
 You may also replace the EmuTOS image with a real TOS image. Any language of version TOS 1.00, TOS 1.02, TOS 1.04 or TOS 2.06 should work. Please be aware that copyright still applies to these.
 
+Now that you veryfied that the board is working and the Atari ST boots it's time to upgrade your board to the latest firmware and core. The latest firmware can is the one with the highest revision found at 
+
+[http://code.google.com/p/mist-board/source/browse/trunk/bin/firmware]
+
+and the latest Atari ST core is the one with the highest revision found at 
+
+[http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist]
+
+Some information about the updates and changes these bring can be found at 
+
+[http://www.atari-forum.com/viewtopic.php?f=101&t=26513 the firmware and core changelog thread].
+
 == Amiga/Minimig ==
 
   * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/minimig/core.rbf The Minimig FPGA core (core.rbf)]
