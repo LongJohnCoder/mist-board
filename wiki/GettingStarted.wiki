@@ -33,18 +33,6 @@ The Atari [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mis
 
 You may also replace the EmuTOS image with a real TOS image. Any language of version TOS 1.00, TOS 1.02, TOS 1.04 or TOS 2.06 should work. Please be aware that copyright still applies to these.
 
-Now that you veryfied that the board is working and the Atari ST boots it's time to upgrade your board to the latest firmware and core. The latest firmware can is the one with the highest revision found at 
-
-[http://code.google.com/p/mist-board/source/browse/trunk/bin/firmware]
-
-and the latest Atari ST core is the one with the highest revision found at 
-
-[http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist]
-
-Some information about the updates and changes these bring can be found at 
-
-[http://www.atari-forum.com/viewtopic.php?f=101&t=26513 the firmware and core changelog thread].
-
 == Amiga/Minimig ==
 
   * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/minimig/core.rbf The Minimig FPGA core (core.rbf)]
@@ -61,6 +49,24 @@ Switch the board on. It should boot into the Atari ST desktop or into the kickst
 = Troubleshooting =
 
 The board doesn't boot? Please read about [Troubleshooting]
+
+= Upgrade to the latest version =
+
+Now that you veryfied that the board is working and the Atari ST boots it's time to upgrade your board to the latest firmware and core. The latest firmware can is the one with the highest revision found at 
+
+[http://code.google.com/p/mist-board/source/browse/trunk/bin/firmware]
+
+To update the firmware rename the latest version to {{{firmware.upg}}} and put it onto your sd card. Boot into your Atari ST or Amiga setup and go to the {{{Firmware & Core}}} submenu, select {{{Update Firmware}}} and follow the instructions.
+
+To use e.g. the latest Atari ST core is the one with the highest revision found at 
+
+[http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist].
+
+To replace the core simply rename the new version to {{{core.rbf}}} and replace the old version already on your SD card. 
+
+Some information about the updates and changes these bring can be found at 
+
+[http://www.atari-forum.com/viewtopic.php?f=101&t=26513 the firmware and core changelog thread].
 
 = Things to do next =
 
