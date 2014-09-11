@@ -52,13 +52,13 @@ The board doesn't boot? Please read about [Troubleshooting]
 
 = Upgrade to the latest version =
 
-Now that you veryfied that the board is working and the Atari ST boots it's time to upgrade your board to the latest firmware and core. The latest firmware can is the one with the highest revision found at 
+Now that you veryfied that the board is working and the Atari ST boots it's time to upgrade your board to the latest firmware and core. The latest firmware is the one with the highest revision number found at 
 
 [http://code.google.com/p/mist-board/source/browse/trunk/bin/firmware]
 
-To update the firmware rename the latest version to {{{firmware.upg}}} and put it onto your sd card. Boot into your Atari ST or Amiga setup and go to the {{{Firmware & Core}}} submenu, select {{{Update Firmware}}} and follow the instructions.
+To update the firmware rename the latest version to {{{firmware.upg}}} and put it onto your sd card. Boot into your Atari ST or Amiga setup and go to the {{{Firmware & Core}}} submenu, select {{{Update}}} and follow the instructions. For details can be found at HowToInstallTheFirmware.
 
-To use e.g. the latest Atari ST core is the one with the highest revision found at 
+To use e.g. the latest Atari ST core is the one with the highest revision number found at 
 
 [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist].
 
