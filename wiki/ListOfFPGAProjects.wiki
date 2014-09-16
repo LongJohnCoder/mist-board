@@ -64,7 +64,7 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || Kevtris' FPGA NES || http://www.youtube.com/watch?v=xiEZIma5FI0 || no || ||
 || NES on FPGA || http://www.youtube.com/watch?v=NyhbJ-KhHaM || no || ||
 || Danstrother's FPGA NES || http://danstrother.com/fpga-nes/ || no || ||
-|| Ludde's FPGA NES || http://fpganes.blogspot.de/2013/01/luddes-fpga-nes.html || no || ||
+|| Ludde's FPGA NES || https://github.com/strigeus/fpganes || yes || ||
 || || || || ||
 || *Sega Genesis* || || || ||
 || FPGAGen || http://code.google.com/p/fpgagen/ || yes || an attempt to port this has so far no been successful ||
