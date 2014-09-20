@@ -29,7 +29,7 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || || || || ||
 || *Amstrad CPC* || || || ||
 || CPC2013 || http://ralferoo.blogspot.de/ || no || ||
-|| FPGAAmstrad || http://cpcwiki.eu/index.php/FPGAmstrad || no || ||
+|| FPGAmstrad || http://cpcwiki.eu/index.php/FPGAmstrad || no || ||
 || || || || ||
 || *Apple II* || || || ||
 || Apple2FPGA || http://www.cs.columbia.edu/~sedwards/apple2fpga/ || yes || <font color="green">Has been ported to the MIST</font> ||
@@ -65,7 +65,7 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || || || || ||
 || *Nintendo Entertainment System* || || || ||
 || Kevtris' FPGA NES || http://www.youtube.com/watch?v=xiEZIma5FI0 || no || ||
-|| NES on FPGA || http://www.youtube.com/watch?v=NyhbJ-KhHaM || no || ||
+|| NES on FPGA || http://www.youtube.com/watch?v=NyhbJ-KhHaM || no || <font color="green">Has been ported to the MIST</font> ||
 || Danstrother's FPGA NES || http://danstrother.com/fpga-nes/ || no || ||
 || Ludde's FPGA NES || https://github.com/strigeus/fpganes || yes || ||
 || NES on Pipistrello || http://pipistrello.saanlima.com/index.php?title=Welcome_to_Pipistrello#Complete_Xilinx_ISE_project_examples || yes || ||
