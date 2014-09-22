@@ -57,7 +57,7 @@ It's likely the the core in question uses input devices like a
 keyboard, mouse or a joystick.
 
 The FPGA on the MIST board is not directly connected to any
-input. Instead it is connected via a SPI channel to the ARM IO
+input device. Instead it is connected via a SPI channel to the ARM IO
 Controller which in turn is connected to the SD card as well as the
 USB and joystick ports. The firmware of the IO Controller handles all
 IO and sends events into the FPGA via SPI. The FPGA core needs to
@@ -92,29 +92,26 @@ in the MIST SVN.
 === Joysticks ===
 
 The primary input for a gaming oriented platform like the MIST sure is
-the joystick. The user_io.v gives you access to up to two digital
-joysticks.  Each joystick is reported via a 6 bit field which consists
-of bits for right, left, down, up, fire 1 and fire 2 beginning with
+the joystick. The user_io.v gives you access to up to two classic Atari/C64 style digital joysticks. Each joystick is reported via a 8 bit field which consists
+of bits for right, left, down, up, and four fire buttons beginning with
 the least significant bit. The bits return '1' if the related button or
 direction is activated.
 
-The primary joystick is joystick 0 (not joystick 0!!). This is caused
+The primary joystick is joystick 1 (not joystick 0!!). This is caused
 by the fact that joystick port 0 is often used to connect mice on
-16 bit systems like amiga and Atari ST and the joystick is typically 
+16 bit systems like Amiga and Atari ST and the joystick is typically 
 used in port 1 there.
 
-The MIST board contains two classic DB9 connectors for classic Atari
+The MIST board contains two classic DB9 connectors for classic Atari/C64
 style digital joysticks. One port is used for joystick 0, one is used
 for joystick 1.
 
-USB joysticks are also suppoted. They are inlemented transparently and
+USB joysticks are also supported. They are inlemented transparently and
 the core developer doesn't have to care about them at all. Once a USB
 joystick is detected it becomes joystick 1 (the new primary joystick!)
-and the former joystick 1 becomes joystick 0. If a second USB joystick
+and the former joystick 1 becomes joystick 0 and joystick 0 becomes joystick 2. If a second USB joystick
 is attached it becomes joystick 0 (the secondary joystick) and the
-physical DB9 ports become unavailable to the core. Thus a most two
-joysticks are currently supported by the legacy wrappers. If you need
-more please get in touch with us.
+physical DB9 ports become joysticks 2 and 3. In total up to four joysticks with up to 4 buttons each are supported. At least 2 USB joysticks need to be used for that.
 
 Later versions of user_io.v additionally support analog joysticks. Two
 axes for each joystick are reported in a 16 bit field. The upper 8
@@ -127,12 +124,12 @@ min/center/max positions using the values -128, 0 and 127.
 
 Joysticks can be emulated using the keyboard. If you press the num
 lock key you can cycle through four states indicated by the num lock
-and scroll lock LEDs. If both LEDs are of no emulation takes
+and scroll lock LEDs. If both LEDs are off no emulation takes
 place. This is the default state.
 
 If you press num lock once you'll enable emulation of joystick 0 as
-inidcated by the fact that only the num lock led lights up. The cursor
-keys as well as the left Ctrl and Shift keys are now reported as 
+indicated by the fact that only the num lock led lights up. The cursor
+keys as well as the left Ctrl, Shift, Alt and Windows keys are now reported as 
 joystick events instead of keyboard events. This is totally transparent
 to the core and no special support is required for this in the core.
 
