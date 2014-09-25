@@ -28,10 +28,13 @@ First you have to prepare the SD card. Place the following files in the root dir
 
   * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/core.rbf The Atari ST FPGA core (core.rbf)]
   * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/tos.img A (Emu-)TOS rom image (tos.img)]
+  * [http://mist-board.googlecode.com/svn/wiki/disk_a.st A default floppy disk image for drive A:]
 
 The Atari [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/system.fnt system.fnt] can optionally be placed on the SD card and will then be used for initial boot messages (otherwise the same font as for the OSD is being used).
 
 You may also replace the EmuTOS image with a real TOS image. Any language of version TOS 1.00, TOS 1.02, TOS 1.04 or TOS 2.06 should work. Please be aware that copyright still applies to these.
+
+Booting may be very slow with no floppy disk enabled/inserted. This you should put http://mist-board.googlecode.com/svn/wiki/disk_a.st also onto the SD card. TOS will automatically pick this up and boot times will be much faster.
 
 == Amiga/Minimig ==
 

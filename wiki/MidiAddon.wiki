@@ -42,6 +42,24 @@ http://mist-board.googlecode.com/svn/wiki/midi_addon_in_case.jpg
 
 The resulting setup is very small yet robust.
 
+=Electrical considerations=
+
+MIDI was designed when 5V was the voltage being used in computers. Today it's 3.3V and less what most computers use internally. MIDI implementations struggle with this.
+
+If we have a look at the schematic on this page you'll see the resistors R1 and R5 each being 56 ohms and both limiting the current that flows over pins 1 and 3 on connector X1 (MIDI OUT). That's where the board drives external gear.
+
+The Atari ST was a 5V device and according to http://dev-docs.atariforge.org/files/520ST_Schematic.pdf used 220 Ohms in the same place (R77 and R80).
+
+On the receiving side there's always a 220 ohms resistor (R3 on the MIST and R76 in the Atari ST)
+
+This limits the current to 5V/3*220ohms = 7.5mA in short circuit or 5mA if the opto couplers LED on the receiver side drops 1.7V as (5V-1.7V)/3*220ohms = 5mA. This is what the MIDI standard assumes.
+
+A diode with a voltage drop of 1.7V is driven by the MIST with (3.3V-1.7V)/(2*56 + 220) = 4.8mA. This is a difference of 0.2mA and is actually pretty close and should work. But what if your device has a LED with e.g. 2V voltage drop? Then you have 4.5mA with the 5V circuit and 3.9mA on the 3.3V cicruit. The difference is now 0.6mA. So the influence of the voltage drop of receiver LED becomes bigger in the 3.3V circuit.
+
+It is possible to lower the values of R1 and R5 on a MiSTs MIDI add-on board. It's possible to add 100ohms on top of R1 and R3. This will effectively lower both resistors to 35 ohms and increase the current to (3.3-1.7)/(2*35 +220) = 5.5mA with a 1.7V LED or (3.3-2)/(2*35+220)=4.5mA with a 2V LED.
+
+The additional current shouldn't hurt any device and may help those of your devices that have difficulties with the MIST. It also doesn't hurt the MiST. It can drive that current (a complete MiST draws about 300-400mA). But be aware that this exceed the MIDI specifications!
+
 =Core support=
 
 The Atari ST core supports the MIDI expansion board out of the box. The Minimig/Amiga core may easily get support using the setup from [http://retroramblings.net/?p=412 ProjectXG Redux]

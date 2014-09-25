@@ -22,6 +22,8 @@ http://mist-board.googlecode.com/svn/wiki/menu_storage.jpg
 
 At boot time the firmware of the MIST board checks for floppy disk images named disk_a.st and disk_b.st. If these are found they are inserted automatically at boot time.
 
+A ready to run floppy disk image can be found at http://mist-board.googlecode.com/svn/wiki/disk_a.st
+
 == Copy protections ==
 
 A floppy disk is organized in tracks (typically 80 on a ST floppy disk). Each track contains a number of 512 bytes sectors (typically 9 per track on a ST floppy disk). The Atari floppy disk controller can be used to read and write single sectors or whole tracks incl. control bytes atored in between the sectors.
@@ -115,3 +117,5 @@ The Atari ST will now boot from harddisk.
 == Default harddisk image ==
 
 If you want your Atari ST to boot from harddisk automatically whenever you switch on your MIST board (or press the reset button on the front) you can name the harddisk image *harddisk.hd*. It will then be selected automatically on system powerup and the embedded Atari ST will boot immediately from the harddisk image.
+
+A ready to run hard disk image can be found at http://mist-board.googlecode.com/svn/wiki/harddisk.zip
