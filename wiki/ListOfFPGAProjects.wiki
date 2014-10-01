@@ -42,6 +42,9 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || Syntiac's FPGA-64 || http://www.syntiac.com/fpga64.html || yes/non-commercial || <font color="green">Has been ported to the MIST</font>  ||
 || Sabbi's FPGA64 || http://fpga64.blogspot.de/ || no || ||
 || || || || ||
+|| *MSX* || || || ||
+|| OneChipMSX || http://de.wikipedia.org/wiki/1chipMSX || yes || ||
+|| || || || ||
 || *ZX Spectrum* || || || ||
 || ZX Spectrum on FPGA || http://www.mike-stirling.com/retro-fpga/zx-spectrum-on-an-fpga/ || yes || <font color="green">Has been ported to the MIST</font> ||
 || Speccy 2010 || http://code.google.com/p/speccy2010/ || yes || ||
@@ -62,6 +65,7 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || || || || ||
 || *Gameboy* || || || ||
 || Gameboy on DE1 || https://code.google.com/p/gbfpga/ || yes || ||
+|| PACEDEV Gameboy || https://github.com/wsoltys/pacedev/tree/master/sw/synth/platform/gameboy || yes || has been ported but lacks fundamental features like sprites ||
 || || || || ||
 || *Nintendo Entertainment System* || || || ||
 || Kevtris' FPGA NES || http://www.youtube.com/watch?v=xiEZIma5FI0 || no || ||
@@ -69,6 +73,9 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || Danstrother's FPGA NES || http://danstrother.com/fpga-nes/ || no || ||
 || Ludde's FPGA NES || https://github.com/strigeus/fpganes || yes || ||
 || NES on Pipistrello || http://pipistrello.saanlima.com/index.php?title=Welcome_to_Pipistrello#Complete_Xilinx_ISE_project_examples || yes || ||
+|| || || || ||
+|| *PC Engine* || || || ||
+|| FPGAPCE || https://github.com/Torlus/FPGAPCE || yes || ||
 || || || || ||
 || *Sega Genesis* || || || ||
 || FPGAGen || http://code.google.com/p/fpgagen/ || yes || an attempt to port this has so far no been successful ||
