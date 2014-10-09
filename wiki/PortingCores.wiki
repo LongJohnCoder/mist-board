@@ -11,7 +11,7 @@ For further details regarding the pins being used on the FPGA refer to
 = The simple case: FPGA only projects =
 
 Projects only using a single FPGA without any additional hardware are
-very simple to port. The only things you habe to take care of is the
+very simple to port. The only things you have to take care of is the
 fact that the MIST uses a single 27MHz clock source only. You might
 need to use a PLL inside the FPGA to adjust to the clock requirements
 the project you are going to port demands.
@@ -25,7 +25,7 @@ provides 3*6 bit video output via VGA and 2 outputs for audio. Many
 FPGA setups use similar outputs and many such projects can directly be
 ported to the MIST by just specifying the correct pins. It's even
 possible to output other signals than VGA on the VGA port. E.g. a
-analog RGB TV signal may be created there and be used with e.g. a
+analog RGB TV signal may be created there and be used with a
 simple VGA to SCART cable like the "hama 43192".
 
 The two audio outputs are connected to a low pass filter stage so that
@@ -35,7 +35,7 @@ pwm signals can be used to create analog signals.
 
 The EP3C25 FPGA of the MIST provides slightly more than 64kBytes of
 internal memory. You can use major parts of this as RAM and ROM for
-your design. Small devices like the Sinclair ZX81 or the Commodore
+your design. Small devices like the Sinclair ZX81, the Commodore
 VIC-20 or the Pacman arcade machine can be implemented without using
 any external memory. For designs demanding more memory the external
 32MBytes SDRAM of the MIST has to be used. This is a similar chip to
@@ -162,12 +162,14 @@ available to the PS2 emulation.
 
 === Mice ===
 
-Currently no mice are supported by the legacy wrappers. This is due to
-a lack of cores requiring this. The keyboard mouse emulation also has
-no function with the legacy wrappers.
+Mice are supported through a legacy wrapper as well. On FPGA side this 
+is technically the same as the PS2 keyboard wrapper. The only difference
+is that the IO controller uses this to send PS2 mouse data instead
+of keyboard events.
 
-Please contact is if you need support for mice and would like to port
-a core using e.g. the ps2 mouse protocol. 
+Currently only a classic two button mouse is implemented.
+
+This mouse is e.g. being used by the OneChipMSX core.
 
 === SD cards ===
 
