@@ -21,6 +21,9 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || Minimig for DE1 || https://github.com/rkrajnc/minimig-de1#readme || yes || <font color="green">This is the basis of the MIST minimig</font> ||
 || Minimig AGA || http://www.youtube.com/watch?v=vn4ZzLH6MpE || no ||  ||
 || || || || ||
+|| *BBC Micro* || || || ||
+|| BBC Micro on FPGA || http://www.mike-stirling.com/retro-fpga/zx-spectrum-on-an-fpga/ || yes || ||
+|| || || || ||
 || *Apple Macintosh* || || || ||
 || Plus Too || http://www.bigmessowires.com/category/plustoo/ || yes || discontinued ||
 || || || || ||
