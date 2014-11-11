@@ -43,13 +43,9 @@ normal operation.
 
 When being switched on the DIP switch 1 causes several things:
 
-  * The IO controller does not attempt to reconfigure the FPGA on its
-    own reboot
-  * The IO controller tries to monitor the FPGA for JTAG uploads and 
-    tries to reset itself whenever it detects that the FPGA config has
-    changed
-  * The IO controller increases some debug output and e.g. reports 
-    SD card accesses
+  * The IO controller does not attempt to reconfigure the FPGA on its own reboot
+  * The IO controller tries to monitor the FPGA for JTAG uploads and tries to reset itself whenever it detects that the FPGA config has changed
+  * The IO controller increases some debug output and e.g. reports SD card accesses
 
 With the DIP switch 1 in the ON position using a Byte Blaster cable
 becomes very easy. 
