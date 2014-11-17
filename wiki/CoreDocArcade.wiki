@@ -23,7 +23,7 @@ _Gameplay_
 
 [https://www.youtube.com/watch?v=xUxD7giVKfA  Pacman core in action]
 
-_Front panel buttons_
+_MiST Front panel buttons_
   # Reset MiST to default core
   # Insert Coin
   # Start
@@ -42,7 +42,7 @@ _MiST front panel buttons:_
  
 == Pengo ==
 
-_Front panel buttons:_
+_MiST Front panel buttons:_
   # Reset MiST to default core
   # Insert Coin
   # Start
@@ -50,7 +50,7 @@ _Front panel buttons:_
 
 == Moon Patrol ==
 
-_Front panel buttons:_
+_MiST Front panel buttons:_
   # Reset MiST to default core
   # Insert Coin
   # Start
