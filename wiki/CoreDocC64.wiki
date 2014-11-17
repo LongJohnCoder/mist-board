@@ -1,0 +1,23 @@
+#summary Docs for the C64 core
+
+= Introduction =
+
+This page has operating instructions for the C64 core.
+
+= Installation =
+
+Copy the {{{*}}}.rbf file at the root of the SD card.
+You can rename the file to core.rbf if you want the MiST to load it automatically at startup.
+
+The core defaults to PAL (50hz) video; to start on NTSC video (60hz) you can copy the configuration file available in the MiST Starter Pack.
+
+= OSD Menu =
+
+Press F12 to enter the OSD menu:
+
+<img title="OSD Menu - Page 1" src="http://i.imgur.com/nIa9b8A.jpg" width="320px" />
+
+  * *Load {{{*}}}.PRG*: read from SD card into memory
+  * *Video Standard*: switch between PAL (50hz) and NTSC (60hz) video mode.
+  * Joysticks: some games require joysticks to be swapped.
+  * Reset: restart the C64 core, e.g. to change to another game/program.
