@@ -18,10 +18,6 @@ Arcade cores are not recommended as the default startup core, as they do not hav
 
 This core has sound.
 
-_Gameplay_
-
-[https://www.youtube.com/watch?v=xUxD7giVKfA  Pacman core in action]
-
 _MiST Front panel buttons_
   # Reset MiST to default core
   # Insert Coin
@@ -29,6 +25,11 @@ _MiST Front panel buttons_
 
 _Gamepad__
   * Up/Down/Left/Right: move pacman
+
+_Gameplay_
+
+<wiki:video url="http://www.youtube.com/watch?v=xUxD7giVKfA"/>
+
 
 
 == Galaxian ==
@@ -71,4 +72,3 @@ _MiST front panel buttons:_
   # Reset MiST to default core
   # Insert Coin
   # Start
-
