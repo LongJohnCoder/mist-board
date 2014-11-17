@@ -7,12 +7,9 @@ This page documents how to setup the arcade cores, which currently all share the
 
 = Installation =
 
-The arcade cores are self-contained in their own {{{*}}}.rbf file, so it is enough to copy them to the SD card. 
+The arcade cores are self-contained in their own {{{*}}}.rbf file, so it is enough to copy them to the root of an SD card. 
 
-As usual, if you'd like the MiST to boot on one, rename it "*core.rbf*" on the root of the SD card.
-
-*Note* these cores do not implement an OSD to switch to another core,
-so it is recommended to use a different core for booting, allowing you to select any of the arcade cores.
+Arcade cores are not recommended as the default startup core, as they do not have an OSD to switch to a different core. When running one of these cores you can reset the MiST with the left front panel button to return to the startup core.
 
 
 = Instructions =
