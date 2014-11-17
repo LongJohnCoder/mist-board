@@ -1,0 +1,56 @@
+# documentation for the arcade cores
+
+= Overview =
+
+This page documents how to setup the arcade cores, which currently all share the same handling.
+
+
+= Installation =
+
+The arcade cores are self-contained in their own {{{*}}}.rbf file, so it is enough to copy them to the SD card. 
+
+As usual, if you'd like the MiST to boot on one, rename it "*core.rbf*" on the root of the SD card.
+
+*Note* these cores do not implement an OSD to switch to another core,
+so it is recommended to use a different core for booting, allowing you to select any of the arcade cores.
+
+
+= Instructions =
+
+== Pacman ==
+
+_Gameplay_
+
+[https://www.youtube.com/watch?v=xUxD7giVKfA  Pacman core in action]
+
+_Front panel buttons_
+  # Reset MiST to default core
+  # Insert Coin
+  # Start
+
+_Gamepad__
+  * Up/Down/Left/Right: move pacman
+
+
+== Galaxian ==
+
+_MiST front panel buttons:_
+  # Reset MiST to default core
+  # Insert Coin
+  # Start
+
+ 
+== Pengo ==
+
+_Front panel buttons:_
+  # Reset MiST to default core
+  # Insert Coin
+  # Start
+
+
+== Moon Patrol ==
+
+_Front panel buttons:_
+  # Reset MiST to default core
+  # Insert Coin
+  # Start
