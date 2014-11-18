@@ -1,4 +1,4 @@
-#summary Docs for the C64 core
+#summary documentation for the C64 core
 
 = Introduction =
 
