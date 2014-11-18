@@ -1,4 +1,4 @@
-# documentation for the arcade cores
+# summary: documentation for the arcade cores
 
 = Overview =
 
