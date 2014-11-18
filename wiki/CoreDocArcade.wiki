@@ -23,7 +23,7 @@ _MiST Front panel buttons_
   # Insert Coin
   # Start
 
-_Gamepad__
+_Controls__
   * Up/Down/Left/Right: move pacman
 
 _Gameplay_
@@ -43,6 +43,15 @@ _MiST front panel buttons:_
   # Reset MiST to default core
   # Insert Coin
   # Start
+
+_Controls__
+  * Left/Right: move shipt
+  * button 1: fire
+
+_Gameplay_
+
+<wiki:video url="http://www.youtube.com/watch?v=TL4Ehy2uSfQ"/>
+
 
  
 == Pengo ==
