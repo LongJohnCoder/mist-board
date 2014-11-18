@@ -36,7 +36,8 @@ Press F12 to enter the OSD menu:
   
 = Obtaining PRG files =
 
-If you do not have .prg files, you can extract it from exisiting d64 images by using [http://style64.org/dirmaster DirMaster]
+If you do not have .prg files, you can extract them from existing d64 images by using [http://style64.org/dirmaster DirMaster]
+
 
 = Diagnostic Programs =
 
