@@ -15,7 +15,7 @@ The core defaults to PAL (50hz) video; to start on NTSC video (60hz) you can cop
 
 Press F12 to enter the OSD menu:
 
-<img title="OSD Menu - Page 1" src="http://i.imgur.com/nIa9b8A.jpg" width="320px" />
+<img title="OSD Menu - Page 1" src="http://mist-board.googlecode.com/svn/wiki/img_docs/c64osd1.jpg" width="320px" />
 
   * *Load {{{*}}}.PRG*: read from SD card into memory
   * *Video Standard*: switch between PAL (50hz) and NTSC (60hz) video mode.
@@ -23,7 +23,7 @@ Press F12 to enter the OSD menu:
   * *Reset*: restart the C64 core, e.g. to change to another game/program.
 
 
-<img title="OSD Menu - Page 2" src="http://i.imgur.com/49dpdpW.jpg" width="320px" />
+<img title="OSD Menu - Page 2" src="http://mist-board.googlecode.com/svn/wiki/img_docs/c64osd2.jpg" width="320px" />
 
   * *Firmware & core *: allows to switch to another core or upgrade the MiST firmware
   * *Save settings*: save the current settins to the SD card for next startup
