@@ -1,0 +1,42 @@
+#summary documentation for the PC Engine core
+
+= Introduction =
+
+This page has operating instructions for the PC Engine core.
+
+= Installation =
+
+At the moment, this core only supports reading files from the SD root. 
+It is thus recommended to use it on its own SD card to make it easier to select rom files.
+
+Copy the {{{*}}}.rbf file at the root of the SD card.
+You can rename the file to core.rbf if you want the MiST to load it automatically at startup.
+
+Copy PCE roms in the same root folder.
+
+
+= OSD Menu =
+
+Press F12 to enter the OSD menu:
+
+<img title="OSD Menu - Page 1" src="http://mist-board.googlecode.com/svn/wiki/img_docs/pce_osd1.jpg" width="320px" />
+
+  * *Reset*: restart the PC Engine with current rom
+  * *Save Settings*: save current core settings for next session
+  * *Video Mode*: Switch between NTSC, PAL, and TV (15khz) mode.
+  * *Scanlines*: activate scanlines - best used with NTSC or PAL (won't work well with TV mode)
+  * *Machine mode*: PC Engine or TurboGrafx16
+  * *Load Rom*: select a ROM to load
+  
+In the rom selection screen, you can select a rom with Enter,
+but you can also load as PC Engine or TurboGrafx by pressing P or T.
+(try the other mode if loading the rom results in a black screen)
+
+
+== Notes ==
+
+  * PAL mode is 720x576p @50hz
+  * NTSC mode is 720x480p @60hz
+  * TV (15khz) mode is 720x241p @60hz
+  
+  
