@@ -19,5 +19,21 @@ Press F12 to enter the OSD menu:
 
   * *Load {{{*}}}.PRG*: read from SD card into memory
   * *Video Standard*: switch between PAL (50hz) and NTSC (60hz) video mode.
-  * Joysticks: some games require joysticks to be swapped.
-  * Reset: restart the C64 core, e.g. to change to another game/program.
+  * *Joysticks*: some games require joysticks to be swapped.
+  * *Reset*: restart the C64 core, e.g. to change to another game/program.
+
+
+<img title="OSD Menu - Page 2" src="http://i.imgur.com/49dpdpW.jpg" width="320px" />
+
+  * *Firmware & core *: allows to switch to another core or upgrade the MiST firmware
+  * *Save settings*: save the current settins to the SD card for next startup
+
+== Notes ==
+
+  * PAL mode is 720x576p @50hz
+  * NTSC mode is 720x480p @60hz
+  * After loading a .PRG file, type "RUN" then Enter to start.
+  
+== Obtaining PRG files ==
+
+If you do not have .prg files, you can extract it from exisiting d64 images by using [http://style64.org/dirmaster DirMaster]
