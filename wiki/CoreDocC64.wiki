@@ -4,6 +4,11 @@
 
 This page has operating instructions for the C64 core.
 
+= Links =
+  * [http://www.syntiac.com/fpga64.html  Peter Wendrich's FPGA64]
+  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/fpga64 Core binaries (with Peter's permission)]
+
+
 = Installation =
 
 Copy the {{{*}}}.rbf file at the root of the SD card.
@@ -36,7 +41,7 @@ Press F12 to enter the OSD menu:
   
 = Obtaining PRG files =
 
-If you do not have .prg files, you can extract them from existing d64 images by using [http://style64.org/dirmaster DirMaster]
+If you do not have .prg files, you can extract them from existing .D64 images by using a program called [http://style64.org/dirmaster DirMaster]
 
 
 = Diagnostic Programs =
@@ -44,3 +49,5 @@ If you do not have .prg files, you can extract them from existing d64 images by 
   * [http://csdb.dk/release/?id=100487 BoulderMark]
 
 <img title="bouldermark1" src="http://i.imgur.com/ayjqToW.jpg" width="240px" /> <img title="bouldermark2" src="http://i.imgur.com/i1oJ28e.jpg" width="240px" /> <img title="bouldermark_results" src="http://i.imgur.com/jRHpCfC.jpg" width="240px" />
+
+Bouldermark was designed for the PAL machine (50hz) and scores 314 points in PAL mode, which matches the performance of real C64 hardware. Running the test with the NTSC option (60hz) gives a lower score which is equal to 314*50/60. 
