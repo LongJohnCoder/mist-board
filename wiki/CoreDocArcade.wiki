@@ -48,7 +48,7 @@ _MiST front panel buttons:_
   # Start
 
 _Controls__
-  * Left/Right: move shipt
+  * Left/Right: move ship
   * button 1: fire
 
 _Gameplay_
