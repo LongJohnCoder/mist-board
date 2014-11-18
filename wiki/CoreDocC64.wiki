@@ -34,6 +34,10 @@ Press F12 to enter the OSD menu:
   * NTSC mode is 720x480p @60hz
   * After loading a .PRG file, type "RUN" then Enter to start.
   
-== Obtaining PRG files ==
+= Obtaining PRG files =
 
 If you do not have .prg files, you can extract it from exisiting d64 images by using [http://style64.org/dirmaster DirMaster]
+
+= Diagnostic Programs =
+
+  * [http://csdb.dk/release/?id=100487 BoulderMark]
