@@ -16,6 +16,8 @@ It is thus recommended to use it on its own SD card to make it easier to select 
 Copy the {{{*}}}.rbf file at the root of the SD card.
 You can rename the file to core.rbf if you want the MiST to load it automatically at startup.
 
+Also copy the config file provided in the binary distribution. Select the option that fits your setup (e.g. NTSC if using an LCD display that expects 60hz). The config can be changed later, but the file must already exist to save it.
+
 Copy PCE roms in the same root folder.
 
 ----
