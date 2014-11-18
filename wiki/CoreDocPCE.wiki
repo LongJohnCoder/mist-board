@@ -4,6 +4,10 @@
 
 This page has operating instructions for the PC Engine core.
 
+= Links =
+
+  * [http://retroramblings.net/?page_id=965  Core binary releases]
+
 = Installation =
 
 At the moment, this core only supports reading files from the SD root. 
