@@ -42,4 +42,4 @@ If you do not have .prg files, you can extract it from exisiting d64 images by u
 
   * [http://csdb.dk/release/?id=100487 BoulderMark]
 
-<img title="bouldermark1" src="http://i.imgur.com/ayjqToW.jpg" width="320px" /> <img title="bouldermark2" src="http://i.imgur.com/i1oJ28e.jpg" width="320px" /> <img title="bouldermark_results" src="http://i.imgur.com/jRHpCfC.jpg" width="320px" />
+<img title="bouldermark1" src="http://i.imgur.com/ayjqToW.jpg" width="240px" /> <img title="bouldermark2" src="http://i.imgur.com/i1oJ28e.jpg" width="240px" /> <img title="bouldermark_results" src="http://i.imgur.com/jRHpCfC.jpg" width="240px" />
