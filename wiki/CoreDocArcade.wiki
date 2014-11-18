@@ -2,7 +2,8 @@
 
 = Overview =
 
-This page documents how to setup the arcade cores, which currently all share the same handling.
+This page documents how to setup the arcade cores.
+They are all quite similar, just vary slightly in supported features.
 
 
 = Installation =
@@ -13,6 +14,8 @@ Arcade cores are not recommended as the default startup core, as they do not hav
 
 
 = Instructions =
+
+----
 
 == Pacman ==
 
@@ -30,7 +33,7 @@ _Gameplay_
 
 <wiki:video url="http://www.youtube.com/watch?v=xUxD7giVKfA"/>
 
-
+----
 
 == Galaxian ==
 
@@ -52,7 +55,7 @@ _Gameplay_
 
 <wiki:video url="http://www.youtube.com/watch?v=TL4Ehy2uSfQ"/>
 
-
+----
  
 == Pengo ==
 
@@ -63,6 +66,7 @@ _MiST Front panel buttons:_
   # Insert Coin
   # Start
 
+----
 
 == Moon Patrol ==
 
@@ -72,6 +76,8 @@ _MiST Front panel buttons:_
   # Reset MiST to default core
   # Insert Coin
   # Start
+
+----
 
 == Space Invaders ==
 
