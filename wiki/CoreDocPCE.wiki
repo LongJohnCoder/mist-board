@@ -26,7 +26,7 @@ Press F12 to enter the OSD menu. Move with arrow keys and select with Enter:
   * *Save Settings*: save current core settings for next session
   * *Video Mode*: Switch between NTSC, PAL, and TV (15khz) mode.
   * *Scanlines*: activate scanlines - best used with NTSC or PAL (won't work well with TV mode)
-  * *Machine mode*: PC Engine or TurboGrafx16
+  * *Machine mode*: PC Engine or TurboGrafx
   * *Load Rom*: select a ROM to load
   
 In the rom selection screen, you can select a rom with Enter,
@@ -45,7 +45,10 @@ but you can also load as PC Engine or TurboGrafx by pressing P or T.
 
 = Gameplay videos =
 
-<wiki:video url="https://www.youtube.com/watch?v=4dA1-ohB_Ak"/>
+<wiki:video url="http://www.youtube.com/watch?v=4dA1-ohB_Ak"/> 
+
+<wiki:video url="http://www.youtube.com/watch?v=OvreesBg8AE"/>
+
 
 ----
 
