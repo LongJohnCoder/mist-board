@@ -1,5 +1,10 @@
 #summary documentation for the NES core
 
+= Links =
+  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/nes  Core binaries]
+  * [http://fpganes.blogspot.de/  FPGANES]
+  * [https://github.com/strigeus/fpganes Original source code]
+
 = Introduction =
 
 This page has operating instructions for the NES/Famicom core.
