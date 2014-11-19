@@ -54,7 +54,7 @@ Bouldermark was designed for the PAL machine (50hz) and scores 314 points in PAL
 
 ----
 
-= Gameplay =
+= Gameplay videos =
 
 <wiki:video url="http://www.youtube.com/watch?v=9GDJRWBFZu0"/>
 
