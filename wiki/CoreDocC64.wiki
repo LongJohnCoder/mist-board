@@ -51,3 +51,11 @@ If you do not have .prg files, you can extract them from existing .D64 images by
 <img title="bouldermark1" src="http://i.imgur.com/ayjqToW.jpg" width="240px" /> <img title="bouldermark2" src="http://i.imgur.com/i1oJ28e.jpg" width="240px" /> <img title="bouldermark_results" src="http://i.imgur.com/jRHpCfC.jpg" width="240px" />
 
 Bouldermark was designed for the PAL machine (50hz) and scores 314 points in PAL mode, which matches the performance of real C64 hardware. Running the test with the NTSC option (60hz) gives a lower score which is equal to 314*50/60. 
+
+----
+
+= Gameplay =
+
+<wiki:video url="http://www.youtube.com/watch?v=9GDJRWBFZu0"/>
+
+----
