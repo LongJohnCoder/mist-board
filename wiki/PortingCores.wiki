@@ -1,4 +1,5 @@
 #summary Explanations related to the porting of FPGA cores from other projects
+#sidebar CoreDocTOC
 
 The MIST is not the first FPGA board and not the first FPGA
 project. ListOfFPGAProjects lists FPGA based projects that may be
