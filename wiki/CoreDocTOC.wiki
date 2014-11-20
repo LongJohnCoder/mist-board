@@ -35,6 +35,7 @@
   * [TG68SDRAM  SDRAM details]
   * [ListOfFPGAProjects FPGA projects list] 
  * Hardware Development
+  * [BountyProgram Bounty program]   
   * [HowToCompileTheFirmware Compiling firmware]
   * [Pins Pin usage on the FPGA]
   * [Board13 Schematics and PCB]
