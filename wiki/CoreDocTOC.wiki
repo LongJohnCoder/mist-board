@@ -2,7 +2,7 @@
 
 *MiST Cores Documentation*
 
- * [CoreDocArcade Arcade cores]
  * [CoreDocC64 C64 core]
  * [CoreDocNES NES core]
  * [CoreDocPCE PC Engine core]
+ * [CoreDocArcade Arcade cores]
