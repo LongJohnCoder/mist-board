@@ -1,4 +1,5 @@
 #summary This pages explains how to install the firmware
+#sidebar CoreDocTOC
 
 = Firmware files =
 
@@ -86,4 +87,3 @@ The command to flash the firmware from *firmware.bin* via busblaster under Linux
 {{{
 openocd -f interface/busblaster.cfg -f target/at91sam7sx.cfg --command "adapter_khz 10000; init; reset init;  flash protect 0 0 7 off; sleep 1; arm7_9 fast_memory_access enable; flash write_bank 0 firmware.bin 0x0; resume; shutdown"
 }}}
-
