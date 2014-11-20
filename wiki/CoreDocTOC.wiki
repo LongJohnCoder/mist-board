@@ -5,14 +5,14 @@
   * [GettingStarted Getting Started / ST core] 
      * [HowTheAtariStCoreWorks How the core works]
      * [AtariMassStorage Using Mass Storage]
-     * [AtariMassStorage Using Mass Storage]
      * [AtariGameCompatibilityList Compatibility]
      * [AtariSTRoadmap Feature Roadmap]
 
-  * [CoreDocC64 Commodore64 core]
-  * [CoreDocNES NES core]
-  * [CoreDocPCE PC Engine core]
-  * [CoreDocArcade Arcade cores]
+  * Other Cores
+     * [CoreDocC64 Commodore64 core]
+     * [CoreDocNES NES core]
+     * [CoreDocPCE PC Engine core]
+     * [CoreDocArcade Arcade cores]
 
 
 *MiST Board Documentation*
