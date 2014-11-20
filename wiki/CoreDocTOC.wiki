@@ -1,6 +1,6 @@
 #summary Table of Contents for docs on cores
 
- * MiST cores User Guides
+ * User Guides of MiST cores
   * [GettingStarted Getting Started / ST core] 
     * [HowTheAtariStCoreWorks How the core works]
     * [AtariMassStorage Using Mass Storage]
