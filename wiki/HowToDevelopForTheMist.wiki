@@ -1,4 +1,5 @@
 #summary This pages explains how to develop for the MIST board
+#sidebar CoreDocTOC
 
 The MIST board is a work in progress. All code and all tools required to work on the MIST board is free.
 
@@ -59,4 +60,3 @@ Signaltap:
 http://mist-board.googlecode.com/svn/wiki/signaltap_1.jpg
 
 http://mist-board.googlecode.com/svn/wiki/signaltap_2.jpg
-
