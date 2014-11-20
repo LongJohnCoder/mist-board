@@ -9,6 +9,7 @@
 
 This page has operating instructions for the NES/Famicom core.
 
+
 = Installation =
 
 Copy the {{{*}}}.rbf file at the root of the SD card.
@@ -40,6 +41,16 @@ In the rom selection screen, m can select a rom with Enter.
 == Notes ==
 
   * Video mode is 720x481p
+
+  
+= Compatibility =
+
+This table shows the memory mappers that the core supports.
+
+A large amount of commercials ROMs are coveres (~87%). 
+Only main limitation is that we cannot save to the SD card.
+
+<img title="mapper supprot" src="http://mist-board.googlecode.com/svn/wiki/img_docs/nes_mappers.jpg" />
   
 ----
 
