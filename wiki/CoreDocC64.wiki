@@ -1,4 +1,5 @@
 #summary documentation for the C64 core
+#sidebar CoreDocTOC
 
 = Introduction =
 
