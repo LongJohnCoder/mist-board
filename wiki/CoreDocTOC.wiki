@@ -2,12 +2,13 @@
 
  * Board User Guide
   * [TheBoard The Board]
-  * [FaQ  FAQ] 
   * [WhatIsThis What is an FPGA?]
-  * [VideoLinks  In action (videos)]
   * [Peripherals Peripherals]
-  * [Troubleshooting Troubleshooting]
   * [HowToInstallTheFirmware Installing firmware]
+  * [Troubleshooting Troubleshooting]
+  * [FaQ  FAQ] 
+  * [VideoLinks  Videos]
+  * [UserVideos User Videos]
   * [ContriButions Projects it is based on]
  * User Guides of MiST cores
   * [GettingStarted ST core / Getting Started] 
