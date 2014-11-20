@@ -2,7 +2,8 @@
 
 *MiST Cores Documentation*
 
- * [CoreDocC64 Commodore64 core]
- * [CoreDocNES NES core]
- * [CoreDocPCE PC Engine core]
- * [CoreDocArcade Arcade cores]
+  * [GettingStarted Getting Started / Atari core] 
+  * [CoreDocC64 Commodore64 core]
+  * [CoreDocNES NES core]
+  * [CoreDocPCE PC Engine core]
+  * [CoreDocArcade Arcade cores]
