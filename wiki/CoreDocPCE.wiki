@@ -1,7 +1,7 @@
 #summary documentation for the PC Engine core
 #sidebar CoreDocTOC
 
-= Introduction =
+= Overview =
 
 This page has operating instructions for the PC Engine core.
 
