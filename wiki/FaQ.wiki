@@ -1,4 +1,5 @@
 #summary Frequently asked questions (FAQ)
+#sidebar CoreDocTOC
 
 = What is this? =
 
