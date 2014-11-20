@@ -1,4 +1,5 @@
 #summary This pages explains how to use a USB Byte Blaster cable with the MiST
+#sidebar CoreDocTOC
 
 = What is a Byte Blaster Cable? =
 
