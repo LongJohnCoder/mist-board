@@ -14,10 +14,10 @@
   * [TheBoard The Board]
     * [WhatIsThis What is This?]
     * [FaQ  FAQ] 
-    * [VideoLinks  Video links showing it in action]
+    * [VideoLinks  In action (videos)]
     * [Troubleshooting Troubleshooting]
-    * [ContriButions Projects MiST is based on]
-  * [HowToDevelopForTheMist  How to Develop for it]
+    * [ContriButions Projects it is based on]
+  * [HowToDevelopForTheMist  How to Develop for the MiST]
     * [HowToCompileTheCore How to compile cores]
     * [PortingCores Porting cores]
     * [Pins Pin usage on the FPGA}
