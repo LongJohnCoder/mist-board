@@ -2,11 +2,11 @@
 
  * MiST User Guide
   * [TheBoard The Board]
+  * [WhatIsThis What is it?]
   * [Peripherals Peripherals]
   * [HowToInstallTheFirmware Installing firmware]
   * [Troubleshooting Troubleshooting]
   * [FaQ  FAQ] 
-  * [WhatIsThis What is an FPGA?]
   * [VideoLinks  Videos]
   * [UserVideos User Videos]
   * [ContriButions Projects it is based on]
