@@ -12,8 +12,8 @@
   * [CoreDocArcade Arcade cores]
  * MiST Board Documentation
   * [TheBoard The Board]
-    * [WhatIsThis What is This?]
     * [FaQ  FAQ] 
+    * [WhatIsThis What is an FPGA?]
     * [VideoLinks  In action (videos)]
     * [Troubleshooting Troubleshooting]
     * [ContriButions Projects it is based on]
