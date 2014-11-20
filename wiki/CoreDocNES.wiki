@@ -1,7 +1,7 @@
 #summary documentation for the NES core
 #sidebar CoreDocTOC
 
-= Introduction =
+= Overview =
 
 This page has operating instructions for the NES/Famicom core.
 
