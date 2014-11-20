@@ -17,7 +17,8 @@
     * [VideoLinks  In action (videos)]
     * [Troubleshooting Troubleshooting]
     * [ContriButions Projects it is based on]
-  * [HowToDevelopForTheMist  How to Develop for the MiST]
+ * Developer Documentation
+    * [HowToDevelopForTheMist  How to Develop for the MiST]
     * [HowToCompileTheCore How to compile cores]
     * [PortingCores Porting cores]
     * [Pins Pin usage on the FPGA}
