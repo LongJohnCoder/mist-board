@@ -1,4 +1,5 @@
 #summary List of FPGA projects
+#sidebar CoreDocTOC
 
 This page lists various known FPGA (Verilog and/or VHDL) implementations of classic computers, game consoles and similar. All of these could potentially be ported to the MIST.
 
