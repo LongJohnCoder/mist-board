@@ -1,4 +1,5 @@
 #summary Bounty program
+#sidebar CoreDocTOC
 
 = The Bounty Program =
 
