@@ -1,4 +1,5 @@
 #summary What the MIST board is and what it isn't
+#sidebar CoreDocTOC
 
 The following explanations are not 100% exact. Instead they are simplifying certain aspects to make the basic topics understandable.
 
@@ -53,4 +54,3 @@ Also the PC needs to be booted into its own operating system first. The FPGA ins
 Gaming targetted FPGA boards like the MIST usually come with connectors for the old joysticks. PCs usually use modern game pads. But many people prefer using the original joysticks with the old games. 
 
 FPGAs are fancy. They are unlike any technology used in todays PCs.
-
