@@ -1,4 +1,5 @@
 #summary documentation for the arcade cores
+#sidebar CoreDocTOC
 
 = Overview =
 
