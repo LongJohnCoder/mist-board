@@ -1,4 +1,5 @@
 #summary This page describes the basic principles of the Atari ST core(s)
+#sidebar CoreDocTOC
 
 This document is not updated as often as the HDL code itself. Some information may thus be outdated.
 
