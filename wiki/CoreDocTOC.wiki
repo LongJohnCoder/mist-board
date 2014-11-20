@@ -7,8 +7,6 @@
     * [AtariMassStorage Using Mass Storage]
     * [AtariGameCompatibilityList Compatibility]
     * [AtariSTRoadmap Feature Roadmap]
-
-
   * [CoreDocC64 Commodore64 core]
   * [CoreDocNES NES core]
   * [CoreDocPCE PC Engine core]
@@ -23,7 +21,6 @@
     * [VideoLinks  Video links showing it in action]
     * [Troubleshooting Troubleshooting]
     * [ContriButions Projects MiST is based on]
- 
   * [HowToDevelopForTheMist  How to Develop for it]
     * [HowToCompileTheCore How to compile cores]
     * [PortingCores Porting cores]
