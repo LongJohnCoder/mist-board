@@ -1,5 +1,12 @@
 #summary Table of Contents for docs on cores
 
+ * Board User Guide
+  * [TheBoard The Board]
+  * [FaQ  FAQ] 
+  * [WhatIsThis What is an FPGA?]
+  * [VideoLinks  In action (videos)]
+  * [Troubleshooting Troubleshooting]
+  * [ContriButions Projects it is based on]
  * User Guides of MiST cores
   * [GettingStarted Getting Started / ST core] 
     * [HowTheAtariStCoreWorks How the core works]
@@ -10,13 +17,6 @@
   * [CoreDocNES NES core]
   * [CoreDocPCE PC Engine core]
   * [CoreDocArcade Arcade cores]
- * Board User Guide
-  * [TheBoard The Board]
-  * [FaQ  FAQ] 
-  * [WhatIsThis What is an FPGA?]
-  * [VideoLinks  In action (videos)]
-  * [Troubleshooting Troubleshooting]
-  * [ContriButions Projects it is based on]
  * For Core Developers
   * [HowToDevelopForTheMist  Developing for MiST]
   * [HowToCompileTheCore How to compile cores]
