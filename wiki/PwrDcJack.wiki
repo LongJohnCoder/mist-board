@@ -1,4 +1,5 @@
 #summary Adding a DC jack to your MIST board
+#sidebar CoreDocTOC
 
 =Intro=
 
