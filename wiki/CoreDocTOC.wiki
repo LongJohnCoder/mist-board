@@ -1,6 +1,6 @@
 #summary Table of Contents for docs on cores
 
- * Board User Guide
+ * MiST User Guide
   * [TheBoard The Board]
   * [WhatIsThis What is an FPGA?]
   * [Peripherals Peripherals]
