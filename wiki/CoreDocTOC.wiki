@@ -18,7 +18,18 @@
 *MiST Board Documentation*
 
   * [TheBoard The Board]
+    * [FaQ  FAQ] 
+    * [VideoLinks  Video links showing it in action]
+    * [Troubleshooting Troubleshooting]
+    * [ContriButions Projects MiST is based on]
+ 
   * [HowToDevelopForTheMist  How to Develop for it]
-  * [PortingCores Porting cores]
-  * [Troubleshooting Troubleshooting]
-  * [UsingAByteBlaster Using a Byte Blaster]
+    * [HowToCompileTheCore How to compile cores]
+    * [PortingCores Porting cores]
+    * [Pins Pin usage on the FPGA}
+    * [Board13 Hardware schematics and PCB]
+    * [UsingAByteBlaster Using a Byte Blaster] 
+    * [Usb2Serial Usb2Serial Debugging board]
+
+
+    
