@@ -1,4 +1,4 @@
-#summary Table of contents of Core Docs
+#summary Table of Contents for docs on cores
 
 *MiST Cores Documentation*
 
