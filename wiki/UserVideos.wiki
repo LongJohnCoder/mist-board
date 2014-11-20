@@ -1,4 +1,5 @@
 #summary User videos
+#sidebar CoreDocTOC
 
 <wiki:video url="http://www.youtube.com/watch?v=HC-A0iN9HQw"/>
 MIST Atari ST
