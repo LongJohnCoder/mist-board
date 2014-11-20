@@ -22,6 +22,6 @@
   * [HowToCompileTheCore How to compile cores]
   * [PortingCores Porting cores]
   * [Pins Pin usage on the FPGA]
-  * [Board13 Hardware schematics and PCB]
+  * [Board13 Schematics and PCB]
   * [UsingAByteBlaster Using a Byte Blaster] 
-  * [Usb2Serial Usb2Serial Debugging board]
+  * [Usb2Serial Usb2Serial debug board]
