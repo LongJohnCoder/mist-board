@@ -1,4 +1,5 @@
 #summary Pin usage on the MIST FPGA
+#sidebar CoreDocTOC
 
 || *Pin No* || *Pin name* || *Description* ||
 || 7 || LED || FPGA LED output (second led), active low ||
