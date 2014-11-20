@@ -17,7 +17,7 @@
   * [VideoLinks  In action (videos)]
   * [Troubleshooting Troubleshooting]
   * [ContriButions Projects it is based on]
- * Developer Documentation
+ * For Core Developers
   * [HowToDevelopForTheMist  Developing for MiST]
   * [HowToCompileTheCore How to compile cores]
   * [PortingCores Porting cores]
