@@ -1,4 +1,5 @@
 #summary USB2Serial debugging board
+#sidebar CoreDocTOC
 
 =Overview=
 
