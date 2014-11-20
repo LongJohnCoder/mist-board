@@ -1,4 +1,5 @@
 #summary Using mass storage emulation on the Minimig core
+#sidebar CoreDocTOC
 
 = Mass storage? =
 
