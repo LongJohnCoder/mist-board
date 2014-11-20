@@ -1,0 +1,6 @@
+#summary Table of contents of Core Docs
+
+*MiST Cores Documentation*
+
+ * [CoreDocsArcade Arcade]
+ * [CoreDocsNES NES]
