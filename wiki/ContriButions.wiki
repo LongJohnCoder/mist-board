@@ -1,4 +1,5 @@
 #summary Projects the MIST is based on
+#sidebar CoreDocTOC
 
 The MIST project wouldn't have been possible without the following projects and contributions:
 
@@ -8,4 +9,3 @@ The MIST project wouldn't have been possible without the following projects and 
   * MikeJ's YM2149 implementation
   * Parts of Stephen Leary's mfp implementation
   * ... and more ...
-
