@@ -1,8 +1,8 @@
 #summary Table of Contents for docs on cores
 
  * MiST User Guide
-  * [TheBoard The Board]
   * [WhatIsThis What is it?]
+  * [TheBoard Board overview]
   * [Peripherals Peripherals]
   * [HowToInstallTheFirmware Installing firmware]
   * [Troubleshooting Troubleshooting]
