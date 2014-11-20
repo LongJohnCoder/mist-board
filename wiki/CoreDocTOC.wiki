@@ -10,7 +10,7 @@
   * [CoreDocNES NES core]
   * [CoreDocPCE PC Engine core]
   * [CoreDocArcade Arcade cores]
- * MiST Board User Guide
+ * Board User Guide
   * [TheBoard The Board]
   * [FaQ  FAQ] 
   * [WhatIsThis What is an FPGA?]
