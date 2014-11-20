@@ -1,5 +1,6 @@
 #summary Getting started
 #labels Featured
+#sidebar CoreDocTOC
 
 = What you need =
 
