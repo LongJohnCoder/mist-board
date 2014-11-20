@@ -1,4 +1,5 @@
 #summary documentation for the PC Engine core
+#sidebar CoreDocTOC
 
 = Introduction =
 
