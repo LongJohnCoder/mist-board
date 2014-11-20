@@ -17,8 +17,8 @@
     * [AtariGameCompatibilityList Compatibility]
     * [AtariSTRoadmap Feature Roadmap]
   * Amiga Core
+    * [HowTheMinimigCoreWorks How the core works]
     * [MinimigMassStorage Mass Storage]
-    * [HowTheMinimigCoreWorks How it works]
   * [CoreDocC64 Commodore64 core]
   * [CoreDocNES NES core]
   * [CoreDocPCE PC Engine core]
