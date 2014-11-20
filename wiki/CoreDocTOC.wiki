@@ -7,3 +7,7 @@
   * [CoreDocNES NES core]
   * [CoreDocPCE PC Engine core]
   * [CoreDocArcade Arcade cores]
+
+
+*MiST Board Documentation*
+  * [Troubleshooting Troubleshooting]
