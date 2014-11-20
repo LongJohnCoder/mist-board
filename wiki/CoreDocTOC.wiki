@@ -8,15 +8,17 @@
      * [AtariGameCompatibilityList Compatibility]
      * [AtariSTRoadmap Feature Roadmap]
 
-  * [CoreDocTOC Other Cores]
-     * [CoreDocC64 Commodore64 core]
-     * [CoreDocNES NES core]
-     * [CoreDocPCE PC Engine core]
-     * [CoreDocArcade Arcade cores]
+
+  * [CoreDocC64 Commodore64 core]
+  * [CoreDocNES NES core]
+  * [CoreDocPCE PC Engine core]
+  * [CoreDocArcade Arcade cores]
 
 
 *MiST Board Documentation*
 
   * [TheBoard The Board]
+  * [HowToDevelopForTheMist  How to Develop for it]
+  * [PortingCores Porting cores]
   * [Troubleshooting Troubleshooting]
-  *
+  * [UsingAByteBlaster Using a Byte Blaster]
