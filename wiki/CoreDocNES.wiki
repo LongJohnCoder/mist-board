@@ -1,13 +1,14 @@
 #summary documentation for the NES core
 
+= Introduction =
+
+This page has operating instructions for the NES/Famicom core.
+
+
 = Links =
   * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/nes  Core binaries]
   * [http://fpganes.blogspot.de/  FPGANES]
   * [https://github.com/strigeus/fpganes Original source code]
-
-= Introduction =
-
-This page has operating instructions for the NES/Famicom core.
 
 
 = Installation =
@@ -18,6 +19,7 @@ You can rename the file to core.rbf if you want the MiST to load it automaticall
 Roms can be copied anywhere on the SD card and are selected via the OSD menu.
 If you have many files you might want to store them into alphabetized sub-folders to access them more quickly.
 
+----
 
 = OSD Menu =
 
@@ -42,13 +44,13 @@ In the rom selection screen, m can select a rom with Enter.
 
   * Video mode is 720x481p
 
+----
   
 = Compatibility =
 
-This table shows the memory mappers that the core supports.
+This table shows the memory mappers that the core supports; a large amount of commercial ROMs will run (~87%). 
 
-A large amount of commercials ROMs are coveres (~87%). 
-Only main limitation is that we cannot save to the SD card.
+One major limitation is that we cannot save to the SD card.
 
 <img title="mapper supprot" src="http://mist-board.googlecode.com/svn/wiki/img_docs/nes_mappers.jpg" />
   
