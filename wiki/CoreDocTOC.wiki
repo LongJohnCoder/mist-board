@@ -5,4 +5,4 @@
  * [CoreDocArcade Arcade cores]
  * [CoreDocC64 C64 core]
  * [CoreDocNES NES core]
- * [CoreDocNES PC Engine core]
+ * [CoreDocPCE PC Engine core]
