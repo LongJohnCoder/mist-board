@@ -1,5 +1,6 @@
 #summary This page describes how the Minimig Amiga core works
 #labels minimig
+#sidebar CoreDocTOC
 
 = How the Minimig works =
 
