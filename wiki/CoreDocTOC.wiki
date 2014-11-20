@@ -1,6 +1,6 @@
 #summary Table of Contents for docs on cores
 
-*MiST Cores Documentation*
+====MiST Cores Documentation====
 
   * [GettingStarted Getting Started / ST core] 
     * [HowTheAtariStCoreWorks How the core works]
@@ -15,7 +15,7 @@
   * [CoreDocArcade Arcade cores]
 
 
-*MiST Board Documentation*
+====MiST Board Documentation====
 
   * [TheBoard The Board]
     * [WhatIsThis What is This?]
