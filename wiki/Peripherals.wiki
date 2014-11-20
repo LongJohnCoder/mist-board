@@ -1,4 +1,5 @@
 #summary Peripherals on the MIST
+#sidebar CoreDocTOC
 
 = What peripherals are supported? =
 
