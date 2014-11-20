@@ -1,4 +1,5 @@
 #summary Overview over the MIST board
+#sidebar CoreDocTOC
 
 http://mist-board.googlecode.com/svn/wiki/mist12.png
 
