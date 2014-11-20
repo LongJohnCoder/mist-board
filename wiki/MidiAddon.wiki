@@ -1,4 +1,5 @@
 #summary MIDI expansion board
+#sidebar CoreDocTOC
 
 =Overview=
 
