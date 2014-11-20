@@ -8,7 +8,7 @@
      * [AtariGameCompatibilityList Compatibility]
      * [AtariSTRoadmap Feature Roadmap]
 
-  * Other Cores
+  * [CoreDocTOC Other Cores]
      * [CoreDocC64 Commodore64 core]
      * [CoreDocNES NES core]
      * [CoreDocPCE PC Engine core]
