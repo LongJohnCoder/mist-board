@@ -1,4 +1,5 @@
 #summary Details about the TG68/SDRAM used in Minimig/MIST cores
+#sidebar CoreDocTOC
 
 = TG68 and SDRAM =
 
