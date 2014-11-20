@@ -62,11 +62,11 @@ USB joysticks and gamepads are not trivial to connect. The status reports they s
 This list is not exhaustive, but should give you an idea of which controllers work:
 
 || *Brand* || *Description* ||
-|| Buffalo || SNES classic controller ||
-|| Retrolink || NES gamepad replica (rectangular case) ||
-|| Retrolink || GameCube gamepad replica||
-|| Retrolink || N64 gamepad replica ||
-|| Retrolink || Atari 2600 joystick replica ||
+|| Buffalo || `SNES` classic controller ||
+|| Retrolink || `NES` gamepad replica (rectangular case) ||
+|| Retrolink || `GameCube` gamepad replica||
+|| Retrolink || `N64` gamepad replica ||
+|| Retrolink || `Atari2600` joystick replica ||
 || Speedlink || Competition Pro USB ||
 
 The N64 gamepad replica can act as an analog joystick.
