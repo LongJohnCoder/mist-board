@@ -1,4 +1,5 @@
 #summary Troublshooting the MIST board
+#sidebar CoreDocTOC
 
 = LEDs =
 
