@@ -3,10 +3,10 @@
 *MiST Cores Documentation*
 
   * [GettingStarted Getting Started / ST core] 
-     * [HowTheAtariStCoreWorks How the core works]
-     * [AtariMassStorage Using Mass Storage]
-     * [AtariGameCompatibilityList Compatibility]
-     * [AtariSTRoadmap Feature Roadmap]
+    * [HowTheAtariStCoreWorks How the core works]
+    * [AtariMassStorage Using Mass Storage]
+    * [AtariGameCompatibilityList Compatibility]
+    * [AtariSTRoadmap Feature Roadmap]
 
 
   * [CoreDocC64 Commodore64 core]
@@ -18,19 +18,16 @@
 *MiST Board Documentation*
 
   * [TheBoard The Board]
-     * [WhatIsThis What is This?]
-     * [FaQ  FAQ] 
-     * [VideoLinks  Video links showing it in action]
-     * [Troubleshooting Troubleshooting]
-     * [ContriButions Projects MiST is based on]
+    * [WhatIsThis What is This?]
+    * [FaQ  FAQ] 
+    * [VideoLinks  Video links showing it in action]
+    * [Troubleshooting Troubleshooting]
+    * [ContriButions Projects MiST is based on]
  
   * [HowToDevelopForTheMist  How to Develop for it]
-     * [HowToCompileTheCore How to compile cores]
-     * [PortingCores Porting cores]
-     * [Pins Pin usage on the FPGA}
+    * [HowToCompileTheCore How to compile cores]
+    * [PortingCores Porting cores]
+    * [Pins Pin usage on the FPGA}
     * [Board13 Hardware schematics and PCB]
     * [UsingAByteBlaster Using a Byte Blaster] 
     * [Usb2Serial Usb2Serial Debugging board]
-
-
-    
