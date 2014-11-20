@@ -1,4 +1,5 @@
 #summary Various videos showing the MIST board in action
+#sidebar CoreDocTOC
 
 = Series V1.3 board =
 
