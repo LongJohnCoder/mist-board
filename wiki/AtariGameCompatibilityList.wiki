@@ -1,4 +1,5 @@
 #summary Compatibility of Atari Games
+#sidebar CoreDocTOC
 
 *MIST user Gryzor has done a great list about [https://docs.google.com/spreadsheet/ccc?key=0AsWGxnbMv9fkdG52T0tPdzZOa0lnWm4tbTctYkdrakE&rm=full&pli=1#gid=6 MIST Atari Game Compatibility].*
 
