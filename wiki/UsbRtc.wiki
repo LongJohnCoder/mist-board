@@ -1,4 +1,5 @@
 #summary USB Real Time Clock (USBRTC)
+#sidebar CoreDocTOC
 
 A few users have asked for a real time clock to be used with the Atari
 ST core. While the board itself does not provide something like that
