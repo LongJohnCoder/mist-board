@@ -5,11 +5,14 @@
   * [FaQ  FAQ] 
   * [WhatIsThis What is an FPGA?]
   * [VideoLinks  In action (videos)]
+  * [Peripherals Peripherals]
   * [Troubleshooting Troubleshooting]
+  * [HowToInstallTheFirmware Installing firmware]
   * [ContriButions Projects it is based on]
  * User Guides of MiST cores
   * [GettingStarted Getting Started / ST core] 
     * [HowTheAtariStCoreWorks How the core works]
+    * [Midi MIDI support] 
     * [AtariMassStorage Using Mass Storage]
     * [AtariGameCompatibilityList Compatibility]
     * [AtariSTRoadmap Feature Roadmap]
@@ -22,7 +25,12 @@
   * [HowToCompileTheCore How to compile cores]
   * [PortingCores Porting cores]
  * Hardware Development
+  * [HowToCompileTheFirmware Compiling firmware]
   * [Pins Pin usage on the FPGA]
   * [Board13 Schematics and PCB]
   * [UsingAByteBlaster Using a Byte Blaster] 
   * [Usb2Serial Usb2Serial debug board]
+  * [UsbRtc USB real-time clock] 
+  * [MidiAddon MIDI add-on board]
+  * [PwrDcJack adding a power DC jack]
+   
