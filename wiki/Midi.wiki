@@ -1,4 +1,5 @@
 #summary MIDI with the Atari ST core
+#sidebar CoreDocTOC
 
 = Introduction =
 
