@@ -29,13 +29,13 @@
   * [UsbRtc USB real-time clock] 
   * [PwrDcJack Adding a power DC jack]
  * For Core Developers
+  * [BountyProgram Bounty program]   
   * [HowToDevelopForTheMist  Developing for MiST]
   * [HowToCompileTheCore How to compile cores]
   * [PortingCores Porting cores]
   * [TG68SDRAM  SDRAM details]
   * [ListOfFPGAProjects FPGA projects list] 
  * Hardware Development
-  * [BountyProgram Bounty program]   
   * [HowToCompileTheFirmware Compiling firmware]
   * [Pins Pin usage on the FPGA]
   * [Board13 Schematics and PCB]
