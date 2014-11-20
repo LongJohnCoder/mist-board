@@ -59,7 +59,7 @@ Not supported on these ports are mice (Atari ST nor Amiga mice), light guns or a
 USB joysticks and gamepads are not trivial to connect. The status reports they send vary from device to device. The MIST firmware supports many of them, but not all. Chances are better with cheap and/or simple devices.
 
 === USB controllers known to work ===
-This list is not exhaustive, but should give you an idea of which controllers work.
+This list is not exhaustive, but should give you an idea of which controllers work:
 
 || *Brand* || *Description* ||
 || Buffalo || SNES classic controller ||
