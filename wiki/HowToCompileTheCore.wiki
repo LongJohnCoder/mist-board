@@ -1,4 +1,5 @@
 #summary This pages explains how to compile the core(s)
+#sidebar CoreDocTOC
 
 Up to now the cores have only be compiled under Linux. This page thus only describes the necessary Linux setup. The same instructions probably also work under Windows since the same tools being used are available for Windows as well.
 
