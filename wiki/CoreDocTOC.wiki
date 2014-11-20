@@ -10,7 +10,7 @@
   * [HowToInstallTheFirmware Installing firmware]
   * [ContriButions Projects it is based on]
  * User Guides of MiST cores
-  * [GettingStarted Getting Started / ST core] 
+  * [GettingStarted ST core / Getting Started] 
     * [HowTheAtariStCoreWorks How the core works]
     * [Midi MIDI support] 
     * [AtariMassStorage Using Mass Storage]
