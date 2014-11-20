@@ -24,6 +24,7 @@
   * [HowToDevelopForTheMist  Developing for MiST]
   * [HowToCompileTheCore How to compile cores]
   * [PortingCores Porting cores]
+  * [TG68SDRAM  SDRAM details]
  * Hardware Development
   * [HowToCompileTheFirmware Compiling firmware]
   * [Pins Pin usage on the FPGA]
