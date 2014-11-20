@@ -18,6 +18,7 @@
 *MiST Board Documentation*
 
   * [TheBoard The Board]
+     * [WhatIsThis What is This?]
      * [FaQ  FAQ] 
      * [VideoLinks  Video links showing it in action]
      * [Troubleshooting Troubleshooting]
