@@ -33,6 +33,7 @@
   * [HowToCompileTheCore How to compile cores]
   * [PortingCores Porting cores]
   * [TG68SDRAM  SDRAM details]
+  * [ListOfFPGAProjects FPGA projects list] 
  * Hardware Development
   * [HowToCompileTheFirmware Compiling firmware]
   * [Pins Pin usage on the FPGA]
