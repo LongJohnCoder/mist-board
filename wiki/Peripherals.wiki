@@ -58,6 +58,18 @@ Not supported on these ports are mice (Atari ST nor Amiga mice), light guns or a
 
 USB joysticks and gamepads are not trivial to connect. The status reports they send vary from device to device. The MIST firmware supports many of them, but not all. Chances are better with cheap and/or simple devices.
 
+=== USB controllers known to work ===
+This list is not exhaustive, but should give you an idea of which controllers work.
+
+|| *Brand* || *Description* || Comments ||
+|| Buffalo || SNES classic controller ||
+|| Retrolink || NES gamepad replica (rectangle) ||
+|| Retrolink || Gamecube gamepad replica ||
+|| Retrolink || N64 gamepad replica ||
+|| Retrolink || Atari 2600 joystick replica ||
+|| Speedlink || USB Competition Pro ||
+
+
 == USB vs. atari style joysticks using more than two joysticks ==
 
 A real Atari ST has two Atari Style joystick ports. Port 0 is used for the mouse and port 1 is used for the joystick. If two joysticks are required the user has to unplug the mouse and use a second joystick in port 0. 
