@@ -1,7 +1,7 @@
 #summary documentation for the C64 core
 #sidebar CoreDocTOC
 
-= Introduction =
+= Overview =
 
 This page has operating instructions for the C64 core.
 
