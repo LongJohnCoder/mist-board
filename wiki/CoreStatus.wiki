@@ -4,7 +4,7 @@
 
 = Current core status =
 
-[http://docs.google.com/spreadsheets/d/1P1LPndBDkcSSG9Cxco8NGMnihYyO-4FIvz1kcyZ7vi4 This spreadsheet] has a detailed description of all available cores and their features.
+[http://docs.google.com/spreadsheets/d/1P1LPndBDkcSSG9Cxco8NGMnihYyO-4FIvz1kcyZ7vi4 This spreadsheet] has a detailed description of all available cores and their features (last update: 21-Nov-2014).
 
 
 
