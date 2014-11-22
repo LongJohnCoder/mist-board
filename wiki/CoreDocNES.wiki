@@ -27,10 +27,10 @@ If you have many files you might want to store them into alphabetized sub-folder
 Controls:
   * Use one or two gamepads with 4 buttons.
 
-Front panel buttons:
-  # Reset MiST to default core
-  # Open OSD menu
-  # Reset NES with current ROM
+MiST front panel buttons:
+  # (left) Reset MiST to default core
+  # (middle) Open OSD menu
+  # (right) Reset NES with current ROM
 
 = OSD Menu =
 
