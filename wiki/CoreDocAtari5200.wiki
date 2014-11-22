@@ -19,6 +19,6 @@ Create the following sub-folders in the SD card (note the missing i):
  * `/atar5200/rom/`
  * `/atar5200/user/`
 
-Copy an image of the Atari5200 ROM into the `/atar5200/rom/` folder, then rename it to *5200.rom*.
+Copy an image of the Atari5200 ROM into the `/atar5200/rom/` folder, renaming it to *5200.rom* so the core will find it.
 
 Copy games into the `/atar5200/user/` folder.
