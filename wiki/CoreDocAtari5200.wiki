@@ -22,3 +22,19 @@ Create the following sub-folders in the SD card (note the missing i):
 Copy an image of the Atari5200 ROM into the `/atar5200/rom/` folder, renaming it to *5200.rom* so the core will find it.
 
 Copy games into the `/atar5200/user/` folder.
+
+----
+
+= Controls =
+
+* F1: Start
+* F10: Reset core
+* F11: Load new ROM
+* F12: Enter OSD menu
+
+For paddle games, a USB analog joystick is required.
+(or real A5200 controllers via USB adapter)
+
+= OSD Menu =
+
+Press F12 to enter the OSD Menu.
