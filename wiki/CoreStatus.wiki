@@ -11,23 +11,23 @@
 = Computers =
 
 || *System* || *Docs* || *Binary URL* ||
-|| Atari ST || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]||
-|| Amiga (ECS)|| [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] ||
-|| MSX || [http://retroramblings.net/?page_id=935 binaries] ||
-|| Atari 800 || [http://www.scrameta.net/autobuild/ binaries] ||
-|| Apple II+ || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||
-|| Commodore 64 || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] ||
-|| ZX Spectrum / ZX81 || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fspectrum binaries] ||
+|| Atari ST || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]||
+|| Amiga (ECS)|| (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] ||
+|| MSX || (tba) || [http://retroramblings.net/?page_id=935 binaries] ||
+|| Atari 800 ||(tba) ||  [http://www.scrameta.net/autobuild/ binaries] ||
+|| Apple II+ || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||
+|| Commodore 64 || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] ||
+|| ZX Spectrum / ZX81 || (tba)|| [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fspectrum binaries] ||
 
 = Consoles =
 
-|| *System* || *Binary URL* ||
-|| NES || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fnes binaries] ||
-|| Atari 5200 || [http://www.scrameta.net/autobuild/ binaries]||
-|| PC Engine || [http://retroramblings.net/?page_id=965 binaries] ||
-|| Atari 2600 || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fa2600 binaries] ||
-|| Sega Master System || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fsms binaries] ||
-|| Colecovision || ][http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fcolecovision binaries] ||
+|| *System* || Docs ||*Binary URL* ||
+|| Atari 2600 || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fa2600 binaries] ||
+|| Atari 5200 || (tba) || [http://www.scrameta.net/autobuild/ binaries]||
+|| Colecovision || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fcolecovision binaries] ||
+|| NES || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fnes binaries] ||
+|| PC Engine || (tba) || [http://retroramblings.net/?page_id=965 binaries] ||
+|| Sega Master System || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fsms binaries] ||
 
 = Arcade =
 
