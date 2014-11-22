@@ -18,3 +18,13 @@ A detailed description of all available cores is available [http://docs.google.c
 || Commodore 64 || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] ||
 || Apple II+ || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||
 || ZX Spectrum / ZX81 || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fspectrum binaries] ||
+
+= Consoles =
+
+|| System || Binary URL ||
+|| NES || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fnes binaries] ||
+|| Atari 5200 || [http://www.scrameta.net/autobuild/ binaries]||
+|| PC Engine || [http://retroramblings.net/?page_id=965 binaries] ||
+|| Atari 2600 || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fa2600 binaries] ||
+|| Sega Master System || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fsms binaries] ||
+|| Colecovision || ][http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fcolecovision binaries] ||
