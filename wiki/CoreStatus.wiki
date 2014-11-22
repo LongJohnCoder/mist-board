@@ -1,4 +1,5 @@
 #summary Summary status of all MiST cores
+#labels Featured
 #sidebar CoreDocTOC
 
 = Current core status =
