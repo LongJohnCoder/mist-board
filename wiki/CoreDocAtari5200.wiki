@@ -1,5 +1,5 @@
 #summary documentation for the Atari 5200 core
-#sidebar CoreDocsTOC
+#sidebar CoreDocTOC
 
 = Introduction =
 
