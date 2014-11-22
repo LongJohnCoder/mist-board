@@ -5,6 +5,8 @@
 
 You can earn any of the following items with free worldwide shipping. Please read below the images what we expect you to provide to earn a particular bounty.
 
+----
+
 = Ethernet/USB dongle =
 
 http://mist-board.googlecode.com/svn/wiki/bounty_ethusb.jpg
@@ -12,6 +14,8 @@ http://mist-board.googlecode.com/svn/wiki/bounty_ethusb.jpg
 This Ethernet USB dongle is verified to be compatible with the latest Atari ST core for the MIST. The implementation is compatible with the Ethernec and the original STing drivers can be used. Getting online with an Atari was never easier.
 
 *Your task: Create a cool video making it obvious to anyone why the MIST is such a great thing to own*
+
+----
 
 = MIDI Add-on board =
 
@@ -21,7 +25,11 @@ The MidiAddon adds Atari ST compatible MIDI ports to your MIST. There's a reason
 
 *Your task: Implement MIDI for the Minimig/Amiga core. This can be done as proven by this nice person from RetroRamblings: http://retroramblings.net/?p=412*
 
-= Earned 10/18/14: ~~ One of my fully functional hand soldered prototype boards ~~=
+----
+
+
+= ~~Earned 18-Oct-14~~=
+== ~~ One of my fully functional hand soldered prototype boards ~~ ==
 
 http://mist-board.googlecode.com/svn/wiki/bounty_prototype.jpg
 
