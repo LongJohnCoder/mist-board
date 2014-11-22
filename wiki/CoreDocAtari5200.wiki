@@ -12,7 +12,7 @@ This page has operating instructions for the Atari 5200 core.
 
 After following the binary link above, go into the latest folder and find the *atari5200.rbf* file located under `/mist_5200/build_NTSC_VGA/out/` .
 
-Copy the file to the root of an SD card, optionally renaming it to `core.rbf` if there are no other cores in the card, so the MiST loads it as startup.
+Copy the file to the root of an SD card. If you will only use the SD card for this core, then rename it to `core.rbf.`
 
 
 Create the following sub-folders in the SD card (note the missing i):
