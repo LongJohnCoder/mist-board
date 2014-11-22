@@ -37,9 +37,10 @@ Press F12 to enter the OSD menu:
 == Notes ==
 
   * PAL mode is 720x576p @50hz
-  * NTSC mode is 720x475p @60hz
+  * NTSC mode is 720x475p @60hz.
   * After loading a .PRG file, type "RUN" then Enter to start.
   
+The unusual NTSC resolution of this core might give trouble to some displays.
 
 = Obtaining PRG files =
 
