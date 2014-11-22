@@ -25,7 +25,9 @@ If you have many files you might want to store them into alphabetized sub-folder
 = Controls =
 
 Controls:
-  * Use one or two gamepads with 4 buttons.
+  * Use one or two gamepads
+  * If you gamepad has only 2 buttons, you can use Start and Select from OSD menu
+  * F12 to open OSD
 
 MiST front panel buttons:
   # (left) Reset MiST to default core
