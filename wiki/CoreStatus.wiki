@@ -25,15 +25,15 @@
 || Atari 2600 || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fa2600 binaries] ||
 || Atari 5200 || (tba) || [http://www.scrameta.net/autobuild/ binaries]||
 || Colecovision || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fcolecovision binaries] ||
-|| NES || [https://code.google.com/p/mist-board/wiki/CoreDocNES documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fnes binaries] ||
-|| PC Engine || (tba) || [http://retroramblings.net/?page_id=965 binaries] ||
+|| NES || [CoreDocNES documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fnes binaries] ||
+|| PC Engine || [CoreDocPCE documentation] || [http://retroramblings.net/?page_id=965 binaries] ||
 || Sega Master System || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fsms binaries] ||
 
 = Arcade =
 
 || *System* || *Docs* || *Binary URL* ||
-|| Space Invaders || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
-|| Pengo || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
-|| Pacman || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] ||  [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
-||Moon Patrol || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] ||  [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] || 
-|| Galaxian || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
+|| Space Invaders || [CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
+|| Pengo || [CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
+|| Pacman || [CoreDocArcade documentation] ||  [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
+||Moon Patrol || [CoreDocArcade documentation] ||  [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] || 
+|| Galaxian || [CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
