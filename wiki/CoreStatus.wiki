@@ -7,4 +7,13 @@ A detailed description of all available cores is available [http://docs.google.c
 
 
 
+= Computers =
 
+||System || Binary URL ||
+||Atari ST || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]||
+||Amiga (ECS)|| [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] ||
+||MSX || [http://retroramblings.net/?page_id=935 binaries] ||
+||Atari 800 || [http://www.scrameta.net/autobuild/ binaries] ||
+|| Commodore 64 || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] ||
+|| Apple II+ || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||
+|| ZX Spectrum / ZX81 || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fspectrum binaries] ||
