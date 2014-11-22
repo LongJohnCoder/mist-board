@@ -11,12 +11,12 @@
 = Computers =
 
 || *System* || *Docs* || *Binary URL* ||
-|| Atari ST || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]||
-|| Amiga (ECS)|| (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] ||
+|| Atari ST || [GettingStarted documentation] || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]||
+|| Amiga (ECS)|| [HowTheMinimigCoreWorks documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] ||
 || MSX || (tba) || [http://retroramblings.net/?page_id=935 binaries] ||
 || Atari 800 ||(tba) ||  [http://www.scrameta.net/autobuild/ binaries] ||
 || Apple II+ || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||
-|| Commodore 64 || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] ||
+|| Commodore 64 || [CoreDocC64 documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] ||
 || ZX Spectrum / ZX81 || (tba)|| [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fspectrum binaries] ||
 
 = Consoles =
