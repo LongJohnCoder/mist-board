@@ -10,13 +10,15 @@ This page has operating instructions for the Atari 5200 core.
   
 = Installation =
 
-Copy the `*`.rbf file to the root of an SD card.
+In the binary folder, go into the latest folder and find the *atari5200.rbf* file located under /mist_5200/build_NTSC_VGA/out/ (or 
 
-Create the following sub-folders (note the missing i):
+Copy the file to the root of an SD card. You can rename it as core.rbf if you want to make it the default core when the MiST boots.
+
+Create the following sub-folders in the SD card (note the missing i):
  * /atar5200/
  * /atar5200/rom/
  * /atar5200/user/
 
 Copy an image of the Atari5200 ROM into the /rom/ folder, then rename it to *5200.rom*.
 
-Copy games into the /user/ folder.
+Copy games into the /atar5200/user/ folder.
