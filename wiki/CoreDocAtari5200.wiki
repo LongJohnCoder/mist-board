@@ -1,0 +1,23 @@
+#summary documentation for the Atari 5200 core
+#sidebar CoreDocsTOC
+
+= Introduction =
+
+This page has operating instructions for the Atari 5200 core.
+
+= Links =
+  * [http://www.scrameta.net/autobuild/ Core binaries]
+  
+= Installation =
+
+Copy the `*`.rbf file to the root of an SD card.
+
+Create the following sub-folders (note the missing 'i'):
+ * /atar5200/
+ * /atar5200/rom/
+ * /atar5200/user/
+
+Copy an image of the Atari5200 ROM into the /rom/ folder, then rename it to *5200.rom*.
+
+Copy games into the /user/ folder.
+
