@@ -4,19 +4,19 @@
 
 = Current core status =
 
-A detailed description of all available cores is available [http://docs.google.com/spreadsheets/d/1P1LPndBDkcSSG9Cxco8NGMnihYyO-4FIvz1kcyZ7vi4 on this spreadsheet].
+A detailed description of all available cores and their features is available [http://docs.google.com/spreadsheets/d/1P1LPndBDkcSSG9Cxco8NGMnihYyO-4FIvz1kcyZ7vi4 on this spreadsheet].
 
 
 
 = Computers =
 
 || *System || *Binary URL* ||
-||Atari ST || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]||
-||Amiga (ECS)|| [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] ||
-||MSX || [http://retroramblings.net/?page_id=935 binaries] ||
-||Atari 800 || [http://www.scrameta.net/autobuild/ binaries] ||
-|| Commodore 64 || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] ||
+|| Atari ST || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]||
+|| Amiga (ECS)|| [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] ||
+|| MSX || [http://retroramblings.net/?page_id=935 binaries] ||
+|| Atari 800 || [http://www.scrameta.net/autobuild/ binaries] ||
 || Apple II+ || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||
+|| Commodore 64 || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] ||
 || ZX Spectrum / ZX81 || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fspectrum binaries] ||
 
 = Consoles =
