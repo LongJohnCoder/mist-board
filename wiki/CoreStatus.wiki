@@ -10,7 +10,7 @@ A detailed description of all available cores is available [http://docs.google.c
 
 = Computers =
 
-||System || Binary URL ||
+|| *System || *Binary URL* ||
 ||Atari ST || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]||
 ||Amiga (ECS)|| [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] ||
 ||MSX || [http://retroramblings.net/?page_id=935 binaries] ||
@@ -21,7 +21,7 @@ A detailed description of all available cores is available [http://docs.google.c
 
 = Consoles =
 
-|| System || Binary URL ||
+|| *System* || *Binary URL* ||
 || NES || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fnes binaries] ||
 || Atari 5200 || [http://www.scrameta.net/autobuild/ binaries]||
 || PC Engine || [http://retroramblings.net/?page_id=965 binaries] ||
