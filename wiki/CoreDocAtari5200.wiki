@@ -27,10 +27,10 @@ Copy games into the `/atar5200/user/` folder.
 
 = Controls =
 
-* F1: Start
-* F10: Reset core
-* F11: Load new ROM
-* F12: Enter OSD menu
+ * F1: Start
+ * F10: Reset core
+ * F11: Load new ROM
+ * F12: Enter OSD menu
 
 For paddle games, a USB analog joystick is required.
 (or real A5200 controllers via USB adapter)
