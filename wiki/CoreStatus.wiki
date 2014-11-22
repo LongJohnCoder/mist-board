@@ -35,5 +35,5 @@
 || Space Invaders || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
 || Pengo || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
 || Pacman || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] ||  [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
-||Moon Patrol || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] ||  [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] || 
-|| Galaxian || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
+||Moon Patrol || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] ||  [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] || 
+|| Galaxian || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
