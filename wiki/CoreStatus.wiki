@@ -10,7 +10,7 @@
 
 = Computers =
 
-|| *System* || *Binary URL* ||
+|| *System* || *Docs* || *Binary URL* ||
 || Atari ST || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]||
 || Amiga (ECS)|| [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] ||
 || MSX || [http://retroramblings.net/?page_id=935 binaries] ||
@@ -30,8 +30,10 @@
 || Colecovision || ][http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fcolecovision binaries] ||
 
 = Arcade =
-|| Space Invaders || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
-|| Pengo || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
-|| Pacman || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
-||Moon Patrol || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
+
+|| *System* || *Docs* || *Binary URL* ||
+|| Space Invaders || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
+|| Pengo || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
+|| Pacman || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] ||  [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
+||Moon Patrol || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] ||  [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] || [https://code.google.com/p/mist-board/wiki/CoreDocArcade documentation] || 
 || Galaxian || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
