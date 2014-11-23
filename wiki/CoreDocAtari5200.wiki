@@ -35,6 +35,14 @@ Copy games into the `/atar5200/user/` folder.
 For paddle games, a USB analog joystick is required.
 (or real A5200 controllers via USB adapter)
 
+For the number pad, use these keys (US layout):
+
+||1||2||3||
+||Q||W||E||
+||A||S||D||
+||Z||X||C||
+
+
 = OSD Menu =
 
 On startup you will see an Atari logo with no ROM loaded:
