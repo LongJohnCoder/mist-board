@@ -52,10 +52,11 @@ but you can also load as PC Engine or TurboGrafx by pressing P or T.
 
 = Gameplay videos =
 
+<wiki:video url="http://www.youtube.com/watch?v=eqkAILkPe5I"/>
+
 <wiki:video url="http://www.youtube.com/watch?v=4dA1-ohB_Ak"/> 
 
 <wiki:video url="http://www.youtube.com/watch?v=OvreesBg8AE"/>
-
 
 ----
 
