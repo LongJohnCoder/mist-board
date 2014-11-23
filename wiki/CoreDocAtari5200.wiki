@@ -38,3 +38,11 @@ For paddle games, a USB analog joystick is required.
 = OSD Menu =
 
 Press F12 to enter the OSD Menu.
+
+----
+
+= Gameplay videos =
+
+<wiki:video url="https://www.youtube.com/watch?v=ys-9ZJnkg4E"/>
+
+----
