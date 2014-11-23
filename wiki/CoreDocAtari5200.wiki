@@ -28,6 +28,8 @@ Copy games into the `/atar5200/user/` folder.
 = Controls =
 
  * F1: Start
+ * F2: Pause
+ * F3: Reset
  * F10: Reset core
  * F11: Load new ROM
  * F12: Enter OSD menu
@@ -37,11 +39,19 @@ For paddle games, a USB analog joystick is required.
 
 For the number pad, use these keys (US layout):
 
-||1||2||3||
-||Q||W||E||
-||A||S||D||
-||Z||X||C||
+||F1||F2||F3||
+||1||2||3||   
+||Q||W||E||  
+||A||S||D||  
+||Z||X||C||  
 
+The above corresponds to this in the Atari pad:
+
+||Start||Pause||Reset||
+||1||2||3|| 
+||3||4||5||
+||6||7||8||
+||`*`||0||#||
 
 = OSD Menu =
 
