@@ -9,6 +9,10 @@ This page has operating instructions for the PC Engine core.
 
   * [http://retroramblings.net/?page_id=965  Core binary releases]
 
+= Compatibility = 
+[https://docs.google.com/spreadsheets/d/1X2nJAMh3xoumbsaXSxzLa0r-JfySNVOsEy2Pw42cOls This spreadsheet] has a (incomplete) list of games that were tried with the core.
+
+
 = Installation =
 
 At the moment, this core only supports reading files from the SD root. 
