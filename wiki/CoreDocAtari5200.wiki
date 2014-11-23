@@ -88,8 +88,10 @@ If the ROM loads, you can start the game with F1.
 
 = Gameplay videos =
 
-<wiki:video url="https://www.youtube.com/watch?v=ys-9ZJnkg4E"/>
+<wiki:video url="http://www.youtube.com/watch?v=ys-9ZJnkg4E"/>
 
-<wiki:video url="https://www.youtube.com/watch?v=VAWqKU22eO0"/>
+<wiki:video url="http://www.youtube.com/watch?v=VAWqKU22eO0"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=yTKkwX2e39A"/>
 
 ----
