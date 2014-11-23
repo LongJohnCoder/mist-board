@@ -34,10 +34,9 @@ Copy games into the `/atar5200/user/` folder.
  * F11: Load new ROM
  * F12: Enter OSD menu
 
-For paddle games, a USB analog joystick is required.
-(or real A5200 controllers via USB adapter)
+You can use any gamepad / joystick for games, although some games will require the use of an analog controller. These are only supported via USB, and you can use an adapter to connect a real 5200 controller.
 
-For the number pad, use these keys (US layout):
+With a regular USB controller, you can access the keypad functions of the original controller via keyboard (US layout):
 
 ||F1||F2||F3||
 ||1||2||3||   
