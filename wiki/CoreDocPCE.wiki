@@ -9,9 +9,6 @@ This page has operating instructions for the PC Engine core.
 
   * [http://retroramblings.net/?page_id=965  Core binary releases]
 
-= Compatibility = 
-[https://docs.google.com/spreadsheets/d/1X2nJAMh3xoumbsaXSxzLa0r-JfySNVOsEy2Pw42cOls This spreadsheet] has a (incomplete) list of games that were tried with the core.
-
 
 = Installation =
 
@@ -50,6 +47,14 @@ but you can also load as PC Engine or TurboGrafx by pressing P or T.
   * PAL mode is 720x576p @50hz
   * NTSC mode is 720x480p @60hz
   * TV (15khz) mode is 720x241p @60hz
+
+
+= Compatibility = 
+
+[https://docs.google.com/spreadsheets/d/1X2nJAMh3xoumbsaXSxzLa0r-JfySNVOsEy2Pw42cOls This spreadsheet] has a (incomplete) list of games that were tried with the core.
+
+Most games seem to work with the PC Engine mode; so it is recommended to use this mode by default. When some show a blank screen (or freezes after a few frames), you can try loading with the other mode.
+
 
 ----
  
