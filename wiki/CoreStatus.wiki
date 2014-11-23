@@ -23,7 +23,7 @@
 
 || *System* || *Docs* || *Binary URL* ||
 || Atari 2600 || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fa2600 binaries] ||
-|| Atari 5200 || (tba) || [http://www.scrameta.net/autobuild/ binaries]||
+|| Atari 5200 || [CoreDocAtari5200 documentation] || [http://www.scrameta.net/autobuild/ binaries]||
 || Colecovision || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fcolecovision binaries] ||
 || NES || [CoreDocNES documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fnes binaries] ||
 || PC Engine || [CoreDocPCE documentation] || [http://retroramblings.net/?page_id=965 binaries] ||
