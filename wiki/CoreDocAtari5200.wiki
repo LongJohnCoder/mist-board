@@ -39,11 +39,30 @@ For paddle games, a USB analog joystick is required.
 
 On startup you will see an Atari logo with no ROM loaded:
 
-<img title="OSD Menu - Page 1" src="http://mist-board.googlecode.com/svn/wiki/a5200_start.jpg" width="320px" />
+<img title="Atari 5200 start" src="http://mist-board.googlecode.com/svn/wiki/img_docs/a5200_start.jpg" width="320px" />
 
 Press F12 to enter the OSD Menu.
 
-<img title="OSD Menu - Page 1" src="a5200_settings.jpg" width="320px" />
+<img title="Atari5200 menu" src="http://mist-board.googlecode.com/svn/wiki/img_docs/a5200_settings.jpg" width="320px" />
+
+In this menu you need to move around with the keyboard arrow keys, and select with Enter.
+
+ * *Turbo*: accelerate the core (default is 1X)
+ * *Ram*: Avaiable RAM, stays at 16K
+ * *Rom*: Name of the ROM being used. 
+ * *Cart*: Choose a cart to load from `/atar5200/user/`
+ 
+It is possible to change the Rom path through this menu, but not necessary.
+
+You can press F11 instead of F12 to directly go into the *Cart* option. 
+
+When selecting a cart, the core may not recognize the cart type so it may ask you to choose what cart type to load.
+
+<img title="mapper supprot" src="http://mist-board.googlecode.com/svn/wiki/img_docs/a5200_cart_type.jpg" width="320px" />
+ 
+If you don't know which type it is, select one and see if the game loads.
+If not, press F12 then load the ROM again as the other cart type.
+
 
 ----
 
