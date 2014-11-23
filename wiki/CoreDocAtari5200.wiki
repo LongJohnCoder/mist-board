@@ -37,8 +37,13 @@ For paddle games, a USB analog joystick is required.
 
 = OSD Menu =
 
+On startup you will see an Atari logo with no ROM loaded:
+
+<img title="OSD Menu - Page 1" src="http://mist-board.googlecode.com/svn/wiki/a5200_start.jpg" width="320px" />
+
 Press F12 to enter the OSD Menu.
 
+<img title="OSD Menu - Page 1" src="a5200_settings.jpg" width="320px" />
 
 ----
 
