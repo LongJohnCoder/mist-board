@@ -1,0 +1,23 @@
+#summary documentation for the Amiga core (minimig)
+#sidebar CoreDocTOC
+
+= Introduction =
+
+This page has operating instructions for the Amiga core.
+(it is a version of minimig)
+
+= Installation =
+
+Copy the minimig FPGA core into a root folder of the SD card. To make the MiST start with this core, rename it to `core.rbf`.
+
+Copy a version of the KickStart ROM into the root folder, renaming it to `kick.rom`. Kickstart 1.2, 1.3 and 3.1 have been tested.
+
+Disk files (HDF, ADF) can be copied anywhere on the SD card, including subfolders.
+If you have many files you might want to store them sorted by type (games/apps) and alphabetical folders for finding files easily.
+
+
+----
+
+= OSD Menu =
+
+The core will start with a blank screen. Press F12 to enter the OSD menu.
