@@ -18,7 +18,7 @@
     * [AtariMassStorage Using Mass Storage]
     * [AtariGameCompatibilityList Compatibility]
     * [AtariSTRoadmap Feature Roadmap]
-  * Amiga core
+  * [CoreDocAmiga Amiga core]
     * [HowTheMinimigCoreWorks How the core works]
     * [MinimigMassStorage Mass Storage]
   * [CoreDocAtari5200 Atari5200 core]
