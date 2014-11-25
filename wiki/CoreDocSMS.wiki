@@ -23,3 +23,11 @@ If you have many files you might want to store them into alphabetized sub-folder
 = OSD Menu =
 
 The core will start with a screen showing the SMS bootloader. Press F12 to enter the OSD menu:
+
+<img title="OSD Menu" src="http://mist-board.googlecode.com/svn/wiki/img_docs/sms_osd1.jpg" width="320px" />
+
+  * Load `*`.SMS: load a ROM from SD card
+  * Video: switch from NTSC (60hz) to PAL (50hz)
+  * Joysticks: swap 1P and 2P joysticks
+  * Pause: press the pause button (useful if your controller only has 2 buttons)
+  * Reset: restart the core
