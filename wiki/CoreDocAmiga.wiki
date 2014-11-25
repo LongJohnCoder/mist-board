@@ -28,11 +28,17 @@ Press F12 to open the OSD menu.
 
 <img title="OSD Menu" src="http://mist-board.googlecode.com/svn/wiki/img_docs/amiga_start.jpg" width="320px" />
 
- * df0: floppy disk 0
- * df1: floppy disk 1
+ * df0: select first floppy disk (.adf)
+ * df1: select second floppy disk (.adf)
  * +/- : press +/- on numeric keypad to add or remove floppy disk drives
  * Floppy disk turbo: enable faster load, only compatible with some Kickstart versions
  * Hard disk settings: configure mass storage options
+
+You can move to other pages of settings by pressing the right arrow key:
+
+<img title="OSD Menu 2" src="http://mist-board.googlecode.com/svn/wiki/img_docs/amiga_osd2.jpg" width="320px" />
+
+
 
 
 == Notes ==
