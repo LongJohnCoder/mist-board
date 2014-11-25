@@ -3,8 +3,7 @@
 
 = Introduction =
 
-This page has operating instructions for the Amiga core.
-(it is a version of minimig)
+This page has operating instructions for the Amiga core, which is a version of _Minimig_ customized for the MiST.
 
 = Installation =
 
