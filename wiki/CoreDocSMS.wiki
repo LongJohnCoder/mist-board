@@ -8,7 +8,8 @@ This page has operating instructions for the Sega Master System core.
 
 = Links =
 
- * (tba)
+ * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/sms binary download]
+ * [http://fpga-hacks.blogspot.de/ homepage of the core]
 
 = Installation =
 
