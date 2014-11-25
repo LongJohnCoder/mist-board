@@ -77,6 +77,40 @@ In order to export or import single files to or from the hard disk image copy yo
 
 When finished just copy the hd64m.hdf modified by the emulator back to the SD card and boot your MIST board with it in order to use the newly installed files. Or if you worked directly with the image in the SD card just plug it back into the MIST board.
 
+= Using Amiga floppy and hard disk images under Linux =
+
+Linux PCs can directly access the contents of Amiga floppy and hard disk images. A floppy disk can simply be mounted by specifying the affs file system type. The following command will make the contents of the floppy.adf floppy image available at /mnt
+
+{{{
+mount -t affs floppy.adf /mnt
+}}}
+
+Using harddisk images (disk img type as explained above) requires only one step more. First the parted tool needs to be used to figure out where inside the image the partition is stored:
+
+{{{
+$ parted hardfile.hdf
+WARNING: You are not superuser.  Watch out for permissions.
+GNU Parted 2.3
+Using hardfile.hdf
+Welcome to GNU Parted! Type 'help' to view a list of commands.
+(parted) u b                                                             
+(parted) p                                                               
+Pralloc = 0, Reserved = 2, blocksize = 1, root block at 79254
+Model:  (file)
+Disk hardfile.hdf: 80936960B
+Sector size (logical/physical): 512B/512B
+Partition Table: amiga
+
+Number  Start    End        Size       File system  Name  Flags
+1      258048B  80898047B  80640000B  affs3        DH0   boot
+}}}
+
+This tells us that the first partition starts at byte 258048 and is 80640000 bytes long. This can just be mounted:
+
+{{{
+mount -t affs -o loop,offset=258048,sizelimit=80640000 hardfile.hdf /mnt
+}}}
+
 = Related =
 
   * [http://fs-uae.net/ FS-UAE home page]
