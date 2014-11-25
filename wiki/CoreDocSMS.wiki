@@ -32,3 +32,7 @@ The core will start with a screen showing the SMS bootloader. Press F12 to enter
   * Joysticks: swap 1P and 2P joysticks
   * Pause: press the pause button (useful if your controller only has 2 buttons)
   * Reset: restart the core
+
+A second tab allows to change the firmware:
+
+<img title="OSD Menu 2" src="http://mist-board.googlecode.com/svn/wiki/img_docs/sms_osd2.jpg" width="320px" />
