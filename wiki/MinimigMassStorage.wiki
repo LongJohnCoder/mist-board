@@ -82,7 +82,7 @@ When finished just copy the hd64m.hdf modified by the emulator back to the SD ca
 Linux PCs can directly access the contents of Amiga floppy and hard disk images. A floppy disk can simply be mounted by specifying the affs file system type. The following command will make the contents of the floppy.adf floppy image available at /mnt
 
 {{{
-mount -t affs floppy.adf /mnt
+mount -t affs -o loop floppy.adf /mnt
 }}}
 
 Using harddisk images (disk img type as explained above) requires only one step more. First the parted tool needs to be used to figure out where inside the image the partition is stored:
