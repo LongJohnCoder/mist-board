@@ -54,3 +54,8 @@ You can move to other pages of settings by pressing the right arrow key:
   * NTSC video mode is 720x480p at 60hz
 
 ----
+
+== Gameplay videos (AGA beta core) ==
+
+<wiki:video url="http://www.youtube.com/watch?v=PAebp_4ulHo"/>
+
