@@ -79,6 +79,7 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || Danstrother's FPGA NES || http://danstrother.com/fpga-nes/ || no || ||
 || Ludde's FPGA NES || https://github.com/strigeus/fpganes || yes || <font color="green">Has been ported to the MIST</font> ||
 || NES on Pipistrello || http://pipistrello.saanlima.com/index.php?title=Welcome_to_Pipistrello#Complete_Xilinx_ISE_project_examples || yes || ||
+|| fpga_nes || https://github.com/brianbennett/fpga_nes || yes || ||
 || || || || ||
 || *PC Engine* || || || ||
 || FPGAPCE || https://github.com/Torlus/FPGAPCE || yes || ||
