@@ -14,8 +14,8 @@
 || Amiga (AGA in beta)|| [CoreDocAmiga documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] || Minimig ||
 || Apple II+ || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||  Apple2FPGA ||
 || Atari ST || [GettingStarted documentation] || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]|| MiST ||
-|| Atari 800 ||(tba) ||  [http://www.scrameta.net/autobuild/ binaries] ||
-|| Commodore 64 || [CoreDocC64 documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] || FPGA64 ||
+|| Atari 800 ||(tba) ||  [http://www.scrameta.net/autobuild/ binaries] || [http://atariage.com/forums/topic/213827-potential-new-hardware/ foft's thread] ||
+|| Commodore 64 || [CoreDocC64 documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] || [http://www.syntiac.com/fpga64.html FPGA64] ||
 || MSX || (tba) || [http://retroramblings.net/?page_id=935 binaries] || [http://www.caro.su/msx/ocm_de1.htm OneChipMSX] ||
 || ZX Spectrum|| (tba)|| [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fspectrum binaries] || [http://www.mike-stirling.com/retro-fpga/zx-spectrum-on-an-fpga/ ZX Spectrum on FPGA] ||
 || ZX81 || (tba)|| [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/zx01 binaries] || [http://zxgate.sourceforge.net/zx81.html ZXGate] ||
