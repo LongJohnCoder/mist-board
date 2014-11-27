@@ -88,6 +88,7 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || || || || ||
 || *Sega Genesis* || || || ||
 || FPGAGen || http://code.google.com/p/fpgagen/ || yes || an attempt to port this has so far no been successful ||
+|| Team Genesis || http://sourceforge.net/p/teamgenesis/code/HEAD/tree/trunk/ || yes || [http://ece545.com/F14/reports/F12_Genesis.pdf project report] ||
 || || || || ||
 || *Sega Master System* || || || ||
 || SMS on FPGA || http://fpga-hacks.blogspot.de/ || yes || <font color="green">Has been ported to the MIST</font> ||
