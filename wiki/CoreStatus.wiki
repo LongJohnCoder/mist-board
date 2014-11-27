@@ -11,7 +11,7 @@
 = Computers =
 
 || *System* || *Docs* || *Binary URL* ||
-|| Amiga (ECS)|| [HowTheMinimigCoreWorks documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] || 
+|| Amiga (AGA in beta)|| [CoreDocAmig documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] || 
 || Apple II+ || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||
 || Atari ST || [GettingStarted documentation] || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]||
 || Atari 800 ||(tba) ||  [http://www.scrameta.net/autobuild/ binaries] ||
