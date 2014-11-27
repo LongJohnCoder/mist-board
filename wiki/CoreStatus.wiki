@@ -10,15 +10,15 @@
 
 = Computers =
 
-|| *System* || *Docs* || *Binary URL* ||
-|| Amiga (AGA in beta)|| [CoreDocAmiga documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] || 
-|| Apple II+ || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||
-|| Atari ST || [GettingStarted documentation] || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]||
+|| *System* || *Docs* || *Binary URL* || Parent Project ||
+|| Amiga (AGA in beta)|| [CoreDocAmiga documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] || Minimig ||
+|| Apple II+ || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||  Apple2FPGA ||
+|| Atari ST || [GettingStarted documentation] || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]|| MiST ||
 || Atari 800 ||(tba) ||  [http://www.scrameta.net/autobuild/ binaries] ||
-|| Chip8 || (tba) || [https://bitbucket.org/csoren/fpga-chip8/overview binaries] ||
-|| Commodore 64 || [CoreDocC64 documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] ||
-|| MSX || (tba) || [http://retroramblings.net/?page_id=935 binaries] ||
-|| ZX Spectrum / ZX81 || (tba)|| [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fspectrum binaries] ||
+|| Chip8 || (tba) || [https://bitbucket.org/csoren/fpga-chip8/overview binaries] || MiST original ||
+|| Commodore 64 || [CoreDocC64 documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] || FPGA64 ||
+|| MSX || (tba) || [http://retroramblings.net/?page_id=935 binaries] || OneChipMSX ||
+|| ZX Spectrum / ZX81 || (tba)|| [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fspectrum binaries] || [http://www.mike-stirling.com/retro-fpga/zx-spectrum-on-an-fpga/ ZX Spectrum on FPGA]
 
 = Consoles =
 
