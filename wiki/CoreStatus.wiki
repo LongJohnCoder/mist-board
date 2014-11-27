@@ -29,7 +29,7 @@
 || Colecovision || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fcolecovision binaries] || [http://ws0.org/tag/colecovision/ PACE Colecovision] ||
 || Master System || [CoreDocSMS documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fsms binaries] || [http://fpga-hacks.blogspot.de/ Project SMS] ||
 || NES || [CoreDocNES documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fnes binaries] || [http://fpganes.blogspot.de/ FPGANES] ||
-|| PC Engine || [CoreDocPCE documentation] || [http://retroramblings.net/?page_id=965 binaries] || ||
+|| PC Engine || [CoreDocPCE documentation] || [http://retroramblings.net/?page_id=965 binaries] || [https://github.com/Torlus/FPGAPCE FPGAPCE] ||
 
 = Arcade =
 
