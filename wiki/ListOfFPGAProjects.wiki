@@ -37,6 +37,7 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || || || || ||
 || *Apple II* || || || ||
 || Apple2FPGA || http://www.cs.columbia.edu/~sedwards/apple2fpga/ || yes || <font color="green">Has been ported to the MIST</font> ||
+|| AppleFPGA || http://www.applefritter.com/node/19543 || yes || has more memory and mass storage ||
 || || || || ||
 || *Atari XL* || || || ||
 || AtariXL || http://www.scrameta.net/ || yes || <font color="green">Has been ported to the MIST</font> ||
