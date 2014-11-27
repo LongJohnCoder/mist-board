@@ -9,7 +9,7 @@
 
 
 = Computers =
-
+Classic machines
 || *System* || *Docs* || *Binary URL* || *Core Project* ||
 || Amiga (AGA in beta)|| [CoreDocAmiga documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] || Minimig ||
 || Apple II+ || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||  [http://www1.cs.columbia.edu/~sedwards/apple2fpga/ Apple2FPGA] ||
@@ -21,7 +21,7 @@
 || ZX81 || (tba)|| [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/zx01 binaries] || [http://zxgate.sourceforge.net/zx81.html ZXGate] ||
 
 = Consoles =
-
+Game consoles
 || *System* || *Docs* || *Binary URL* || *Core Project* ||
 || Atari 2600 || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fa2600 binaries] || [http://retromaster.wordpress.com/a2601/ A2601] ||
 || Atari 5200 || [CoreDocAtari5200 documentation] || [http://www.scrameta.net/autobuild/ binaries]|| [http://atariage.com/forums/topic/216991-5200-in-fpga/ foft's thread in AtariAge] ||
@@ -32,10 +32,17 @@
 || PC Engine || [CoreDocPCE documentation] || [http://retroramblings.net/?page_id=965 binaries] || [https://github.com/Torlus/FPGAPCE FPGAPCE] ||
 
 = Arcade =
-
+Single-game arcade boards
 || *System* || *Docs* || *Binary URL* ||
 || Galaxian || [CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
 ||Moon Patrol || [CoreDocArcade documentation] ||  [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] || 
 || Pacman || [CoreDocArcade documentation] ||  [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
 || Pengo || [CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
 || Space Invaders || [CoreDocArcade documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Farcade binaries] ||
+
+= Other stuff =
+New HDL designs that don't re-implement or emulate an existing machine.
+|| *Platform* || *Link* ||
+|| Multicomp || http://searle.hostei.com/grant/Multicomp/index.html ||
+|| TG68MiniSOC || https://github.com/robinsonb5/TG68_MiniSOC ||
+|| ZPUFlex || http://retroramblings.net/?page_id=832 ||
