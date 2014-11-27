@@ -15,6 +15,7 @@
 || Apple II+ || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||
 || Atari ST || [GettingStarted documentation] || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]||
 || Atari 800 ||(tba) ||  [http://www.scrameta.net/autobuild/ binaries] ||
+|| Chip8 || (tba) || [https://bitbucket.org/csoren/fpga-chip8/overview binaries] ||
 || Commodore 64 || [CoreDocC64 documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Ffpga64 binaries] ||
 || MSX || (tba) || [http://retroramblings.net/?page_id=935 binaries] ||
 || ZX Spectrum / ZX81 || (tba)|| [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fspectrum binaries] ||
