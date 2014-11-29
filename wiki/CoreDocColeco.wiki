@@ -3,12 +3,15 @@
 
 = Introduction =
 
-This page has operating instructions for the ColecoVision core.
+This page has operating instructions for the `ColecoVision` core.
 
 
 = Links =
 
- * (tba)
+ * [http://ws0.org/tag/colecovision/ Port homepage]
+ * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/colecovision Core binaries]
+ * [https://github.com/wsoltys/pacedev/tree/master/sw/synth/platform/colecovision/mist Source code]
+
 
 = Installation =
 
