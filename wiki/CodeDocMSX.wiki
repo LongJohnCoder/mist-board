@@ -1,0 +1,42 @@
+#summary documentation for the MSX core
+#sidebar CoreDocTOC
+
+= Introduction =
+
+This page has operating instructions for the MSX core.
+This core is based on OneChipMSX
+
+= Links =
+  * 
+
+= Installation =
+
+The core requires a few files to function. You will find detailed instruction in the core's homepage.
+
+You can also download the MSX Starter Pack to extract on a blank SD card formatted in FAT16.
+
+----
+
+= OSD Menu =
+
+(tba)
+
+
+== Notes ==
+
+  * Video mode is 720x481p
+
+  
+----
+
+= Gameplay videos =
+
+<wiki:video url="https://www.youtube.com/watch?v=OB-2TQ_OMrk"/>
+
+<wiki:video url="https://www.youtube.com/watch?v=cm-KdBvilqU"/>
+
+<wiki:video url="https://www.youtube.com/watch?v=tPU3YflpIrQ"/>
+
+
+----
+  
