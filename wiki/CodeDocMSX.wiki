@@ -7,13 +7,17 @@ This page has operating instructions for the MSX core.
 This core is based on OneChipMSX
 
 = Links =
-  * 
+  * [http://retroramblings.net/?page_id=917 Core home page]
+  * [http://retroramblings.net/?page_id=921 Quick start guide]
 
 = Installation =
 
-The core requires a few files to function. You will find detailed instruction in the core's homepage.
+The core requires a few files to function. You will find detailed instruction in the [http://retroramblings.net/?page_id=917 core's homepage].
 
-You can also download the MSX Starter Pack to extract on a blank SD card formatted in FAT16.
+You can also download the following MSX Starter Pack to extract on a blank SD card formatted in FAT16.
+It includes a few programs, and a file manager to easily browse files:
+
+  * [http://newsdee.com/mist/msx_sd_card_0.5.zip MSX Starter Pack v0.5]
 
 ----
 
