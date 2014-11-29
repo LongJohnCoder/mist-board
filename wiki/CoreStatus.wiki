@@ -26,7 +26,7 @@
 || Atari 2600 || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fa2600 binaries] || [http://retromaster.wordpress.com/a2601/ A2601] ||
 || Atari 5200 || [CoreDocAtari5200 documentation] || [http://www.scrameta.net/autobuild/ binaries]|| [http://atariage.com/forums/topic/216991-5200-in-fpga/ foft's thread in AtariAge] ||
 || Chip8|| [https://bitbucket.org/csoren/fpga-chip8/overview documentation] || [https://bitbucket.org/csoren/fpga-chip8/overview binaries] || [https://bitbucket.org/csoren/fpga-chip8/overview FPGA SuperChip] ||
-|| Colecovision || (tba) || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fcolecovision binaries] || [http://ws0.org/tag/colecovision/ PACE Colecovision] ||
+|| Colecovision || [CoreDocColecto documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fcolecovision binaries] || [http://ws0.org/tag/colecovision/ PACE Colecovision] ||
 || Master System || [CoreDocSMS documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fsms binaries] || [http://fpga-hacks.blogspot.de/ Project SMS] ||
 || NES || [CoreDocNES documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fnes binaries] || [http://fpganes.blogspot.de/ FPGANES] ||
 || PC Engine || [CoreDocPCE documentation] || [http://retroramblings.net/?page_id=965 binaries] || [https://github.com/Torlus/FPGAPCE FPGAPCE] ||
