@@ -23,6 +23,7 @@
     * [MinimigMassStorage Mass Storage]
   * [CoreDocAtari5200 Atari5200 core]
   * [CoreDocC64 Commodore64 core]
+  * [CodeDocMSX MSX core]
   * [CoreDocNES NES core]
   * [CoreDocPCE PC Engine core]
   * [CoreDocSMS Master System core]
