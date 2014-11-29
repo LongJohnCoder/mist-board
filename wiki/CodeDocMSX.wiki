@@ -4,7 +4,7 @@
 = Introduction =
 
 This page has operating instructions for the MSX core.
-This core is based on OneChipMSX
+This core is based on OneChipMSX.
 
 = Links =
   * [http://retroramblings.net/?page_id=917 Core home page]
