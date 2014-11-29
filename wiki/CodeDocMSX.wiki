@@ -24,7 +24,11 @@ You can also download the MSX Starter Pack to extract on a blank SD card formatt
 
 == Notes ==
 
-  * Video mode is 720x481p
+  * PAL video mode is 720x576p 50hz 
+  * NTSC video mode is 720x481p 60hz
+  * TV video mode is 720x240p 60hz (works best with UMSA+XRGB-Mini)
+
+
 
   
 ----
