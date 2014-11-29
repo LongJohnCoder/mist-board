@@ -12,10 +12,10 @@ This core is based on OneChipMSX
 
 = Installation =
 
-The core requires a few files to function. You will find detailed instruction in the [http://retroramblings.net/?page_id=917 core's homepage].
+The core requires an SD card formatted in FAT16 to work properly. You will also need to provide a few system files and utilities. You can find instructions on formatting SD cards on the [http://retroramblings.net/?page_id=917 core's homepage].
 
-You can also download the following MSX Starter Pack to extract on a blank SD card formatted in FAT16.
-It includes a few programs, and a file manager to easily browse files:
+You can also use the following MSX Starter Pack to extract on a blank SD card formatted in FAT16.
+It includes a few programs and a file manager to easily browse files:
 
   * [http://newsdee.com/mist/msx_sd_card_0.5.zip MSX Starter Pack v0.5]
 
