@@ -5,6 +5,11 @@
 
 This page has operating instructions for the Amiga core, which is a version of _Minimig_ customized for the MiST.
 
+= Links =
+
+  * [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/minimig-aga Core Binaries]
+  * [https://github.com/rkrajnc/minimig-mist Minimig AGA Source Code]
+
 = Installation =
 
 Copy the minimig FPGA core into a root folder of the SD card. To make the MiST start with this core, rename it to `core.rbf`.
