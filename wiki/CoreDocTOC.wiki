@@ -28,7 +28,7 @@
   * [CoreDocMSX MSX core]
   * [CoreDocNES NES core]
   * [CoreDocPCE PC Engine core]
-  * [CoreDocPCE ZX Spectrum core]
+  * [CoreDocSpectrum ZX Spectrum core]
   * [CoreDocArcade Arcade cores]
  * Hardware add-ons
   * [MidiAddon MIDI add-on board]
