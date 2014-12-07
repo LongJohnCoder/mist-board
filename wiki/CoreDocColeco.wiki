@@ -35,4 +35,8 @@ This core only offers three options:
 
 = Gameplay videos ==
 
-<wiki:video url="https://www.youtube.com/watch?v=igrbWIaZPMg"/>
+<wiki:video url="http://www.youtube.com/watch?v=igrbWIaZPMg"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=6-WAs1KXhOA"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=s6GOvc4rvsg"/>
