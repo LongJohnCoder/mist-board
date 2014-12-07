@@ -1,0 +1,42 @@
+#summary documentation for the Atari 2600 core
+#sidebar CoreDocTOC
+
+= Introduction =
+
+This page has operating instructions for the Atari 2600 (VCS) core.
+
+= Links =
+  * [http://retromaster.wordpress.com/a2601/ Retromasters A2601]
+  * [http://github.com/wsoltys/TCA2601 Atari 2600 core for MIST on github]
+  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/a2600 Local copies of core binaries]
+ 
+= Installation =
+
+Copy the {{{*}}}.rbf file at the root of the SD card.
+You can rename the file to core.rbf if you want the MiST to load it automatically at startup.
+
+Roms can be copied anywhere on the SD card and are selected via the OSD menu.
+If you have many files you might want to store them into alphabetized sub-folders to access them more quickly.
+
+
+
+----
+
+= Controls =
+
+ * F9: Reset
+ * F12: Enter OSD menu
+
+
+= OSD Menu =
+
+(TBA)
+
+
+----
+
+= Gameplay videos =
+
+<wiki:video url="https://www.youtube.com/watch?v=qYeGv4HMbuI"/>
+
+----
