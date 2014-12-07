@@ -6,32 +6,83 @@
 This page has operating instructions for the Atari 5200 core.
 
 = Links =
-  * [http://retromaster.wordpress.com/a2601/ Retromasters A2601]
-  * [http://github.com/wsoltys/TCA2601 Atari 2600 core for MIST on github]
-  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/a2600 Local copies of core binaries]
- 
+  * [http://www.scrameta.net/autobuild/ Core binaries]
+  
 = Installation =
 
-Copy the {{{*}}}.rbf file at the root of the SD card.
-You can rename the file to core.rbf if you want the MiST to load it automatically at startup.
-
-Roms can be copied anywhere on the SD card and are selected via the OSD menu.
-If you have many files you might want to store them into alphabetized sub-folders to access them more quickly.
+After following the binary link above, go into the latest folder and find `atari5200.rbf` located under `/mist_5200/build_NTSC_VGA/out/` .
+Copy the file to the root of an SD card, and if you will only use the SD card for this core, then also rename the file to `core.rbf`.
 
 
+Create the following sub-folders in the SD card (note the missing i):
+ * `/atar5200/`
+ * `/atar5200/rom/`
+ * `/atar5200/user/`
+
+Copy an image of the Atari5200 ROM into the `/atar5200/rom/` folder, renaming it to *5200.rom* so the core will find it.
+
+Copy games into the `/atar5200/user/` folder.
 
 ----
 
 = Controls =
 
- * F9: Reset
+ * F1: Start
+ * F2: Pause
+ * F3: Reset
+ * F10: Cold reset
+ * F11: Load new ROM
  * F12: Enter OSD menu
 
+You can use any gamepad / joystick for games, although some games will require the use of an analog controller. These are only supported via USB, and you can use an adapter to connect a real 5200 controller.
+
+With a regular USB controller, you can access the keypad functions of the original controller via keyboard (US layout):
+
+||F1||F2||F3||
+||1||2||3||   
+||Q||W||E||  
+||A||S||D||  
+||Z||X||C||  
+
+The above corresponds to this in the Atari pad:
+
+||Start||Pause||Reset||
+||1||2||3|| 
+||3||4||5||
+||6||7||8||
+||`*`||0||#||
 
 = OSD Menu =
 
-(TBA)
+On startup you will see an Atari logo with no ROM loaded:
 
+<img title="Atari 5200 start" src="http://mist-board.googlecode.com/svn/wiki/img_docs/a5200_start.jpg" width="320px" />
+
+Press F12 to enter the OSD Menu.
+
+<img title="Atari5200 menu" src="http://mist-board.googlecode.com/svn/wiki/img_docs/a5200_settings.jpg" width="320px" />
+
+In this menu you need to move around with the keyboard arrow keys, and select with Enter.
+
+ * *Turbo*: accelerate the core (default is 1X)
+ * *Ram*: Avaiable RAM, stays at 16K
+ * *Rom*: Name of the ROM being used. 
+ * *Cart*: Choose a cart to load from `/atar5200/user/`
+ 
+It is possible to change the Rom path through this menu, but not necessary.
+
+You can press F11 instead of F12 to directly go into the *Cart* option. 
+
+When selecting a cart, the core may not recognize the cart type so it may ask you to choose what cart type to load.
+
+<img title="mapper supprot" src="http://mist-board.googlecode.com/svn/wiki/img_docs/a5200_cart_type.jpg" width="320px" />
+
+If you don't know which type it is, select one and see if the game loads.
+If not, press F12 then load the ROM again as the other cart type.
+
+<img title="mapper supprot" src="http://mist-board.googlecode.com/svn/wiki/img_docs/a5200_splash.jpg" width="320px" />
+
+If the ROM loads, you can start the game with F1.
 
 ----
 
@@ -39,7 +90,8 @@ If you have many files you might want to store them into alphabetized sub-folder
 
 <wiki:video url="http://www.youtube.com/watch?v=ys-9ZJnkg4E"/>
 
-<wiki:video url="https://www.youtube.com/watch?v=jS7PqM0hZpo"/>
+<wiki:video url="http://www.youtube.com/watch?v=VAWqKU22eO0"/>
 
+<wiki:video url="http://www.youtube.com/watch?v=yTKkwX2e39A"/>
 
 ----
