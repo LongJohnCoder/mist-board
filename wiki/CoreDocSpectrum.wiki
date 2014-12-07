@@ -38,12 +38,10 @@ In the rom selection screen, you can select a CSW with Enter.
 
 == Notes ==
 
-  * Video mode is 720x481p
+  * Video mode is 720x572p at 50hz.
 
 ----
 
 = Gameplay videos =
 
 <wiki:video url="https://www.youtube.com/watch?v=1NdAtpZnerE"/>
-
-
