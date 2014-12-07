@@ -14,7 +14,7 @@ This page has operating instructions for the ZX Spectrum core.
 Copy the {{{*}}}.rbf file at the root of the SD card.
 You can rename the file to core.rbf if you want the MiST to load it automatically at startup.
 
-Roms (*.csw) can be copied anywhere on the SD card and are selected via the OSD menu.
+Roms (.csw) can be copied anywhere on the SD card and are selected via the OSD menu.
 If you have many files you might want to store them into alphabetized sub-folders to access them more quickly.
 
 ----
