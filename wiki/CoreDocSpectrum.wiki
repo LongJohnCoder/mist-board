@@ -7,7 +7,8 @@ This page has operating instructions for the ZX Spectrum core.
 
 = Links =
 
- * (TBA)
+ * [http://www.mike-stirling.com/retro-fpga/zx-spectrum-on-an-fpga/ ZX Spectrum on FPGA homepage]
+ * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/spectrum Core binaries]
 
 = Installation =
 
