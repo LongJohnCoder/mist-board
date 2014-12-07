@@ -45,3 +45,5 @@ In the rom selection screen, you can select a CSW with Enter.
 = Gameplay videos =
 
 <wiki:video url="https://www.youtube.com/watch?v=1NdAtpZnerE"/>
+
+<wiki:video url="https://www.youtube.com/watch?v=-noxm7VzhfM"/>
