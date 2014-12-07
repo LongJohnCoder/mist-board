@@ -1,0 +1,49 @@
+#summary documentation for the ZX Spectrum core
+#sidebar CoreDocTOC
+
+= Introduction =
+
+This page has operating instructions for the ZX Spectrum core.
+
+= Links =
+
+ * (TBA)
+
+= Installation =
+
+Copy the {{{*}}}.rbf file at the root of the SD card.
+You can rename the file to core.rbf if you want the MiST to load it automatically at startup.
+
+Roms (*.csw) can be copied anywhere on the SD card and are selected via the OSD menu.
+If you have many files you might want to store them into alphabetized sub-folders to access them more quickly.
+
+----
+
+= OSD Menu =
+
+The core will start with a blank screen. Press F12 to enter the OSD menu:
+
+<img title="OSD Menu - Page 1" src="http://mist-board.googlecode.com/svn/wiki/img_docs/zx_speccy_osd1.jpg" width="320px" />
+
+  * *Load {{{*}}}.CSW*: load a CSW tape image from the SD card
+  * *Reset*: restart the ZX spectrum core
+
+<img title="OSD Menu - Page 1" src="http://mist-board.googlecode.com/svn/wiki/img_docs/zx_speccy_osd2.jpg" width="320px" />
+
+The second page contains some general options:
+  * *Firmware & core *: allows to switch to another core or upgrade the MiST firmware
+  * *Save settings*: save the current settins to the SD card for next startup
+
+In the rom selection screen, you can select a CSW with Enter.
+
+== Notes ==
+
+  * Video mode is 720x481p
+
+----
+
+= Gameplay videos =
+
+<wiki:video url="https://www.youtube.com/watch?v=1NdAtpZnerE"/>
+
+
