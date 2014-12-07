@@ -21,6 +21,7 @@
   * [CoreDocAmiga Amiga core]
     * [HowTheMinimigCoreWorks How the core works]
     * [MinimigMassStorage Mass Storage]
+  * [CoreDocAtari2600 Atari2600 core]
   * [CoreDocAtari5200 Atari5200 core]
   * [CoreDocC64 Commodore64 core]
   * [CoreDocColeco ColecoVision core]
