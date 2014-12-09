@@ -4,7 +4,7 @@
   * [WhatIsThis What is it?]
   * [TheBoard Board overview]
   * [Peripherals Peripherals]
-  * [Displays List of supported/tested displays]
+  * [Displays List of tested displays]
   * [HowToInstallTheFirmware Installing firmware]
   * [Troubleshooting Troubleshooting]
   * [FaQ  FAQ] 
