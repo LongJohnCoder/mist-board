@@ -22,5 +22,5 @@ Please note in the comment column of single cores/video modes are not supported.
 Using a video upscaler increases compatibility significantly.
 
 || *Device* || *50Hz* || *15kHz* || *Comments* ||
-|| XRGB-Mini || Some cores || Yes || 50hz mode gives a pink tint on the C64, MSX, and PCE cores ||
+|| XRGB-Mini + VGA2SCART converter || Some cores || Yes || 50hz mode gives a pink tint on the C64, MSX, and PCE cores ||
 || VGA2HDMI generic || Yes || No || wobbly image ||
