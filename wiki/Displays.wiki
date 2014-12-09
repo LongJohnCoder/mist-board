@@ -20,7 +20,7 @@ Please note in the comment column of single cores/video modes are not supported.
 
 = HDMI upscaling options =
 
-Using a video upscaler increases compatibility significantly, as HDMI input is generally good on cheaper displays / TVs.
+Using a video upscaler increases compatibility significantly, as HDMI input is generally good on most displays / TVs.
 
 || *Device* || *50Hz* || *15kHz* || *Comments* || *Example * ||
 || XRGB-Mini + VGA2SCART converter || Yes || Yes || 50hz mode gives a pink tint on the C64, MSX, and PCE cores || [https://www.youtube.com/watch?v=1uN4RDPfnKc video] ||
