@@ -19,6 +19,14 @@ You can rename the file to core.rbf if you want the MiST to load it automaticall
 Roms (.csw) can be copied anywhere on the SD card and are selected via the OSD menu.
 If you have many files you might want to store them into alphabetized sub-folders to access them more quickly.
 
+== Converting CSW1 files ==
+ 
+ * The [https://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Ftools%2Ftzx2wav TZX2WAV utility] can convert TZX files into CSW.
+ * To convert TAP filtes intO TZW you might need to use older utilities.
+
+Some older utilities no longer work in the latest verison of Windows, but you can use Dosbox to run them.
+
+
 ----
 
 = OSD Menu =
