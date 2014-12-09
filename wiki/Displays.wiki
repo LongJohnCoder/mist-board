@@ -17,7 +17,8 @@ Please note in the comment column of single cores/video modes are not supported.
 || Dell 1908FP || 19" 1280x1024 || 90% || yes || no || ||
 || NEC LCD 1525V || 15" 1024x768 || 40% || no || no || ||
 
-= Upscaling options =
+
+= HDMI upscaling options =
 
 Using a video upscaler increases compatibility significantly, as HDMI input is generally good, even on cheaper displays / TVs.
 
