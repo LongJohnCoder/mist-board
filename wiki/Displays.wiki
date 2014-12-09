@@ -12,5 +12,6 @@ Especially all PAL modes with a vertical scan rate of 50Hz are exceeding the VGA
 Please note in the comment column of single cores/video modes are not supported.
 
 || *Display* || *size* || *Rating* || *50Hz* || *15kHz* || *Comments* ||
-|| NEC Flexscan L568 || 17" 1280x1024 || 95% || yes || yes || permanent "signal out of range" message on 15kHz modes, works anyway ||
+|| Eizo Flexscan L568 || 17" 1280x1024 || 95% || yes || yes || permanent "signal out of range" message on 15kHz modes, works anyway ||
 || Dell 1908FP || 19" 1280x1024 || 90% || yes || no || ||
+|| NEX LCD 1525V || 15" 1024x768 || 40% || no || no || ||
