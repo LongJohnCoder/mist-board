@@ -1,0 +1,16 @@
+#summary List of tested/supported displays
+
+= List of displays tested with the MiST board =
+
+Since the MiST FPGA cores have a video timing thats closely derived from the 
+video timing of the original machines the resulting modes are not 100% VGA
+compatible. Different screens cope differently with this. The results range
+from completely unusable screens to screens that display nearly everything perfectly.
+
+Especially all PAL modes with a vertical scan rate of 50Hz are exceeding the VGA specification which requires at least 56Hz. Some screens even support a horizontal scan rate of 15khz (TV) modes although this is way below the VGA requirement of 31.5kHz.
+
+Please note in the comment column of single cores/video modes are not supported.
+
+|| *Display* || *size* || *Rating* || *50Hz* || *15kHz* || *Comments* ||
+|| NEC Flexscan L568 || 17" 1280x1024 || 95% || yes || yes || permanent "signal out of range" message on 15kHz modes, works anyway ||
+|| Dell 1908FP || 19" 1280x1024 || 90% || yes || no || ||
