@@ -1,0 +1,65 @@
+#summary documentation for the Atari 800 core
+#sidebar CoreDocTOC
+
+= Introduction =
+
+This page has operating instructions for the Atari 800 core.
+
+= Links =
+  * [http://www.scrameta.net/autobuild/ Core binaries]
+  
+= Installation =
+
+After following the binary link above, go into the latest folder and find `atari800.rbf` located under `/mist/build_NTSC_VGA/out/` .
+Copy the file to the root of an SD card, and if you will only use the SD card for this core, then also rename the file to `core.rbf`.
+
+
+Create the following sub-folders in the SD card:
+ * `/atari800/`
+ * `/atari800/rom/`
+ * `/atari800/user/`
+
+Copy an image of the Atari800 ROM into the `/atari800/rom/` folder.
+
+Copy games into the `/atari800/user/` folder.
+
+----
+
+= Controls =
+
+ * F1: Start
+ * F2: Pause
+ * F3: Reset
+ * F10: Cold reset
+ * F11: Load new ROM
+ * F12: Enter OSD menu
+
+You can use any gamepad / joystick for games, although some games will require the use of an analog controller. These are only supported via USB, and you can use an adapter to connect a real 2600/5200 analog controller.
+
+
+= OSD Menu =
+
+Press F12 to enter the OSD Menu.
+
+In this menu you need to move around with the keyboard arrow keys, and select with Enter.
+
+ * *Turbo*: accelerate the core (default is 1X)
+ * *Ram*: Avaiable RAM, stays at 16K
+ * *Rom*: Name of the ROM being used. 
+ * *Cart*: Choose a cart to load from `/atari800/user/`
+ 
+It is possible to change the Rom path through this menu, but not necessary.
+
+You can press F11 instead of F12 to directly go into the *Cart* option. 
+
+When selecting a game, keep *F8* press to load disabling the BASIC bios, this improves compatibility with games (this "quirk" is from the real machine). 
+
+Some games require using Start, which is F6.
+
+----
+
+= Gameplay videos =
+
+(TBA)
+
+----
