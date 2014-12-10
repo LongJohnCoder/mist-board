@@ -31,13 +31,20 @@ Copy games into the `/atari800/user/` folder. Supported file formats are CAR, AT
 
 = Controls =
 
- * F1: Start
- * F2: Pause
- * F3: Reset
- * F10: Cold reset
- * F11: Load new ROM
+For a full keyboard mapping reference, please refer to the official core manual.
+
+ * F5: Help
+ * F6: Start
+ * F7: Select
+ * F8: Option (see note below)
+ * F9: Reset
+ * F10: Cold start
+ * F11: Load new disk or cartridge
  * F12: Enter OSD menu
+ * Pause: Break
+ * Delete: Freezer (if installed, see official manual)
  * Left Alt: Toggle scanlines
+ * Right Alt: Atari key
 
 You can use any gamepad / joystick for games, although some games will require the use of an analog controller. These are only supported via USB, and you can use an adapter to connect a real 2600/5200 analog controller.
 
