@@ -7,6 +7,8 @@ This page has operating instructions for the Atari 5200 core.
 
 = Links =
   * [http://www.scrameta.net/autobuild/ Core binaries]
+  * [http://www.scrameta.net/Atari%20800%20FPGA%20Manual.pdf Official core manual]
+  * [http://www.scrameta.net/ Author's home page]
   
 = Installation =
 
