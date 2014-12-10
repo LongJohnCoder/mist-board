@@ -56,15 +56,16 @@ Press F12 to enter the OSD Menu.
 In this menu you need to move around with the keyboard arrow keys, and select with Enter.
 
  * *Turbo*: accelerate the core (default is 1X)
- * *Ram*: Avaiable RAM, stays at 16K
+ * *Ram*: Avaiable RAM, can choose different extension options
  * *Rom*: Name of the ROM being used. 
+ * *Drive 1-4*: Insert disk from `/atari800/user/`
  * *Cart*: Choose a cart to load from `/atari800/user/`
  
 It is possible to change the Rom path through this menu, but not necessary.
 
 You can press F11 instead of F12 to directly go into the *Cart* option. 
 
-When selecting a game, keep *F8* press to load disabling the BASIC bios, this improves compatibility with games (this "quirk" is from the real machine). 
+*Note*: When selecting a game, keep *F8* press to load disabling the BASIC bios, this improves compatibility with games (this "quirk" is from the real machine, and happens when you try to run machine language games from BASIC). 
 
 Some games require using Start, which is F6.
 
