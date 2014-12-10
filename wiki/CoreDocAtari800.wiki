@@ -11,6 +11,8 @@ This page has operating instructions for the Atari 800 core.
   
 = Installation =
 
+_For a more complete guide please refer to the official manual linked above._
+
 After following the binary link above, go into the latest folder and find `atari800.rbf` located under `/mist/build_NTSC_VGA/out/` .
 Copy the file to the root of an SD card, and if you will only use the SD card for this core, then also rename the file to `core.rbf`.
 
