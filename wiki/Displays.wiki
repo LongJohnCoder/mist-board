@@ -22,7 +22,7 @@ Please note in the comment column of single cores/video modes are not supported.
 
 Using a video upscaler increases compatibility significantly, as HDMI input is generally good on most displays / TVs.
 
-|| *Device* || *50Hz* || *15kHz* || *Comments* || *Example * ||
-|| XRGB-Mini + VGA2SCART converter || Yes || Yes || 50hz mode gives a pink tint on the C64, MSX, and PCE cores. 15khz mode works great! || [https://www.youtube.com/watch?v=1uN4RDPfnKc video] ||
-|| MINI VGA2HDMI || Yes || No || wobbly image, worse on the C64 core || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
-|| VGA+R/L TO HDMI adapter - HD2022 || Yes || No || same upscaler chip as MINI VGA2HMDI, same issues || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
+|| *Device* || *Rating * || *50Hz* || *15kHz* || *Comments* || *Example * ||
+|| XRGB-Mini + VGA2SCART converter || 99% || Yes || Yes || 50hz mode gives a pink tint on the C64, MSX, and PCE cores. 15khz mode works great! || [https://www.youtube.com/watch?v=1uN4RDPfnKc video] ||
+|| MINI VGA2HDMI || 10% || Yes || No || wobbly image, worse on the C64 core || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
+|| VGA+R/L TO HDMI adapter - HD2022 || 10% || Yes || No || same upscaler chip as MINI VGA2HMDI, same issues || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
