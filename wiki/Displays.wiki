@@ -18,7 +18,7 @@ Please note in the comment column of single cores/video modes are not supported.
 || NEC LCD 1525V || 15" 1024x768 || 40% || No || No || ||
 
 
-= HDMI upscaling options =
+= HDMI / upscaling options =
 
 Using a video upscaler increases compatibility significantly, as HDMI input is generally good on most displays / TVs.
 
@@ -26,3 +26,4 @@ Using a video upscaler increases compatibility significantly, as HDMI input is g
 || Micomsoft XRGB-Mini + Arcadeforge UMSA || 99% || Yes || Yes || 15khz mode works great. 50hz mode has pink tint on C64, MSX, PCE cores. || [https://www.youtube.com/watch?v=1uN4RDPfnKc video] ||
 || MINI VGA2HDMI || 10% || Yes || No || wobbly image, worse on the C64 core || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
 || VGA+R/L TO HDMI adapter - HD2022 || 10% || Yes || No || same upscaler chip as MINI VGA2HMDI, same issues || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
+|| Gonbes 8220 RGB to VGA PCB  || 0% || No || No || Didn't work; in theory compatible with 15khz modes.  || - ||
