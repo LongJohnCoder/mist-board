@@ -10,6 +10,7 @@ This page has operating instructions for the Atari 800 core.
   * [http://www.scrameta.net/Atari%20800%20FPGA%20Manual.pdf Official core manual]
   * [http://www.scrameta.net/atarixlfpga_svn/trunk/ Source code]
   * [http://www.scrameta.net/ Author's home page]
+  * [http://atariage.com/forums/topic/213827-potential-new-hardware/ Thread at AtariAge]
   
 = Installation =
 
