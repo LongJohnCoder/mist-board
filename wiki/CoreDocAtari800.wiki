@@ -22,9 +22,10 @@ Create the following sub-folders in the SD card:
  * `/atari800/rom/`
  * `/atari800/user/`
 
-Copy an image of the Atari800 ROM into the `/atari800/rom/` folder.
+Copy an image of the Atari800 ROMs into the `/atari800/rom/` folder.
+You will need three files: `ATARIBAS.ROM`, `ATARIOSB.ROM`, and `ATARIXL.ROM`.
 
-Copy games into the `/atari800/user/` folder.
+Copy games into the `/atari800/user/` folder. Supported file formats are CAR, ATR, XFD, XEX.
 
 ----
 
