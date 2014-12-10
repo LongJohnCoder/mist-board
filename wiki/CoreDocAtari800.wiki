@@ -6,8 +6,8 @@
 This page has operating instructions for the Atari 800 core.
 
 = Links =
-  * [http://www.scrameta.net/autobuild/ Core binaries]
-  * [http://www.scrameta.net/ Official core manual]
+  * [http://www.scrameta.net/autobuild/ Core binaries (use latest date)]
+  * [http://www.scrameta.net/Atari%20800%20FPGA%20Manual.pdf Official core manual]
   
 = Installation =
 
