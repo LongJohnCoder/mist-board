@@ -88,4 +88,8 @@ Some games require using Start, which is F6.
 
 <wiki:video url="http://www.youtube.com/watch?v=84rXFigAzVg"/>
 
+<wiki:video url="http://www.youtube.com/watch?v=XZddCDiOpfw"/>
+
+
+
 ----
