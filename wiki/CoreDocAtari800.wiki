@@ -30,6 +30,11 @@ You will need three files: `ATARIBAS.ROM`, `ATARIOSB.ROM`, and `ATARIXL.ROM`.
 
 Copy games into the `/atari800/user/` folder. Supported file formats are CAR, ATR, XFD, XEX.
 
+If everything is setup correctly you should see this screen at startup:
+
+<img title="startup" src="http://mist-board.googlecode.com/svn/wiki/img_docs/atari800_start.jpg"  width="320px"  />
+  
+
 ----
 
 = Controls =
@@ -43,7 +48,7 @@ For a full keyboard mapping reference, please refer to the official core manual.
  * F9: Reset
  * F10: Cold start
  * F11: Load new disk or cartridge
- * F12: Enter OSD menu
+ * F12: Enter System menu
  * Pause: Break
  * Delete: Freezer (if installed, see official manual)
  * Left Alt: Toggle scanlines
@@ -51,22 +56,27 @@ For a full keyboard mapping reference, please refer to the official core manual.
 
 You can use any gamepad / joystick for games, although some games will require the use of an analog controller. These are only supported via USB, and you can use an adapter to connect a real 2600/5200 analog controller.
 
+----
 
-= OSD Menu =
+= System Menu =
 
 Press F12 to enter the OSD Menu.
 
+<img title="menu1" src="http://mist-board.googlecode.com/svn/wiki/img_docs/atari800_menu1.jpg"  width="320px"  />
+  
 In this menu you need to move around with the keyboard arrow keys, and select with Enter.
 
  * *Turbo*: accelerate the core (default is 1X)
  * *Ram*: Avaiable RAM, can choose different extension options
  * *Rom*: Name of the ROM being used. 
- * *Drive 1-4*: Insert disk from `/atari800/user/`
+ * *Drive 1-4*: Load disk from `/atari800/user/`
  * *Cart*: Choose a cart to load from `/atari800/user/`
  
 It is possible to change the Rom path through this menu, but not necessary.
 
-You can press F11 instead of F12 to directly go into the *Cart* option. 
+You can press F11 instead of F12 to directly go into the Load Disk option. 
+
+<img title="menu2" src="http://mist-board.googlecode.com/svn/wiki/img_docs/atari800_menu2.jpg"  width="320px"  />
 
 *Note*: When selecting a game, keep *F8* press to load disabling the BASIC bios, this improves compatibility with games (this "quirk" is from the real machine, and happens when you try to run machine language games from BASIC). 
 
