@@ -25,7 +25,7 @@ If you have many files you might want to store them into alphabetized sub-folder
 MiST front panel buttons:
   # (left) Reset MiST to default core
   # (middle) Open OSD menu
-  # (right) Reset NES with current ROM
+  # (right) Reset NES with current disk
 
 = OSD Menu =
 
