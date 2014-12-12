@@ -7,7 +7,10 @@ This page has operating instructions for the Apple II+ core.
 
 
 = Links =
-  * (TBA)
+  * [http://ws0.org/tag/apple2/ Winfried's blog about the apple2 core for the MIST]
+  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/appleii%2b Core binaries]
+  * [https://github.com/wsoltys/mist-cores/tree/master/apple2fpga Source code repository]
+  * [http://www1.cs.columbia.edu/~sedwards/apple2fpga/ Homepage of the Apple2FPGA project]
 
 
 = Installation =
