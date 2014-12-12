@@ -46,6 +46,8 @@ The core will start with a blank screen. Press F12 to enter the OSD menu:
 
 <wiki:video url="http://www.youtube.com/watch?v=IAn9i7d4XV0"/>
 
+<wiki:video url="http://www.youtube.com/watch?v=PgcZwfU6IqU"/>
+
 
 ----
   
