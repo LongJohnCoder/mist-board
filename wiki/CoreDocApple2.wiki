@@ -1,0 +1,48 @@
+#summary documentation for the Apple II+ core
+#sidebar CoreDocTOC
+
+= Overview =
+
+This page has operating instructions for the Apple II+ core.
+
+
+= Links =
+  * (TBA)
+
+
+= Installation =
+
+Copy the {{{*}}}.rbf file at the root of the SD card.
+You can rename the file to core.rbf if you want the MiST to load it automatically at startup.
+
+Disk images can be copied anywhere on the SD card and are selected via the OSD menu. They must be in NIB format to work (instead of e.g. DSK).
+If you have many files you might want to store them into alphabetized sub-folders to access them more quickly.
+
+----
+
+= Controls =
+
+MiST front panel buttons:
+  # (left) Reset MiST to default core
+  # (middle) Open OSD menu
+  # (right) Reset NES with current ROM
+
+= OSD Menu =
+
+The core will start with a blank screen. Press F12 to enter the OSD menu:
+
+
+== Notes ==
+
+  * Video mode is 720x481p at 60hz.
+
+  
+----
+
+= Gameplay videos =
+
+<wiki:video url="http://www.youtube.com/watch?v=IAn9i7d4XV0"/>
+
+
+----
+  
