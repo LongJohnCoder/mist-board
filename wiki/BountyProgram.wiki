@@ -17,13 +17,14 @@ This Ethernet USB dongle is verified to be compatible with the latest Atari ST c
 
 ----
 
-= MIDI Add-on board =
+= ~~Earned~~=
+== ~~ MIDI Add-on board ~~ ==
 
 http://mist-board.googlecode.com/svn/wiki/bounty_midi.jpg
 
 The MidiAddon adds Atari ST compatible MIDI ports to your MIST. There's a reason why the ST was famous for its MIDI capabilities. It can be mounted inside the original MIST case. Be warned: Basic soldering and some skills in metal work required!
 
-*Your task: Implement MIDI for the Minimig/Amiga core. This can be done as proven by this nice person from RetroRamblings: http://retroramblings.net/?p=412*
+~~*Your task: Implement MIDI for the Minimig/Amiga core. This can be done as proven by this nice person from RetroRamblings: http://retroramblings.net/?p=412*~~
 
 ----
 
