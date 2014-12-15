@@ -63,7 +63,7 @@ The additional current shouldn't hurt any device and may help those of your devi
 
 =Core support=
 
-The Atari ST core supports the MIDI expansion board out of the box. The Minimig/Amiga core may easily get support using the setup from [http://retroramblings.net/?p=412 ProjectXG Redux]
+The Atari ST core supports the MIDI expansion board out of the box. And so does the latest Minimig AGA core as seen in the videos below.
 
 =Youtube videos=
 
@@ -72,6 +72,8 @@ The Atari ST core supports the MIDI expansion board out of the box. The Minimig/
 <wiki:video url="http://www.youtube.com/watch?v=phqs-UzhIL4"/>
 
 <wiki:video url="http://www.youtube.com/watch?v=M6nnBp4Z0YE"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=K-DmpZPaB2g"/>
 
 == Supported/tested software ==
 
