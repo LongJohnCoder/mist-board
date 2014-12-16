@@ -111,6 +111,18 @@ This tells us that the first partition starts at byte 258048 and is 80640000 byt
 mount -t affs -o loop,offset=258048,sizelimit=80640000 hardfile.hdf /mnt
 }}}
 
+= Importing games from HDF images (by Majd) =
+
+Games distributed as HDF images (usually bigger games) can be imported into a MiST generated harddisk using the following simple steps:
+
+  # create a hd1g.hdf ( i made it 1Gb )file using "dd" command
+  # format the hd1g on the mist/minimg with workbench/kickstart 3.1
+  # install WINUAE amiga emulator and mount the hd1g.hdf on the emulator as hard disk
+  # start workbench 3.1 on WINUAE and copy all the HDF games/software files on the mounted hd1g.hdf
+  # copy the ready hd1g.hdf back to the SD card and run it on the mist/minimig, you will have all programs installed and 100% running
+
+Alternally it's possible to mount such images directly on the MiST using the "hardfile(filesys)" option.
+
 = Related =
 
   * [http://fs-uae.net/ FS-UAE home page]
