@@ -53,6 +53,9 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || *MSX* || || || ||
 || OneChipMSX || http://de.wikipedia.org/wiki/1chipMSX || yes || <font color="green">Has been ported to the MIST</font> ||
 || || || || ||
+|| *SPARCStation* || || || ||
+|| TEMLib || http://temlib.org/site/ || yes ||  ||
+|| || || || ||
 || *ZX Spectrum* || || || ||
 || ZX Spectrum on FPGA || http://www.mike-stirling.com/retro-fpga/zx-spectrum-on-an-fpga/ || yes || <font color="green">Has been ported to the MIST</font> ||
 || Speccy 2010 || http://code.google.com/p/speccy2010/ || yes || ||
