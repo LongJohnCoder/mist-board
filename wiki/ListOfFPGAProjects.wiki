@@ -81,12 +81,12 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || Coleco || https://svn.pacedev.net/repos/pace/sw/synth/platform/colecovision/ || yes || <font color="green">Has been ported to the MIST</font> || 
 || || || || ||
 || *Nintendo Entertainment System* || || || ||
-|| Kevtris' FPGA NES || http://www.youtube.com/watch?v=xiEZIma5FI0 || no || ||
-|| NES on FPGA || http://www.youtube.com/watch?v=NyhbJ-KhHaM || no || ||
-|| Danstrother's FPGA NES || http://danstrother.com/fpga-nes/ || no || ||
 || Ludde's FPGA NES || https://github.com/strigeus/fpganes || yes || <font color="green">Has been ported to the MIST</font> ||
 || NES on Pipistrello || [http://pipistrello.saanlima.com/index.php?title=Welcome_to_Pipistrello#Complete_Xilinx_ISE_project_examples Pipistrello project examples] || yes || ||
 || fpga_nes || https://github.com/brianbennett/fpga_nes || yes || ||
+|| Kevtris' FPGA NES || http://www.youtube.com/watch?v=xiEZIma5FI0 || no || ||
+|| NES on FPGA || http://www.youtube.com/watch?v=NyhbJ-KhHaM || no || ||
+|| Danstrother's FPGA NES || http://danstrother.com/fpga-nes/ || no || ||
 || || || || ||
 || *Nintendo Gameboy* || || || ||
 || PACEDEV Gameboy || https://github.com/wsoltys/pacedev/tree/master/sw/synth/platform/gameboy || yes || has been ported but lacks fundamental features like sprites ||
