@@ -87,7 +87,7 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || NES on Pipistrello || [http://pipistrello.saanlima.com/index.php?title=Welcome_to_Pipistrello#Complete_Xilinx_ISE_project_examples Pipistrello project examples] || yes || ||
 || fpga_nes || https://github.com/brianbennett/fpga_nes || yes || ||
 || || || || ||
-|| *PC Engine / TurboGraphx16* || || || ||
+|| *PC Engine / Turbographx16* || || || ||
 || FPGAPCE || https://github.com/Torlus/FPGAPCE || yes || <font color="green">Has been ported to the MIST</font> ||
 || || || ||  ||
 || *Sega Genesis* || || || ||
