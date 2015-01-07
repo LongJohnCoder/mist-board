@@ -104,7 +104,7 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 These are new HDL designs that don't re-implement or emulate an existing machine.
 
 || *Platform* || *Link* || *Source Available/License* || *Remarks* ||
-|| Parallelogram || http://www.linusakesson.net/scene/parallelogram/index.php || no || ||
 || ZPUFlex || http://retroramblings.net/?page_id=832 || yes || <font color="green">Has been ported to the MIST</font> ||
 || TG68MiniSOC || https://github.com/robinsonb5/TG68_MiniSOC || yes || <font color="green">Has been ported to the MIST</font> ||
 || Multicomp || http://searle.hostei.com/grant/Multicomp/index.html || yes || <font color="green">Has been ported to the MIST</font> ||
+|| Parallelogram || http://www.linusakesson.net/scene/parallelogram/index.php || no || ||
