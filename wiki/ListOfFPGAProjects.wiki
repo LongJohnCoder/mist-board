@@ -48,7 +48,7 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || || || || ||
 || *IBM PC* (80186) || || || ||
 || Zet SoC || http://zet.aluzina.org/index.php/Zet_processor || yes || ||
-|| Next186 SoC || http://opencores.org/project,next186_soc_pc || yes || ||
+|| Next186 SoC || http://opencores.org/project,next186_soc_pc || <a href="http://opencores.org/websvn,listing,next186_soc_pc">yes</a> || ||
 || || || || ||
 || *MSX* || || || ||
 || OneChipMSX || http://de.wikipedia.org/wiki/1chipMSX || yes || <font color="green">Has been ported to the MIST</font> ||
