@@ -12,8 +12,8 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || SLeary's FPGA ST || http://www.youtube.com/user/sleary7878 || yes, on request || <font color="green">Has been ported to MIST</font> ||
 || Suska || http://experiment-s.de || yes/GPL || Probably won't fit into the MIST FPGA||
 || FPGA Arcade || http://www.fpgaarcade.com/atari_amiga.htm || no || ||
-|| Unknown || http://www.youtube.com/watch?v=bsp5dlPwHHk || unknown || Just a youtube video||
 || Mini ST || http://stlabs.free.fr/ || no || Looks like a minimig ||
+|| Unknown || http://www.youtube.com/watch?v=bsp5dlPwHHk || unknown || Just a youtube video||
 || || || || ||
 || *Atari XL* || || || ||
 || AtariXL || http://www.scrameta.net/ || yes || <font color="green">Has been ported to the MIST</font> ||
