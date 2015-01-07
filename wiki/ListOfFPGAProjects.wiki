@@ -21,9 +21,6 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || *Acorn Archimedes* || || || ||
 || Amber core || http://opencores.org/project,amber ||  yes || only the CPU ... ||
 || || || || ||
-|| *Apple Macintosh* || || || ||
-|| Plus Too || http://www.bigmessowires.com/category/plustoo/ || yes || discontinued ||
-|| || || || ||
 || *Amstrad CPC* || || || ||
 || CPC2013 || http://ralferoo.blogspot.de/ || no || ||
 || FPGAmstrad || http://cpcwiki.eu/index.php/FPGAmstrad || no || ||
@@ -32,6 +29,9 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || *Apple II* || || || ||
 || Apple2FPGA || http://www.cs.columbia.edu/~sedwards/apple2fpga/ || yes || <font color="green">Has been ported to the MIST</font> ||
 || AppleFPGA || http://www.applefritter.com/node/19543 || yes || has more memory and mass storage ||
+|| || || || ||
+|| *Apple Macintosh* || || || ||
+|| Plus Too || http://www.bigmessowires.com/category/plustoo/ || yes || discontinued ||
 || || || || ||
 || *BBC Micro* || || || ||
 || BBC Micro on FPGA || http://www.mike-stirling.com/retro-fpga/zx-spectrum-on-an-fpga/ || yes || ||
