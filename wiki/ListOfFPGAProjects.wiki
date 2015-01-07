@@ -15,14 +15,14 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || Unknown || http://www.youtube.com/watch?v=bsp5dlPwHHk || unknown || Just a youtube video||
 || Mini ST || http://stlabs.free.fr/ || no || Looks like a minimig ||
 || || || || ||
-|| *BBC Micro* || || || ||
-|| BBC Micro on FPGA || http://www.mike-stirling.com/retro-fpga/zx-spectrum-on-an-fpga/ || yes || ||
-|| || || || ||
-|| *Apple Macintosh* || || || ||
-|| Plus Too || http://www.bigmessowires.com/category/plustoo/ || yes || discontinued ||
+|| *Atari XL* || || || ||
+|| AtariXL || http://www.scrameta.net/ || yes || <font color="green">Has been ported to the MIST</font> ||
 || || || || ||
 || *Acorn Archimedes* || || || ||
 || Amber core || http://opencores.org/project,amber ||  yes || only the CPU ... ||
+|| || || || ||
+|| *Apple Macintosh* || || || ||
+|| Plus Too || http://www.bigmessowires.com/category/plustoo/ || yes || discontinued ||
 || || || || ||
 || *Amstrad CPC* || || || ||
 || CPC2013 || http://ralferoo.blogspot.de/ || no || ||
@@ -33,8 +33,8 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || Apple2FPGA || http://www.cs.columbia.edu/~sedwards/apple2fpga/ || yes || <font color="green">Has been ported to the MIST</font> ||
 || AppleFPGA || http://www.applefritter.com/node/19543 || yes || has more memory and mass storage ||
 || || || || ||
-|| *Atari XL* || || || ||
-|| AtariXL || http://www.scrameta.net/ || yes || <font color="green">Has been ported to the MIST</font> ||
+|| *BBC Micro* || || || ||
+|| BBC Micro on FPGA || http://www.mike-stirling.com/retro-fpga/zx-spectrum-on-an-fpga/ || yes || ||
 || || || || ||
 || *Commodore 64* || || || ||
 || Syntiac's FPGA-64 || http://www.syntiac.com/fpga64.html || yes/non-commercial || <font color="green">Has been ported to the MIST</font>  ||
