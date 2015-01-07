@@ -71,6 +71,12 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || *Atari 2600* || || || ||
 || A2601 || http://retromaster.wordpress.com/a2601/ || yes || <font color="green">Has been ported to the MIST</font> || 
 || || || || ||
+|| *Atari 5200* || || || ||
+|| Atari 5200 FPGA || http://atariage.com/forums/topic/216991-5200-in-fpga/ || yes || <font color="green">Has been ported to the MIST</font> || 
+|| || || || ||
+|| *Atari 7800* || || || ||
+|| FPGA Atari 7800 || https://www.youtube.com/watch?v=OAqYxMCQDrM || no || Youtube video only || 
+|| || || || ||
 || *Colecovision* || || || ||
 || Coleco || https://svn.pacedev.net/repos/pace/sw/synth/platform/colecovision/ || yes || <font color="green">Has been ported to the MIST</font> || 
 || || || || ||
