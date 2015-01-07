@@ -9,16 +9,16 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || *Plattform* || *Link* || *Source Available/License* || *Remarks* ||
 || || || || ||
 || *AtariST* || || || ||
+|| SLeary's FPGA ST || http://www.youtube.com/user/sleary7878 || yes, on request || <font color="green">Has been ported to MIST</font> ||
 || Suska || http://experiment-s.de || yes/GPL || Probably won't fit into the MIST FPGA||
 || FPGA Arcade || http://www.fpgaarcade.com/atari_amiga.htm || no || ||
 || Unknown || http://www.youtube.com/watch?v=bsp5dlPwHHk || unknown || Just a youtube video||
-|| SLeary's FPGA ST || http://www.youtube.com/user/sleary7878 || yes, on request || <font color="green">Has been ported to MIST</font> ||
 || Mini ST || http://stlabs.free.fr/ || no || Looks like a minimig ||
 || || || || ||
 || *Amiga* || || || ||
+|| Minimig for DE1 || https://github.com/rkrajnc/minimig-de1#readme || yes || <font color="green">This is the basis of the MIST minimig</font> ||
 || Minimig || http://en.wikipedia.org/wiki/Minimig || yes || The original Minimig ||
 || Minimig TG68 || http://gamesource.groups.yahoo.com/group/minimigtg68/ || yes || ||
-|| Minimig for DE1 || https://github.com/rkrajnc/minimig-de1#readme || yes || <font color="green">This is the basis of the MIST minimig</font> ||
 || Minimig AGA || http://www.youtube.com/watch?v=vn4ZzLH6MpE || no ||  ||
 || || || || ||
 || *BBC Micro* || || || ||
@@ -53,7 +53,7 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || *MSX* || || || ||
 || OneChipMSX || http://de.wikipedia.org/wiki/1chipMSX || yes || <font color="green">Has been ported to the MIST</font> ||
 || || || || ||
-|| *SPARCStation* || || || ||
+|| *Sun SPARCStation* || || || ||
 || TEMLib || http://temlib.org/site/ || <a href="http://temlib.org/site/?page_id=10">yes</a> ||  ||
 || || || || ||
 || *ZX Spectrum* || || || ||
