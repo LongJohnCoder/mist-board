@@ -75,8 +75,8 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || Coleco || https://svn.pacedev.net/repos/pace/sw/synth/platform/colecovision/ || yes || <font color="green">Has been ported to the MIST</font> || 
 || || || || ||
 || *Nintendo Gameboy* || || || ||
-|| Gameboy on DE1 || https://code.google.com/p/gbfpga/ || yes || ||
 || PACEDEV Gameboy || https://github.com/wsoltys/pacedev/tree/master/sw/synth/platform/gameboy || yes || has been ported but lacks fundamental features like sprites ||
+|| Gameboy on DE1 || https://code.google.com/p/gbfpga/ || yes || ||
 || FPGABoy || http://fpgb.org/ || no || ||
 || || || || ||
 || *Nintendo Entertainment System* || || || ||
