@@ -34,7 +34,7 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || Plus Too || http://www.bigmessowires.com/category/plustoo/ || yes || discontinued ||
 || || || || ||
 || *BBC Micro* || || || ||
-|| BBC Micro on FPGA || http://www.mike-stirling.com/retro-fpga/zx-spectrum-on-an-fpga/ || yes || ||
+|| BBC Micro on FPGA || http://www.mike-stirling.com/retro-fpga/bbc-micro-on-an-fpga/ || yes || ||
 || || || || ||
 || *Commodore 64* || || || ||
 || Syntiac's FPGA-64 || http://www.syntiac.com/fpga64.html || yes/non-commercial || <font color="green">Has been ported to the MIST</font>  ||
