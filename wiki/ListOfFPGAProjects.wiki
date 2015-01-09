@@ -46,6 +46,9 @@ This page lists various known FPGA (Verilog and/or VHDL) implementations of clas
 || Minimig TG68 || http://gamesource.groups.yahoo.com/group/minimigtg68/ || yes || ||
 || Minimig AGA || http://www.youtube.com/watch?v=vn4ZzLH6MpE || no ||  ||
 || || || || ||
+|| *Commodore PET* || || || ||
+|| PET2001FPGA || http://www.stepinfusion.com/projects/pet2001fpga/ || yes || ||
+|| || || || ||
 || *IBM PC* || || || ||
 || Zet SoC || http://zet.aluzina.org/index.php/Zet_processor || yes || ||
 || Next186 SoC || http://opencores.org/project,next186_soc_pc || <a href="http://opencores.org/websvn,listing,next186_soc_pc">yes</a> || ||
