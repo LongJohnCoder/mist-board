@@ -72,6 +72,8 @@ In this menu you need to move around with the keyboard arrow keys, and select wi
  * *Drive 1-4*: Load disk from `/atari800/user/`
  * *Cart*: Choose a cart to load from `/atari800/user/`
  
+Turbo should be left at 1X for maximum compatibility (a higher value could cause image glitches in some games).
+
 It is possible to change the Rom path through this menu, but not necessary.
 
 You can press F11 instead of F12 to directly go into the Load Disk option. 
