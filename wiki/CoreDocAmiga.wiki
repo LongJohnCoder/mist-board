@@ -66,4 +66,5 @@ You can move to other pages of settings by pressing the right arrow key:
 
 <wiki:video url="http://www.youtube.com/watch?v=d4OMVJOOrWU"/>
 
+<wiki:video url="http://www.youtube.com/watch?v=2wmm0lQLSHg"/>
 <wiki:video url="http://www.youtube.com/watch?v=HDA5D0HNhbc"/>
