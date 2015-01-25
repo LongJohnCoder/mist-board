@@ -27,3 +27,7 @@ Using a video upscaler increases compatibility significantly, as HDMI input is g
 || MINI VGA2HDMI || 10% || Yes || No || wobbly image, worse on the C64 core || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
 || VGA+R/L TO HDMI adapter - HD2022 || 10% || Yes || No || same upscaler chip as MINI VGA2HMDI, same issues || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
 || Gonbes 8220 RGB to VGA PCB  || 0% || No || No || Didn't work; in theory compatible with 15khz modes.  || - ||
+
+= XRGB Notes =
+
+Sometimes the unit has trouble switching from 50 to 60hz or vice-versa, and will show a blank screen (or blue depending on settings). Restarting the XRGB will fix it.
