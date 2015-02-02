@@ -41,12 +41,12 @@ The following steps are necessary to update the MIST firmware under Windows:
 
    # Install [http://www.atmel.com/tools/ATMELSAM-BAIN-SYSTEMPROGRAMMER.aspx Atmel SAM-BA for Windows] on your PC
    # Switch the board off and remove the SD card
-   # Close the TST jumper 
-     * on the dev boards: next to the three bush buttons
+   # Close the JP1 jumper 
+     * on early dev boards: next to the three push buttons
      * on the series boards: next to the Atmel ARM controller
    # Switch the board on, wait 10 seconds and switch it off again. The SAM-BA boot loader is now installed
    # Remove the jumper and connect the board to the PC using a USB cable
-     * on the dev boards: use a normal cable connected to the square USB plug next to the three push buttons
+     * on early dev boards: use a normal cable connected to the square USB plug next to the three push buttons
      * on the series boards: use a micro usb cable connected to the micro usb power input (the PC will then also power the board) 
    # Power the board on. The PC should recognize the board and install install a COM port for it
    # Start SAM.BA on the PC. Select the COM device and set board type to _at91sam7s256-ek_ as depicted below
