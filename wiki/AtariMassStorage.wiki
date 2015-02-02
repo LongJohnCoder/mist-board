@@ -67,11 +67,29 @@ Emulating a harddisk with the Atari MIST core is very simple. Only two things ar
 
 Make sure you have a working Atari ST setup for your MIST. Any TOS version will do, but TOS 1.04 or TOS 2.06 are preferred.
 
-== Atari Harddisk Driver (AHDI) ==
+== Hard disk drivers ==
+
+=== Atari Harddisk Driver (AHDI) ===
 
 First of all you need to get a floppy disk image containing the Atari Harddisk driver (AHDI). This can e.g. be found [http://www.atarimuseum.de/download.htm here]. Since this does not come as a disk image but as a set of files the aforementioned method of creating a floppy disk image will have to be used. 
 
 Copy the AHDI floppy disk image to the SD card to be used on the MIST.
+
+AHDI does not support the so-called "ICD" extensions implemented in the MIST. It's thus limited to harddisk images of up to 1GB in total (just like it is on a real ST).
+
+Furthermore AHDI does not support DOS/Windows partitions and this cannot be used for data exchange with a PC using the "Direct SD" approach explained futher below.
+
+=== Uwe Seimets HDDriver ===
+
+Uwe Seimets [http://hddriver.seimet.de/de/ Hddriver] has also been verified to work. Verisons 9.03 and 9.04 have been tested with the MiST board. 
+
+Hddriver supports the ICD extensions can be used on the MIST to access harddisk images bigger than 1GB. It is especially useful with the "Direct SD" approach explained below as this allows unlimited access to big SD cards. This has been tested with a 8GB SDHC card. 
+
+Hddriver also allows to create media to be shared between a PC and the Atari ST.
+
+=== PPHdr harddisk driver ===
+
+The [http://atari.8bitchip.info/pphdr.php PPHdr] driver has not been tested intensively with the MIST. But at least some versions do work.
 
 == Harddisk image file ==
 
@@ -95,6 +113,8 @@ Copy this file to the same SD card as the AHDI floppy disk image.
 
 == Setting up the MIST ==
 
+The following descriptions assumes that AHDI is to be used as the harddisk driver.
+
 Insert the SD card and power up your MIST board. Open the OSD (hit F12) and select the AHDI floppy disk image for floppy drive A:. Go to the storage submenu and select the hd64m.hd as the harddisk.
 
 You are now done doing the MIST specific stuff. In the next steps will format and partition the harddisk as if it was a real harddisk on a real ST.
@@ -113,10 +133,36 @@ To boot without the AHDI floppy image inserted you need to the make the harddisk
 
 You are done, you can now "eject" the AHDI floppy image and reset the embedded ST by pressing CTRL/ALT/DEL or by selecting SYSTEM/RESET from the OSD. Do NOT reset the entire MIST board using the reset button on the front! 
 
-The Atari ST will now boot from harddisk.
+The Atari ST will now boot from the harddisk image as if it was a real harddisk.
 
 == Default harddisk image ==
 
 If you want your Atari ST to boot from harddisk automatically whenever you switch on your MIST board (or press the reset button on the front) you can name the harddisk image *harddisk.hd*. It will then be selected automatically on system powerup and the embedded Atari ST will boot immediately from the harddisk image.
 
 A ready to run hard disk image can be found at http://mist-board.googlecode.com/svn/wiki/harddisk.zip
+
+== Direct SD card access (not using a harddisk image) ==
+
+Firmware_141121_r512.upg introduced a new feature called "direct SD" for ACSI0 in the Storage submenu. With this option enabled TOS is granted direct access to the first partition of the SD card avoiding the need to use hardisk images.
+
+This features can be quite difficult to use since the first partition on the card has tp be formatted in a way that the MIST board itself understands to be able to load the core and the tos image from it. Furthermore the embedded ST must be able to use it and finally a PC may also need to access it to be able to exchange data with the MIST/ST. The following instructions assume you are using Uwe Seimets HDDriver. AHDI is not suited for this, other harddisk drivers may be. More information regarding this can be found in the [Atari_HD_File_Sytem_Reference_Guide.pdf Atari HD File System Reference Guide].
+
+The most useful setup i've found so far is this:
+
+The current ACSI implementation of the MiST board is supports the ICD extensions. Together with a driver like HDDriver the 1GB limit of the original Atari ST harddisk interface can be surpassed. This has been tested with SD cards up to 8GB.
+
+Step 1: Start with an SD card of any size and put a tos.img (tos 2.06 recommended) and a core.rbf and a floppy disk image containing hddriver (tested with 9.03 and 9.04) onto the card.
+
+Step 2: Boot the MIST board from that card. While tos does the ram test enable "ACSI0 direct SD" in the Storage submenu of the OSD. Then select the hddriver floppy image and boot into TOS. Hddriver will load from disk and detect the card as ACSI device 0.
+
+Step 3: Launch hddrutil from the floppy disk image. Select the ACSI0 drive in the window "Available Devices". Then pick "Medium"->"Partition" from the menu. Click on "split" and split the available space into partitions so that no partition is bigger than 512MB (e.g. split a 8GB card into 16 Partitions). Select "Compatibility" and Check "TOS". Click "ok" until the new partition is being done. Reboot.
+
+Step 4: Launch hddrutil again. Select drive C: in the list of the "Available Devices" and select "File"->"Install HDDRIVER" from the menu. You now have a SD card with several DOS & TOS compatible partitions of nearly 512MB of which Windows can use the first one out of the box.
+
+Step 5: Reinstall core.rbf, tos.img and a few floppy images on the first partition. Reinsert the SD card into the MIST.
+
+Step 6: Boot the MIST. Again select "ACSI0 direct SD". You may save this setting permanently while the ST is doing its RAM test. Don't use the OSD to save settings later when the Atari runs and this will cause the Atari and the MISTs firmware to alter the same data on disk which will very likely corrupt the data on the card. But the moment when TOS tests its RAM is a safe moment to save the MIST settings on the card.
+
+Step 7: Swap the card between the MIST and your Windows PC to exchange files.
+
+Very useful information regarding this can be found in the [Atari_HD_File_Sytem_Reference_Guide.pdf Atari HD File System Reference Guide].
