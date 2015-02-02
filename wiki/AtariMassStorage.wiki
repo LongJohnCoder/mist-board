@@ -145,7 +145,7 @@ A ready to run hard disk image can be found at http://mist-board.googlecode.com/
 
 Firmware_141121_r512.upg introduced a new feature called "direct SD" for ACSI0 in the Storage submenu. With this option enabled TOS is granted direct access to the first partition of the SD card avoiding the need to use hardisk images.
 
-This features can be quite difficult to use since the first partition on the card has tp be formatted in a way that the MIST board itself understands to be able to load the core and the tos image from it. Furthermore the embedded ST must be able to use it and finally a PC may also need to access it to be able to exchange data with the MIST/ST. The following instructions assume you are using Uwe Seimets HDDriver. AHDI is not suited for this, other harddisk drivers may be. More information regarding this can be found in the [Atari_HD_File_Sytem_Reference_Guide.pdf Atari HD File System Reference Guide].
+This features can be quite difficult to use since the first partition on the card has tp be formatted in a way that the MIST board itself understands to be able to load the core and the tos image from it. Furthermore the embedded ST must be able to use it and finally a PC may also need to access it to be able to exchange data with the MIST/ST. The following instructions assume you are using Uwe Seimets HDDriver. AHDI is not suited for this, other harddisk drivers may be. More information regarding this can be found in the [http://mist-board.googlecode.com/svn/wiki/Atari_HD_File_Sytem_Reference_Guide.pdf Atari HD File System Reference Guide].
 
 The most useful setup i've found so far is this:
 
@@ -165,4 +165,4 @@ Step 6: Boot the MIST. Again select "ACSI0 direct SD". You may save this setting
 
 Step 7: Swap the card between the MIST and your Windows PC to exchange files.
 
-Very useful information regarding this can be found in the [Atari_HD_File_Sytem_Reference_Guide.pdf Atari HD File System Reference Guide].
+Very useful information regarding this can be found in the [http://mist-board.googlecode.com/svn/wiki/Atari_HD_File_Sytem_Reference_Guide.pdf Atari HD File System Reference Guide].
