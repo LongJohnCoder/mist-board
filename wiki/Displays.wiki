@@ -23,7 +23,7 @@ Please note in the comment column of single cores/video modes are not supported.
 Using a video upscaler increases compatibility significantly, as HDMI input is generally good on most displays / TVs.
 
 || *Device* || *Rating * || *Output* || *50Hz* || *15kHz RGBHV* || *Comments* || *Example * ||
-|| Micomsoft XRGB-Mini + Arcadeforge UMSA || 99% || HDMI || Yes || Yes || Upscales to 720p or 1080p. 15khz mode works great. 50hz mode has pink tint on C64, MSX, PCE cores. || [https://www.youtube.com/watch?v=1uN4RDPfnKc video] ||
+|| Micomsoft XRGB-Mini + Arcadeforge UMSA || 99% || HDMI || Yes || Yes || 15khz mode works great. 50hz mode has pink tint on C64, MSX, PCE cores. || [https://www.youtube.com/watch?v=1uN4RDPfnKc video] ||
 || Gonbes 8220 RGB to VGA PCB  || 75% || VGA || Yes || No || Most cores work, see [https://docs.google.com/spreadsheets/d/1P1LPndBDkcSSG9Cxco8NGMnihYyO-4FIvz1kcyZ7vi4/ Core status sheet]. || - ||
 || MINI VGA2HDMI || 10% || HDMI || Yes || No || wobbly image, worse on the C64 core || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
 || VGA+R/L TO HDMI adapter - HD2022 || 10% || HDMI || Yes || No || same upscaler chip as MINI VGA2HMDI, same issues || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
@@ -33,5 +33,5 @@ This board can upscale the image to 800x600 or 1024x768. At 640x480, it solves m
 
 
 = XRGB Notes =
-
+You will need a VGA (RGBHV) to SCART adapter to connect to this upscaler (making sure your connection to the scaler uses the right type of SCART, e.g. usually Euro and not JP21). Can upscale signal to 720p or 1080p and convert 50hz to 60hz smoothly.
 Sometimes the unit has trouble switching from 50 to 60hz or vice-versa, and will show a blank screen (or blue depending on settings). Restarting the XRGB will fix it.
