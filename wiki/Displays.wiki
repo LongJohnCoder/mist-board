@@ -24,7 +24,7 @@ Using a video upscaler increases compatibility significantly, as HDMI input is g
 
 || *Device* || *Rating * || *Output* || *50Hz* || *15kHz RGBHV* || *Comments* || *Example * ||
 || Micomsoft XRGB-Mini + Arcadeforge UMSA || 99% || HDMI || Yes || Yes || 15khz mode works great. 50hz mode has pink tint on C64, MSX, PCE cores. || [https://www.youtube.com/watch?v=1uN4RDPfnKc video] ||
-|| Gonbes 8220 RGB to VGA PCB  || 75% || VGA 480p to 768p || Yes || No || Most cores work, even at 480p it solves scaling issues. See [https://docs.google.com/spreadsheets/d/1P1LPndBDkcSSG9Cxco8NGMnihYyO-4FIvz1kcyZ7vi4/ Core status sheet] for details. || - ||
+|| Gonbes 8220 RGB to VGA PCB  || 75% || VGA 640x480, 800x600, 1024x768 || Yes || No || Most cores work, even at 480p it solves scaling issues. See [https://docs.google.com/spreadsheets/d/1P1LPndBDkcSSG9Cxco8NGMnihYyO-4FIvz1kcyZ7vi4/ Core status sheet] for details. || - ||
 || MINI VGA2HDMI || 10% || HDMI || Yes || No || wobbly image, worse on the C64 core || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
 || VGA+R/L TO HDMI adapter - HD2022 || 10% || HDMI || Yes || No || same upscaler chip as MINI VGA2HMDI, same issues || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
 
