@@ -28,7 +28,7 @@ Using a video upscaler increases compatibility significantly, as HDMI input is g
 || MINI VGA2HDMI || 10% || HDMI || Yes || No || wobbly image, worse on the C64 core || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
 || VGA+R/L TO HDMI adapter - HD2022 || 10% || HDMI || Yes || No || same upscaler chip as MINI VGA2HMDI, same issues || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
 
-== Gonbes Notes ==
+= Gonbes Notes =
 This board can upscale the image to 800x600 or 1024x768. At 640x480, it solves most scaling problems seen on several displays, so this card is a good way to make the MiST more compatible with many TVs. Caveat of this board is that many cores show an image off-centered, hiding some of the gameplay areas.
 
 
