@@ -24,9 +24,13 @@ Using a video upscaler increases compatibility significantly, as HDMI input is g
 
 || *Device* || *Rating * || *Output* || *50Hz* || *15kHz RGBHV* || *Comments* || *Example * ||
 || Micomsoft XRGB-Mini + Arcadeforge UMSA || 99% || HDMI || Yes || Yes || Upscales to 720p or 1080p. 15khz mode works great. 50hz mode has pink tint on C64, MSX, PCE cores. || [https://www.youtube.com/watch?v=1uN4RDPfnKc video] ||
-|| Gonbes 8220 RGB to VGA PCB  || 75% || VGA || Yes || No || Most cores work, see [https://docs.google.com/spreadsheets/d/1P1LPndBDkcSSG9Cxco8NGMnihYyO-4FIvz1kcyZ7vi4/ Core status sheet]. Upscales to 800x600 or 1024x768. At 640x480 it solves most scaling problems seen on many displays.  || - ||
+|| Gonbes 8220 RGB to VGA PCB  || 75% || VGA || Yes || No || Most cores work, see [https://docs.google.com/spreadsheets/d/1P1LPndBDkcSSG9Cxco8NGMnihYyO-4FIvz1kcyZ7vi4/ Core status sheet]. || - ||
 || MINI VGA2HDMI || 10% || HDMI || Yes || No || wobbly image, worse on the C64 core || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
 || VGA+R/L TO HDMI adapter - HD2022 || 10% || HDMI || Yes || No || same upscaler chip as MINI VGA2HMDI, same issues || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
+
+== Gonbes Notes ==
+This board can upscale the image to 800x600 or 1024x768. At 640x480, it solves most scaling problems seen on several displays, so this card is a good way to make the MiST more compatible with many TVs. Caveat of this board is that many cores show an image off-centered, hiding some of the gameplay areas.
+
 
 = XRGB Notes =
 
