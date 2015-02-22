@@ -9,6 +9,7 @@ This page has operating instructions for the Amiga core, which is a version of _
 
   * [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/minimig-aga Core Binaries]
   * [https://github.com/rkrajnc/minimig-mist Minimig AGA Source Code]
+  * [http://mist-board.googlecode.com/svn/wiki/core_aga/mist.ini INI file to disable scandoubler]
 
 = Installation =
 
