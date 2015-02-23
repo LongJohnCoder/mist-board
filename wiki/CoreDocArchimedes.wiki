@@ -6,10 +6,11 @@
 This page has operating instructions for the Acorn Archimedes core.
 
 *CURRENTLY THIS CORE IS IN BETA STATUS AND LACKS FLOPPY EMULATION*
-# Basic internals are implemented. 
-# No Floppy or hard disk support yet. (if someone has an MMC driver/podule then please mention it in the forums so we can include it inthe core).
-# The core emulates a 4Mb A3000 type machine with an ARM2a with caches disabled for now (has an A3010 style joystick interface). 
-# Core runs pretty slow at the moment due to a memory controller bug. 
+
+ # Basic internals are implemented. 
+ # No Floppy or hard disk support yet. (if someone has an MMC driver/podule then please mention it in the forums so we can include it inthe core).
+ # The core emulates a 4Mb A3000 type machine with an ARM2a with caches disabled for now (has an A3010 style joystick interface). 
+ # Core runs pretty slow at the moment due to a memory controller bug. 
 
 
 = Links =
