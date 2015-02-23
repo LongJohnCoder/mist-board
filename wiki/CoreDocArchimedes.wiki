@@ -47,6 +47,12 @@ You can move to other pages of settings by pressing the right arrow key:
 * Older RISCOS versions will need a VGA to SCART at present (future versions may have a scandoubler).
 
 
+== License notes ==
+
+This core uses the Amber CPU core from OpenCores which is LGPL. 
+The core itself is dual licensed LGPL/BSD. 
+
+
 ----
 
 == Desktop videos ==
