@@ -42,7 +42,10 @@ You can move to other pages of settings by pressing the right arrow key:
 == Notes ==
 
 * For best results it's best to use this as the startup core.
-* If the core does not start try resetting the MiST.
+* If the core does not start try resetting the MiST. 
+* Only RISCOS 3 supports VGA. 
+* Older RISCOS versions will need a VGA to SCART at present (future versions may have a scandoubler).
+
 
 ----
 
