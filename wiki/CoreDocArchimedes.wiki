@@ -1,0 +1,50 @@
+#summary documentation for the Acorn Archimedes core
+#sidebar CoreDocTOC
+
+= Introduction =
+
+This page has operating instructions for the Acorn Archimedes core.
+
+*CURRENTLY THIS CORE IS IN BETA STATUS AND LACKS FLOPPY EMULATION*
+# Basic internals are implemented. 
+# No Floppy or hard disk support yet. (if someone has an MMC driver/podule then please mention it in the forums so we can include it inthe core).
+# The core emulates a 4Mb A3000 type machine with an ARM2a with caches disabled for now (has an A3010 style joystick interface). 
+# Core runs pretty slow at the moment due to a memory controller bug. 
+
+
+= Links =
+
+  * Core binaries (TBA)
+  * Source code (TBA)
+
+= Installation =
+
+Copy the Archimedes core into a root folder of the SD card. To make the MiST start with this core, rename it to `core.rbf`.
+
+Copy a version of a RiscOS ROM into the root folder, renaming it to `riscos.rom`. 
+
+----
+
+= OSD Menu =
+
+If the ROM is recognized the core should boot into Risc OS.
+Press *Print Screen* to open the OSD menu.
+
+ * OS ROM: choose the RISCOS rom to use
+ * Firmware & Core: change MiST core or upgrade firmware
+ * Save config: save current config for next boot
+ 
+You can move to other pages of settings by pressing the right arrow key:
+
+
+
+== Notes ==
+
+* For best results it's best to use this as the startup core.
+* If the core does not start try resetting the MiST.
+
+----
+
+== Desktop videos ==
+
+<wiki:video url="http://www.youtube.com/watch?v=PAebp_4ulHo"/>
