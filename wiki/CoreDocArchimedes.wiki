@@ -3,7 +3,7 @@
 
 = Introduction =
 
-This page has operating instructions for the Acorn Archimedes *BETA* core.
+This page has operating instructions for the Acorn Archimedes *BETA* core by Stephen Leary.
 
 *CURRENTLY THIS CORE IS IN BETA STATUS AND LACKS FLOPPY EMULATION*
 
