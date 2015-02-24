@@ -23,6 +23,7 @@
     * [HowTheMinimigCoreWorks How the core works]
     * [MinimigMassStorage Mass Storage]
   * [CoreDocApple2 Apple II+ core]
+  * [CoreDocArchimedes Archimedes beta core]
   * [CoreDocAtari2600 Atari2600 core]
   * [CoreDocAtari800 Atari800 core]
   * [CoreDocAtari5200 Atari5200 core]
