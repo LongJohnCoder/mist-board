@@ -19,6 +19,26 @@ You can rename the file to core.rbf if you want the MiST to load it automaticall
 Roms (.csw) can be copied anywhere on the SD card and are selected via the OSD menu.
 If you have many files you might want to store them into alphabetized sub-folders to access them more quickly.
 
+== Adding a Spectrum +3e ROM ==
+
+The Spectrum core includes Spectrum +2 compatibility since r822. By default the built-in Spectrum 128 will still be used. A Spectrum +2, +3 or [http://www.worldofspectrum.org/zxplus3e/ +3e ROM] can be copied onto the SD card being named `spectrum.rom`. If this file is present it will be auto loaded by default and being used instead of the built-in Spectrum 128 rom. It is recommended to use the `mmcen3eE.rom` from [http://www.worldofspectrum.org/zxplus3e/files/p3eroms.zip `p3eroms.zip`]. This will detect the ZXMMC+ and will show one MMC drive present.
+
+The Spectrum ROMs do not support SDHC cards. It's thus recommended to use a small non-SDHC card <2GB. As long as you don't let the Spectrum write to the SD card a SDHC card may be used. The initial error message can then be ignored by pressing F12. But keep in mind that even read access to a card >2GB may fail if the data to be accessed lies beyond the 2GB barrier.
+
+== Adding ZXMMC+ flash contents ==
+
+The 512k ROM present on the ZXMMC+ are also available. They are mapped from 512k to 1MB inside the `spectrum.rom` rom file. To e.g. add the bootloader from [http://www.probosci.de/zxbada/zxmmcp/quickstart.html the ZXMMC+ Homepage] you first need to append 448k to the `mmcen3eE.rom` (making it a total of 512k). Then append the `ROMIMAGE.ROM` from the [http://www.probosci.de/zxbada/zxmmcp/software/bootrom_v2.21e.zip ] `bootrom_v2.21e.zip`].
+
+Under Linux the following commands will do:
+{{{
+dd if=/dev/zero of=blank448k bs=1k count=448
+cat mmcen3eE.rom blank448k ROMIMAGE.ROM > spectrum.rom
+}}}
+
+Concatenating 8 copies of the `mmcen3eE.rom` will also result in the required 512k image to which the bootloader can then be appended.
+
+To boot from the ZXMMC+ flash rom open the OSD and set `ZXMMC+ overlay` to on, `ZXMMC+ memory` to ROM and select Reset. You should now see the bootloader with the SD card CID being displayed on the bottom.
+
 == Converting CSW1 files ==
  
  * The [https://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Ftools%2Ftzx2wav TZX2WAV utility] can convert TZX files into CSW.
