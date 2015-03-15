@@ -34,7 +34,7 @@ You can then enter *run"file.bas* to run the choosen executable.
 
 This core is a deploy of FPGAmstrad from NEXYS4 Diligent development board into MiST final board
 
-FPGAmstrad is a translate of JavaCPC from Java into VHDL, using Eclipse debug mode to snif wires values in live.
+FPGAmstrad is a translate of JavaCPC from Java into VHDL (electronic langage), resulting a re-implementation of the original hardware itself.
 
 JavaCPC is an Amstrad CPC 6128 emulator developed by Markus Hohmann.
 
