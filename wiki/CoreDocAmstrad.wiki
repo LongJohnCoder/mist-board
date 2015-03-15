@@ -53,14 +53,14 @@ A schematic developed in order to be comparable to original documentation schema
   * bootloader_sd : sdcard bootloader, in order to load ROM and dsk at boot, from sdcard.
 
 As Xilinx schematics are not compatible with Altera, I do generate "vhf" files, and rename them :
-  * FPGAmstrad_amstrad_motherboard
-  * FPGAmstrad_amstrad_video
-  * FPGAmstrad_bootloader_sd
+  * FPGAmstrad_amstrad_motherboard.vhd
+  * FPGAmstrad_amstrad_video.vhd
+  * FPGAmstrad_bootloader_sd.vhd
 
 And then I make a global schematic in Altera, that contains the previous components, and several MiST-board controlers :
-  * FPGAmstrad_amstrad_motherboard
-  * FPGAmstrad_amstrad_video
-  * FPGAmstrad_bootloader_sd
+  * FPGAmstrad_amstrad_motherboard.vhd
+  * FPGAmstrad_amstrad_video.vhd
+  * FPGAmstrad_bootloader_sd.vhd
   * sdcard.v
   * user_io.v
   * data_io.v
