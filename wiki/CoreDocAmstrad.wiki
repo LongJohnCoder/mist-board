@@ -67,7 +67,7 @@ While generating vhf files from Xilinx Schematics, a lot of small components are
   * OR2 component became 'or instruction
   * GND component became '0' value
   * VCC component became '1' value
-The internal RAM, sync and async (with one or two clocks) are to adapt, I use mem_altera_gen.vhd that this purpose.
+The internal RAM, sync and async (with one or two clocks) are to adapt, I use mem_altera_gen.vhd for this purpose.
 
 = Special hacks done during deploy =
 
