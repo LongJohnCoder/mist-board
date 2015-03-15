@@ -1,5 +1,5 @@
+#summary documentation for the Amstrad core
 #labels Phase-Requirements,Phase-Design
-#documentation for the Amstrad core
 
 = Introduction =
 
