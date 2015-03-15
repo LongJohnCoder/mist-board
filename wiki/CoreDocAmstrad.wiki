@@ -57,7 +57,7 @@ As Xilinx schematics are not compatible with Altera, I do generate "vhf" files, 
   * FPGAmstrad_amstrad_video
   * FPGAmstrad_bootloader_sd
 
-And then I make a global schematic in Altera, in contains the previous components, and several MiST-board controlers :
+And then I make a global schematic in Altera, that contains the previous components, and several MiST-board controlers :
   * FPGAmstrad_amstrad_motherboard
   * FPGAmstrad_amstrad_video
   * FPGAmstrad_bootloader_sd
