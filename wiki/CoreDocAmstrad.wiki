@@ -7,13 +7,26 @@ Welcome to Amstrad core for MiST-board.
 
 This is a deployment of FPGAmstrad into MiST-board.
 
-You need :
-- a MiST-board platform, with firmware updated >=xxx
-- a SDCARD that contains files : OS6128.ROM, BASIC1-1.ROM, AMSDOS.ROM, MAXAM.ROM, FGPAmstrad_MiST_top.rbf (can be renamed core.rbf for using it at boot), *.dsk.
-
 Known running games : Asphalt, Bruce Lee, Buggy Boy, Dan Dare 1 & 2, Donkey Kong, Fruity Frank, Hold-up, Impossible Mission, Macadam Bumper, Prince of Percia, RAID (?), Rick Dangerous 1 & 2, Sapiens, Spin Dizzy, Super Ski, Trail Blazer, Wizard's Lair, 1942 1943, Classic Invaders,  Ghost'n'Goblins, Ghould'n'Ghosts, Tempest, Xevious.
 
 Known running demos from CPCRulez demoscene : -Circles, Crazy Demo, Genesis Demo, GPA Demo 1, IFE Demo, TMS Demo 2 (compacted one)
+= Installation =
+
+You need :
+  * a MiST-board platform, with firmware updated >=xxx
+  * a SDCARD that contains files : OS6128.ROM, BASIC1-1.ROM, AMSDOS.ROM, MAXAM.ROM, FGPAmstrad_MiST_top.rbf (can be renamed core.rbf for using it at boot), *.dsk.
+
+
+Using the OSD menu (F12), do select a dsk.
+You can enter *cat* instruction to list dsk content. Executable are files in *.bas* or *.bin*.
+You can then enter *run"file.bas* to run the executable.
+
+= Controls =
+
+ * _F1_ _F2_ _F3_ at the top are mapped correctly.
+ * _left_ _shift_ is the true shift key. _Right_ _shift_ one is used just to map flipper key in Macadam Bumper (I like playing flipper using shift keys).
+ * _shift+arrow_ does move the second cursor, and _insert_ does copy letters that are under the second cursor. That's it : _insert_ key is mapped to original _copy_ key.
+ * _Page up_ does reset Amstrad
 
 = Developing, translating, deploying =
 
