@@ -76,7 +76,7 @@ I also add some adapters, about wire/bus range solving :
   * CONF_STR.vhd : generating OSD parameter
 
 = Xilinx to Altera =
-While generating vhf files from Xilinx Schematics, a lot of small components are to adapt :
+While generating vhf files from Xilinx Schematics, a lot of small components have to be adapted :
   * INV component became 'not' instruction
   * AND2 component became 'and' instruction
   * OR2 component became 'or instruction
