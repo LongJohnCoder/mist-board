@@ -13,7 +13,7 @@ Known running demos from CPCRulez demoscene : -Circles, Crazy Demo, Genesis Demo
 = Installation =
 
 You need :
-  * MiST-board platform, with [https://code.google.com/p/mist-board/source/browse/trunk/bin/firmware/ firmware updated >= firmware_150315_r841.upg]
+  * MiST-board platform, with firmware updated [https://code.google.com/p/mist-board/source/browse/trunk/bin/firmware/ >= firmware_150315_r841.upg]
   * [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/amstrad amstrad core rbf file]
   * [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/amstrad/OS6128_BASIC1-1_AMSDOS_MAXAM amstrad ROMs and a dsk]
 
