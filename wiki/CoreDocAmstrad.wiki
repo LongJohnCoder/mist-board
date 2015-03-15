@@ -13,8 +13,10 @@ Known running demos from CPCRulez demoscene : -Circles, Crazy Demo, Genesis Demo
 = Installation =
 
 You need :
-  * a MiST-board platform, with firmware updated >=xxx
-  * a SDCARD that contains files : OS6128.ROM, BASIC1-1.ROM, AMSDOS.ROM, MAXAM.ROM, FGPAmstrad_MiST_top.rbf (can be renamed core.rbf for using it at boot), *.dsk.
+  * MiST-board platform, with firmware updated >=xxx
+  * [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/amstrad amstrad core rbf file]
+  * [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/amstrad/OS6128_BASIC1-1_AMSDOS_MAXAM Amstrad ROMs and a dsk]
+
 
 
 Using the OSD menu (F12), do select a dsk.
