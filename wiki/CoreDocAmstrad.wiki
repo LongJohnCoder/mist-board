@@ -69,11 +69,11 @@ And then I make a global schematic in Altera, that contains the previous compone
 
 I create then a main clock component, generating all clocks I want even the not clocks (a good practice, while using "time constraints"),
 I also add some adapters, about wire/bus range solving :
-  * MIST_SDRAM
-  * MIST_DQM : just map a bus into simple wires
-  * MIST_RGB
-  * MIST_STATUS
-  * CONF_STR
+  * MIST_SDRAM.vhd : each SDRAM has a different RAM bus size
+  * MIST_DQM.vhd : just a small wiring helper
+  * MIST_RGB.vhd : each VGA output has different count of colors
+  * MIST_STATUS.vhd : mapping status wires
+  * CONF_STR.vhd : generating OSD parameter
 
 = Xilinx to Altera =
 While generating vhf files from Xilinx Schematics, a lot of small components are to adapt :
