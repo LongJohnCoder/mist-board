@@ -18,11 +18,16 @@ Known running demos from CPCRulez demoscene : -Circles, Crazy Demo, Genesis Demo
 = Developing, translating, deploying =
 
 This core is a deploy of FPGAmstrad from NEXYS4 Diligent development board into MiST final board
+
 FPGAmstrad is a translate of JavaCPC from Java into VHDL, using Eclipse debug mode to look at wires values in live.
+
 JavaCPC is a Amstrad CPC 6128 emulator developed by Markus Hohmann.
 
+
 In this page, you'll find all about my deployment strategy.
+
 In FPGAmstrad's page http://www.cpcwiki.eu/index.php/FPGAmstrad, you'll find all about game bug localisation, and a TODO-list.
+
 From Markus Hohmann homepage http://cpc.devilmarkus.de, you can try others games, playing them directly from your web navigator :)
 
 = From Xilinx to Altera schematics =
