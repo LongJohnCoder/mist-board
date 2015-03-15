@@ -69,10 +69,10 @@ While generating vhf files from Xilinx Schematics, a lot of small components are
   * VCC component became '1' value
 The internal RAM, sync and async (with one or two clocks) are to adapt, I use mem_altera_gen.vhd for this purpose.
 
-= Special hacks done during deploy =
+= Special things done during deploy =
 
-sdram.v is hacked in order to solve address after the write or read event. It is due to Amstrad that permit writing in RAM hidden inside ROM : if I read I read ROM, if I write I write RAM.
-sdram.v is also hacked in order having a clkref lower than 4MHz.
+sdram.v is personalized in order to solve address after the write or read event. It is due to Amstrad that permit writing in RAM hidden inside ROM : if I read I read ROM, if I write I write RAM.
+sdram.v is also personalized in order having a clkref lower than 4MHz.
 
 As I could not do enter my 32KB VRAM, I used a 16KB+8KB+4KB VRAM, to display the 640x480 output.
 
@@ -86,8 +86,7 @@ Next actions are same as FPGAmstrad's TODO-list.
 = Return =
   * 1943 show an evidence about problem reading/writing on a VRAM at two different speed. A scan-doubler component shall be better in order to solve that.
   * A lot of games were lost in this deploy due to 16KB only mirror VRAM. A scan-doubler component shall be better RAM cheaper in order to solve that.
-  * A lot of games and demos were unlocked since I hacked the SDRAM controler, all about that will be reported back into FPGAmstrad project.
+  * A lot of games and demos were unlocked since I personalized the SDRAM controler, all about that will be reported back into FPGAmstrad project.
   * PWM was greatly ameliorated during this deploy, all about that will be reported back into FPGAmstrad project.
   * A small effort was done about interrupt cycles during this deploy, unlocking some demos, all about that will be reported back into FPGAmstrad project.
-  * SDRAM hack has to be reported back into FPGAmstrad project.
-This project do compile in Xilinx and in Altera, but some files have to be personalised each time I switch. That have to be ameliored.
+  * This project do compile in Xilinx and in Altera, but some files have to be edited each time I switch. That have to be ameliored.
