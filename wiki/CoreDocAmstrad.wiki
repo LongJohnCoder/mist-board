@@ -20,7 +20,7 @@ You need :
 
 
 Using the OSD menu (F12), do select a dsk.
-You can enter *cat* instruction to list dsk content. Executable are files in *.bas* or *.bin*.
+You can enter *cat* instruction to list dsk content. Executables are files in *.bas* or *.bin*.
 You can then enter *run"file.bas* to run the executable.
 
 = Controls =
