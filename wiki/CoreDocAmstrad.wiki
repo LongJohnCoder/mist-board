@@ -1,5 +1,6 @@
 #summary documentation for the Amstrad core
 #labels Phase-Requirements,Phase-Design
+#sidebar CoreDocTOC
 
 = Introduction =
 
