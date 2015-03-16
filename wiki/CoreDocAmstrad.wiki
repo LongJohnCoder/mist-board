@@ -108,4 +108,4 @@ Next actions are same as FPGAmstrad's TODO-list.
   * A lot of games and demos were unlocked since I personalized the SDRAM controler, all about that will be reported back into FPGAmstrad project.
   * PWM was greatly ameliorated during this deploy, all about that will be reported back into FPGAmstrad project.
   * A small effort was done about interrupt cycles during this deploy, unlocking some demos, all about that will be reported back into FPGAmstrad project.
-  * This project do compile in Xilinx and in Altera, but some files have to be edited each time I switch. That have to be ameliored.
+  * This project do compile in Xilinx and in Altera, but some files have to be edited each time I switch. That has to be improved.
