@@ -38,81 +38,10 @@ You can then enter *run"file.bas* to run the choosen executable.
 <wiki:video url="http://www.youtube.com/watch?v=mTHb0kCSCdc"/>
 
 
-= Developing, translating, deploying =
+= Development details / acknowledgments =
 
 This core is a port of FPGAmstrad from code for the NEXYS4 Diligent development board into the MiST board.
 
 FPGAmstrad is a translation of JavaCPC from Java into VHDL (electronic language), essentially *reverse engineering* resulting in an original Amstrad clone.
 
 JavaCPC is an Amstrad CPC 6128 emulator developed by Markus Hohmann.
-
-
-In this wiki page, you'll find all about my deployment strategy.
-
-In FPGAmstrad's page http://www.cpcwiki.eu/index.php/FPGAmstrad, you'll find all about game bug localisation, and a TODO-list.
-
-From Markus Hohmann homepage http://cpc.devilmarkus.de, you can try others games, playing them directly from your internet browser :)
-
-= From Xilinx to Altera schematics =
-For me, global schematics are really important, for developing and for deploying.
-A schematic developed in order to be comparable to original documentation schematic is nice. FPGAmstrad is composed of 3 schematics :
-  * amstrad_motherboard : comparable to original Amstrad schematic.
-  * amstrad_video : does manage a true VGA output, using a internal VRAM.
-  * bootloader_sd : sdcard bootloader, in order to load ROM and dsk at boot, from sdcard.
-
-As Xilinx schematics are not compatible with Altera, I do generate "vhf" files, and rename them :
-  * FPGAmstrad_amstrad_motherboard.vhd
-  * FPGAmstrad_amstrad_video.vhd
-  * FPGAmstrad_bootloader_sd.vhd
-
-And then I make a global schematic in Altera, that contains the previous components, and several MiST-board controlers :
-  * FPGAmstrad_amstrad_motherboard.vhd
-  * FPGAmstrad_amstrad_video.vhd
-  * FPGAmstrad_bootloader_sd.vhd
-  * sdcard.v
-  * user_io.v
-  * data_io.v
-  * sdram.v
-  * osd.v
-
-I create then a main clock component, generating all clocks I want even the not clocks (a good practice, while using "time constraints"),
-I also add some adapters, about wire/bus range solving :
-  * MIST_SDRAM.vhd : each SDRAM has a different RAM bus size
-  * MIST_DQM.vhd : just a small wiring helper
-  * MIST_RGB.vhd : each VGA output has different count of colors
-  * MIST_STATUS.vhd : mapping status wires
-  * CONF_STR.vhd : generating OSD parameter
-
-= Xilinx to Altera =
-While generating vhf files from Xilinx Schematics, a lot of small components have to be adapted :
-  * INV component became 'not' instruction
-  * AND2 component became 'and' instruction
-  * OR2 component became 'or instruction
-  * GND component became '0' value
-  * VCC component became '1' value
-The internal RAM, sync and async (with one or two clocks) are to adapt, I use mem_altera_gen.vhd for this purpose.
-
-= Special things done during deploy =
-
-sdram.v is personalized in order to solve address *after* the write or read event. It is due to Amstrad that permit writing in RAM hidden inside ROM : if I read I read ROM, if I write I write RAM.
-sdram.v is also personalized in order having a clkref lower than 4MHz.
-
-As I could not do enter my 32KB VRAM, I used a 16KB+8KB+4KB VRAM, to display the 640x480 output.
-
-In NEXYS4's version I use also a 32KB mirror VRAM reflecting C000-FFFF and 8000-BFFF, alternating between C000-FFF and 8000-BFFF is called using a double VRAM buffer.
-In MiST board only the C000-FFFF area is mirrored, so I add an option in OSD menu about playing with the A14 wire : you can detach -open- this wire or attach it in order having x"00" as output of 8000-BFFF area.
-That will help to detect/classify games needing more than 16KB of mirror VRAM.
-
-This 16KB is a mirror VRAM written at 4MHz and load at 4MHz, so a synchronous internal RAM running at 8MHz (synchronized with 4MHz in another process) shall do the stuff. I'm currently learning about "inferred RAM" : big variable (reg) compiled (fitted) as internal RAM instead of simple variable (reg)
-
-
-= Future =
-Next actions are same as FPGAmstrad's TODO-list.
-
-= Return =
-  * 1943 show an evidence about problem reading/writing on a VRAM at two different speed. A scan-doubler component needs to be used in order to solve that sort of problem.
-  * A lot of games were lost in this deploy due to 16KB only mirror VRAM. A scan-doubler component needs to be used in order to solve that sort of problem.
-  * A lot of games and demos were unlocked since I personalized the SDRAM controler, all about that will be reported back into FPGAmstrad project.
-  * PWM was greatly ameliorated during this deploy, all about that will be reported back into FPGAmstrad project.
-  * A small effort was done about interrupt cycles during this deploy, unlocking some demos, all about that will be reported back into FPGAmstrad project.
-  * This project do compile in Xilinx and in Altera, but some files have to be edited each time I switch. That has to be improved.
