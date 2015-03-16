@@ -12,7 +12,7 @@
 
 || *System* || *Docs* || *Binary URL* || *Core Project* ||
 || Amiga (AGA in beta)|| [CoreDocAmiga documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] || Minimig ||
-|| Amstrad CPC || [CoreDocAmstrad documentation] || https://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Famstrad || FPGAmstrad ||
+|| Amstrad CPC || [CoreDocAmstrad documentation] || [https://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Famstrad binaries] || FPGAmstrad ||
 || Apple II+ || [CoreDocApple2 documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||  [http://www1.cs.columbia.edu/~sedwards/apple2fpga/ Apple2FPGA] ||
 || Atari ST || [GettingStarted documentation] || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]|| MiST ||
 || Atari 800 || [CoreDocAtari800 documentation] ||  [http://www.scrameta.net/autobuild/ binaries] || [http://atariage.com/forums/topic/213827-potential-new-hardware/ foft's thread in AtariAge] ||
