@@ -34,9 +34,12 @@ You can then enter *run"file.bas* to run the choosen executable.
  * _shift+arrow_ does move the second cursor, and _insert_ does copy letters that are under the second cursor. Basically, _insert_ key is mapped to the Amstrad's original _copy_ key.
  * _Page up_ will reset the Amstrad
 
+----
+
 = Gameplay Videos =
 <wiki:video url="http://www.youtube.com/watch?v=mTHb0kCSCdc"/>
 
+----
 
 = Development details / acknowledgments =
 
