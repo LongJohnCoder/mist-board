@@ -95,6 +95,9 @@ In NEXYS4's version I use also a 32KB mirror VRAM reflecting C000-FFFF and 8000-
 In MiST board only the C000-FFFF area is mirrored, so I add an option in OSD menu about playing with the A14 wire : you can detach -open- this wire or attach it in order having x"00" as output of 8000-BFFF area.
 That will help to detect/classify games needing more than 16KB of mirror VRAM.
 
+This 16KB is a mirror VRAM written at 4MHz and load at 4MHz, so a synchronous internal RAM running at 8MHz shall do the stuff. I'm currently learning about "inferred RAM" : big variable (reg) compiled (fitted) as internal RAM instead of simple variable (reg)
+
+
 = Future =
 Next actions are same as FPGAmstrad's TODO-list.
 
