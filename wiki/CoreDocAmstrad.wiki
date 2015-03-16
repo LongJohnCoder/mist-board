@@ -8,10 +8,6 @@ Welcome to Amstrad core for MiST-board.
 
 This is a deployment of FPGAmstrad into MiST-board.
 
-Known running games : Asphalt, Bruce Lee, Buggy Boy, Dan Dare 1 & 2, Donkey Kong, Fruity Frank, Hold-up, Impossible Mission, Macadam Bumper, Prince of Percia, RAID (?), Rick Dangerous 1 & 2, Sapiens, Spin Dizzy, Super Ski, Trail Blazer, Wizard's Lair, 1942 1943, Classic Invaders,  Ghost'n'Goblins, Ghould'n'Ghosts, Tempest, Xevious.
-
-Known running demos from CPCRulez demoscene : -Circles, Crazy Demo, Genesis Demo, GPA Demo 1, IFE Demo, TMS Demo 2 (compacted one)
-
 [CoreDocAmstradNotes Core Developer's Notes]
 
 = Installation =
@@ -33,6 +29,13 @@ You can then enter *run"file.bas* to run the choosen executable.
  * _left_ _shift_ is the true shift key. _Right_ _shift_ one is used just to map flipper key in Macadam Bumper (I like playing flipper using shift keys).
  * _shift+arrow_ does move the second cursor, and _insert_ does copy letters that are under the second cursor. Basically, _insert_ key is mapped to the Amstrad's original _copy_ key.
  * _Page up_ will reset the Amstrad
+
+= Compatibility = 
+
+
+Known running games : Asphalt, Bruce Lee, Buggy Boy, Dan Dare 1 & 2, Donkey Kong, Fruity Frank, Hold-up, Impossible Mission, Macadam Bumper, Prince of Percia, RAID (?), Rick Dangerous 1 & 2, Sapiens, Spin Dizzy, Super Ski, Trail Blazer, Wizard's Lair, 1942 1943, Classic Invaders,  Ghost'n'Goblins, Ghould'n'Ghosts, Tempest, Xevious.
+
+Known running demos from CPCRulez demoscene : -Circles, Crazy Demo, Genesis Demo, GPA Demo 1, IFE Demo, TMS Demo 2 (compacted one)
 
 ----
 
