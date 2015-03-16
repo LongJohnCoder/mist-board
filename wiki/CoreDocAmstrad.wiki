@@ -44,7 +44,7 @@ In this wiki page, you'll find all about my deployment strategy.
 
 In FPGAmstrad's page http://www.cpcwiki.eu/index.php/FPGAmstrad, you'll find all about game bug localisation, and a TODO-list.
 
-From Markus Hohmann homepage http://cpc.devilmarkus.de, you can try others games, playing them directly from your web navigator :)
+From Markus Hohmann homepage http://cpc.devilmarkus.de, you can try others games, playing them directly from your internet browser :)
 
 = From Xilinx to Altera schematics =
 For me, global schematics are really important, for developing and for deploying.
