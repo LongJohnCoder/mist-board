@@ -28,14 +28,14 @@ You can then enter *run"file.bas* to run the choosen executable.
 
  * _F1_ _F2_ _F3_ at the top are mapped correctly.
  * _left_ _shift_ is the true shift key. _Right_ _shift_ one is used just to map flipper key in Macadam Bumper (I like playing flipper using shift keys).
- * _shift+arrow_ does move the second cursor, and _insert_ does copy letters that are under the second cursor. That's it : _insert_ key is mapped to original _copy_ key.
- * _Page up_ does reset Amstrad
+ * _shift+arrow_ does move the second cursor, and _insert_ does copy letters that are under the second cursor. Basically, _insert_ key is mapped to the Amstrad's original _copy_ key.
+ * _Page up_ will reset the Amstrad
 
 = Developing, translating, deploying =
 
-This core is a deploy of FPGAmstrad from NEXYS4 Diligent development board into MiST final board
+This core is a port of FPGAmstrad from code for the NEXYS4 Diligent development board into the MiST board.
 
-FPGAmstrad is a translate of JavaCPC from Java into VHDL (electronic language), it is about *reverse engineering*, resulting an original Amstrad clone.
+FPGAmstrad is a translation of JavaCPC from Java into VHDL (electronic language), essentially *reverse engineering* resulting in an original Amstrad clone.
 
 JavaCPC is an Amstrad CPC 6128 emulator developed by Markus Hohmann.
 
