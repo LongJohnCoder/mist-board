@@ -95,6 +95,13 @@ In VRAM_Palette, I had 16KB. But in fact a raster line is a 2+16+1 RAM palette l
 
 Result of this WIP : I won 10KB of internal RAM (I need 6KB more to succeed in my full FPGAmstrad deployment)
 
+WIP : I think about nibbling 2KB more at end of RAM palette.
+And 4KB in VRAM :
+800x600=100*300=30KB full
+800x480=100*240=24000 24000-16384=7616<8KB=8192
+so VRAM with a start vertical offset can be composed of 16KB+8KB only. So I may win my last 4KB here.
+Over way if I just remove the first 4KB, my display does draw at top (600-480)/4=30 lines, 30*100=3000 so bytes are hidden at top (VRAM is 800x600 centered, and displayed finally 640x480)... but 3000<4096 so it doesn't pass. I need this start vertical offset patch, I cannot just remove a block of RAM like this.
+
 = Future =
 Next actions are same as FPGAmstrad's TODO-list.
 
