@@ -10,8 +10,7 @@ This page has operating instructions for the ZX Spectrum core.
  * [http://www.mike-stirling.com/retro-fpga/zx-spectrum-on-an-fpga/ ZX Spectrum on FPGA homepage]
  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/spectrum Core binaries]
  * [http://ramsoft.bbk.org.omegahg.com/csw.html#CSW1FORMAT Info on the CSW1 file format]
- * [http://www.worldofspectrum.org/zxplus3e/ Spectrum +3e Homepage]
- * [http://www.probosci.de/zxbada/zxmmcp/ ZXMMC+ HomePage]
+ * [http://www.esxdos.org/ ESXDOS Homepage]
 
 = Installation =
 
@@ -21,25 +20,15 @@ You can rename the file to core.rbf if you want the MiST to load it automaticall
 ROMs (.csw) can be copied anywhere on the SD card and are selected via the OSD menu.
 If you have many files you might want to store them into alphabetized sub-folders to access them more quickly.
 
-== Adding a Spectrum +3e ROM ==
+== Using DIVMMC/ESXDOS ==
 
-The Spectrum core includes Spectrum +2 compatibility since r822. By default the built-in Spectrum 128 will still be used. A Spectrum +2, +3 or [http://www.worldofspectrum.org/zxplus3e/ +3e ROM] can be copied onto the SD card being named `spectrum.rom`. If this file is present it will be auto loaded by default and being used instead of the built-in Spectrum 128 ROM. It is recommended to use the `mmcen3eE.rom` from [http://www.worldofspectrum.org/zxplus3e/files/p3eroms.zip `p3eroms.zip`]. This will detect the ZXMMC+ and will show one MMC drive present.
+The DIVMMC/[http://www.esxdos.org/ ESXDOS] combo provides easy and fast access to spectrum games stored on SD card. With release r877 the zxmmc has been replaced by a DIVMMC implementation in the spectrum core.
 
-The Spectrum ROMs do not support SDHC cards. It's thus recommended to use a small non-SDHC card <2GB. As long as you don't let the Spectrum write to the SD card a SDHC card may be used. The initial error message can then be ignored by pressing F12. But keep in mind that even read access to a card >2GB may fail if the data to be accessed lies beyond the 2GB barrier.
+In order to enable the DIVMMC on your MiST simply put the file `ESCMMC.BIN` from the [http://www.esxdos.org/files/esxdos085.zip `esxdos085.zip`] onto the SD card naming it `spectrum.rom`. Follow the instructions in that archive and also copy the entire `BIN` and `SYS` directories onto your SD card and boot your MIST with that.
 
-== Adding ZXMMC+ flash contents ==
+On first boot the SD card will be detected. You can open the ESXDOS menu at any time using either the NMI entry from the MiST OSD. Or by pressing the fourth button on your USB gamepad (of course only if the gamepad has at least four buttons).
 
-The 512k ROM present on the ZXMMC+ are also available. They are mapped from 512k to 1MB inside the `spectrum.rom` ROM file. To e.g. add the bootloader from [http://www.probosci.de/zxbada/zxmmcp/quickstart.html the ZXMMC+ Homepage] you first need to append 448k to the `mmcen3eE.rom` (making it a total of 512k). Then append the `ROMIMAGE.ROM` from the [http://www.probosci.de/zxbada/zxmmcp/software/bootrom_v2.21e.zip ] `bootrom_v2.21e.zip`].
-
-Under Linux the following commands will do:
-{{{
-dd if=/dev/zero of=blank448k bs=1k count=448
-cat mmcen3eE.rom blank448k ROMIMAGE.ROM > spectrum.rom
-}}}
-
-Concatenating 8 copies of the `mmcen3eE.rom` will also result in the required 512k image to which the bootloader can then be appended.
-
-To boot from the ZXMMC+ flash ROM open the OSD and set `ZXMMC+ overlay` to on, `ZXMMC+ memory` to ROM and select Reset. You should now see the bootloader with the SD card CID being displayed on the bottom.
+Since some of the data is kept in RAM for several seconds you might need to switch of the MIST for about 10 seconds if you wish to force a cold boot and complete reload of the ESXDOS drivers.
 
 == Converting CSW1 files ==
  
