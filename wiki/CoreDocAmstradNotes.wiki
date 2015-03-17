@@ -61,6 +61,39 @@ That will help to detect/classify games needing more than 16KB of mirror VRAM.
 
 This 16KB is a mirror VRAM written at 4MHz and load at 4MHz, so a synchronous internal RAM running at 8MHz (synchronized with 4MHz in another process) shall do the stuff. I'm currently learning about "inferred RAM" : big variable (reg) compiled (fitted) as internal RAM instead of simple variable (reg)
 
+= RAM optimization =
+
+Here, I'm working about winning more internal FPGA RAM, it's WIP.
+
+RAM infer : [http://quartushelp.altera.com/13.0/mergedProjects/hdl/vlog/vlog_file_dir_ram.htm in Altera reg is inferred into RAM-block], so a reg write like this :
+{{{
+reg [7:0] dir_entry_reg [31:0]
+}}}
+became RAM-block.
+
+In data_io.v : dir_entry_reg does use /* synthesis noprune */ in order to be not unwired. If I remove output dir_entry_d, RAM-block is inferred. If I let output dir_entry_d, LOGIC-block is inferred.
+
+So I removed output dir_entry_d and set :
+{{{
+(* ramstyle = "logic" *) reg [7:0] dir_entry_reg [31:0] /* synthesis noprune */;
+}}}
+So I continue winning my 1KB internal RAM-block (here 256 Bytes was needed and turn into inferred LOGIC-block)
+
+In sdcard.v
+{{{
+reg [7:0] buffer [511:0];
+}}}
+is a big reg and really important one (speaking to ARM SPI !), so I let it inferring into RAM-block.
+But about cid and csd I does :
+{{{
+(* ramstyle = "logic" *) reg [7:0] cid [15:0];
+(* ramstyle = "logic" *) reg [7:0] csd [15:0];
+}}}
+Winning 2KB of internal RAM for this small 128Bytes reg :)
+
+In VRAM_Palette, I had 16KB. But in fact a raster line is a 2+16+1 RAM palette line, so each line I store 19KB, so in fact 19*600/2=5700 bytes (800x600 VRAM in fact thruly 800x300). So only a 8KB RAM palette only was needed in FPGAmstrad project finally.
+
+Result of this WIP : I won 10KB of internal RAM (I need 6KB more to succeed in my full FPGAmstrad deployment)
 
 = Future =
 Next actions are same as FPGAmstrad's TODO-list.
