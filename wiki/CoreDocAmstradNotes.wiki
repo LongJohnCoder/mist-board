@@ -53,17 +53,13 @@ The internal RAM, sync and async (with one or two clocks) are to adapt, I use me
 sdram.v is personalized in order to solve address *after* the write or read event. It is due to Amstrad that permit writing in RAM hidden inside ROM : if I read I read ROM, if I write I write RAM.
 sdram.v is also personalized in order having a clkref lower than 4MHz.
 
-As I could not do enter my 32KB VRAM, I used a 16KB+8KB+4KB VRAM, to display the 640x480 output.
-
-In NEXYS4's version I use also a 32KB mirror VRAM reflecting C000-FFFF and 8000-BFFF, alternating between C000-FFF and 8000-BFFF is called using a double VRAM buffer.
-In MiST board only the C000-FFFF area is mirrored, so I add an option in OSD menu about playing with the A14 wire : you can detach -open- this wire or attach it in order having x"00" as output of 8000-BFFF area.
-That will help to detect/classify games needing more than 16KB of mirror VRAM.
-
-This 16KB is a mirror VRAM written at 4MHz and load at 4MHz, so a synchronous internal RAM running at 8MHz (synchronized with 4MHz in another process) shall do the stuff. I'm currently learning about "inferred RAM" : big variable (reg) compiled (fitted) as internal RAM instead of simple variable (reg)
-
 = RAM optimization =
 
-Here, I'm working about winning more internal FPGA RAM, it's WIP.
+Some efforts done about internal RAM.
+
+As I could not do enter my 32KB VRAM, I used a 16KB+8KB+4KB VRAM, to display the 640x480 output, scanning my 800x600 VRAM : bottom of my VRAM is useless for a 640x480 display.
+
+At this step, I have 0KB of internal RAM free. Now let's do appear 16KB more in order to deploy fully my FPGAmstrad project !
 
 RAM inferred : [http://quartushelp.altera.com/13.0/mergedProjects/hdl/vlog/vlog_file_dir_ram.htm in Altera reg is inferred into RAM-block], so a reg written like this :
 {{{
@@ -93,14 +89,28 @@ Winning 2KB of internal RAM for this small 128Bytes reg :)
 
 In VRAM_Palette, I had 16KB. But in fact a raster line is a 2+16+1 RAM palette line, so each line I store 19KB, so in fact 19*600/2=5700 bytes (800x600 VRAM in fact thruly 800x300). So only a 8KB RAM palette only was needed in FPGAmstrad project finally.
 
-Result of this WIP : I won 10KB of internal RAM (I need 6KB more to succeed in my full FPGAmstrad deployment)
+At this step I won 10KB of internal RAM (I need 6KB more to succeed in my full FPGAmstrad deployment)
 
-WIP : I think about nibbling 2KB more at end of RAM palette.
+I can nibble 2KB more at end of RAM palette, that's what I does.
+Now I have 12KB of internal RAM free :)
+
 And 4KB in VRAM :
 800x600=100*300=30KB full
 800x480=100*240=24000 24000-16384=7616<8KB=8192
-so VRAM with a start vertical offset can be composed of 16KB+8KB only. So I may win my last 4KB here.
-Over way if I just remove the first 4KB, my display does draw at top (600-480)/4=30 lines, 30*100=3000 so bytes are hidden at top (VRAM is 800x600 centered, and displayed finally 640x480)... but 3000<4096 so it doesn't pass. I need this start vertical offset patch, I cannot just remove a block of RAM like this.
+so VRAM with a start vertical offset can be composed of 16KB+8KB only. So I won my last 4KB here.
+I did patch my simple_GateArrayInterrupt component by parametering vertical offset :
+{{{
+ GA_interrupt : simple_GateArrayInterrupt
+		generic map (VRAM_Voffset=>38*8-30*8-4*8+4  +0      +15) -- MiST +15 ?
+}}}
+I also patched my aZRaEL_vram2vgaAmstradMiaow component by parametering vertical offset :
+{{{
+  XLXI_476 : aZRaEL_vram2vgaAmstradMiaow
+		generic map (VOFFSET_NEGATIF =>0, -- MiST 0
+		VOFFSET_PALETTE=>0) -- MiST 0
+}}}
+
+Now I can use my 16KB free RAM in VRAM double buffer. Reaching a full FGPAmstrad project deploy on MiST-board, unlocking others games : it is what is done in realise 002 of Amstrad core. I tested ChaseHQ does now run fine.
 
 = Future =
 Next actions are same as FPGAmstrad's TODO-list.
