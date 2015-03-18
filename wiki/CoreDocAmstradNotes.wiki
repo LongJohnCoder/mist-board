@@ -61,7 +61,7 @@ As I could not do enter my 32KB VRAM, I used a 16KB+8KB+4KB VRAM, to display the
 
 At this step, I have 0KB of internal RAM free. Now let's do appear 16KB more in order to deploy fully my FPGAmstrad project !
 
-RAM inferred : [http://quartushelp.altera.com/13.0/mergedProjects/hdl/vlog/vlog_file_dir_ram.htm in Altera reg is inferred into RAM-block], so a reg written like this :
+RAM inferred : [http://quartushelp.altera.com/13.0/mergedProjects/hdl/vlog/vlog_file_dir_ram.htm in Altera reg is inferred into RAM-block] ([http://quartushelp.altera.com/13.0/mergedProjects/hdl/vlog/vlog_file_dir.htm more]), so a reg written like this :
 {{{
 reg [7:0] dir_entry_reg [31:0]
 }}}
