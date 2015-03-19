@@ -22,6 +22,8 @@ If you have many files you might want to store them into alphabetized sub-folder
 
 == Using DIVMMC/ESXDOS ==
 
+_DivMMC supports loading .TAP, .Z80, and .SNA files_
+
 The DIVMMC/[http://www.esxdos.org/ ESXDOS] combo provides easy and fast access to spectrum games stored on SD card. With release r877 the zxmmc has been replaced by a DIVMMC implementation in the spectrum core.
 
 In order to enable the DIVMMC on your MiST simply put the file `ESXMMC.BIN` from the [http://www.esxdos.org/files/esxdos085.zip `esxdos085.zip`] onto the SD card and renaming it to `spectrum.rom`. Follow the instructions in the ESXDOS  archive and also copy the entire `BIN` and `SYS` directories onto your SD card and boot your MIST with that.
@@ -29,6 +31,8 @@ In order to enable the DIVMMC on your MiST simply put the file `ESXMMC.BIN` from
 On first boot the SD card will be detected. You can open the ESXDOS menu at any time using either the NMI entry from the MiST OSD. Or by pressing the fourth button on your USB gamepad (of course only if the gamepad has at least four buttons).
 
 Since some of the data is kept in RAM for several seconds you might need to switch of the MIST for about 10 seconds if you wish to force a cold boot and complete reload of the ESXDOS drivers.
+
+
 
 == Converting CSW1 files ==
  
