@@ -32,6 +32,8 @@ Since some of the data is kept in RAM for several seconds you might need to swit
 
 == Converting CSW1 files ==
  
+_Note: CSW loading is only supported via the OSD menu, and not the DivMMC interface_
+
  * The [https://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Ftools%2Ftzx2wav TZX2WAV utility] can convert TZX files into CSW.
  * To convert TAP files into TZW you might need to use older utilities.
 
