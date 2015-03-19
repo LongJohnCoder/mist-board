@@ -32,7 +32,7 @@ On first boot the SD card will be detected. You can open the ESXDOS menu at any 
 
 Since some of the data is kept in RAM for several seconds you might need to switch of the MIST for about 10 seconds if you wish to force a cold boot and complete reload of the ESXDOS drivers.
 
-
+*Installing ESXDOS will stop the CSW upload from working as the ESXDOS hooks into the tape routines and uses them for fast TAP loading.*
 
 == Converting CSW1 files ==
  
