@@ -32,7 +32,7 @@ On first boot the SD card will be detected. You can open the ESXDOS menu at any 
 
 Since some of the data is kept in RAM for several seconds you might need to switch of the MIST for about 10 seconds if you wish to force a cold boot and complete reload of the ESXDOS drivers.
 
-With ESXDOS in place the Sepctrums main menu is not being used anymore and CSW files cannot be uploaded anymore. 
+With ESXDOS in place CSW uploaded doesn't work anymore. Remove the `spectrum.rom` file again if you need CSW upload.
 
 == Converting CSW1 files ==
  
