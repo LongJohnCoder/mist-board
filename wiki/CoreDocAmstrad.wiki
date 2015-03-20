@@ -37,7 +37,7 @@ Known running games : Asphalt, Bruce Lee, Buggy Boy, Dan Dare 1 & 2, Donkey Kong
 
 Known running games in another VRAM area : XOR (LowerVRAM 01), Crazy Car (LowerVRAM 00), Crazy Car II (welcome overscan : LowerVRAM 10, game : LowerVRAM 00), P47 (LowerVRAM 01), Paper Boy (LowerVRAM 01)
 
-Known running demos from CPCRulez demoscene : -Circles, Crazy Demo, Genesis Demo, GPA Demo 1, IFE Demo, TMS Demo 2 (compacted one)
+Known running demos from CPCRulez demoscene : -Circles, Crazy Demo, Genesis Demo, GPA Demo 1, IFE Demo, TMS Demo 2 (compacted one), -Nibou
 
 ----
 
