@@ -39,6 +39,10 @@ Known running games in another VRAM area : XOR (LowerVRAM 01), Crazy Car (LowerV
 
 Known running demos from CPCRulez demoscene : -Circles, Crazy Demo, Genesis Demo, GPA Demo 1, IFE Demo, TMS Demo 2 (compacted one), -Nibou
 
+Known running demos from CPCRulez demoscene in another VRAM area :  OFE Tome 1 Little One  (LowerVRAM 01)
+
+You can select VRAM area (LowerVRAM/upperVRAM) in OSD menu. Default one are 10 and 11.
+
 ----
 
 = Gameplay Videos =
