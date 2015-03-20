@@ -37,9 +37,9 @@ Known running games : Asphalt, Bruce Lee, Buggy Boy, Dan Dare 1 & 2, Donkey Kong
 
 Known running games in another VRAM area : XOR (LowerVRAM 01), Crazy Car (LowerVRAM 00), Crazy Car II (welcome overscan : LowerVRAM 10, game : LowerVRAM 00), P47 (LowerVRAM 01), Paper Boy (LowerVRAM 01)
 
-Known running demos from CPCRulez demoscene : -Circles, Crazy Demo, Genesis Demo, GPA Demo 1, IFE Demo, TMS Demo 2 (compacted one), -Nibou
+Known running demos from CPCRulez demoscene : -Circles, Crazy Demo, Genesis Demo, GPA Demo 1, IFE Demo, TMS Demo 2 (compacted one), -Nibou (<3), Buck Demo Micro Escape Demo 7, Bugs party 2, CF Magic demo 2 (part3 <3), Catloc Action Demo (just action, just music)
 
-Known running demos from CPCRulez demoscene in another VRAM area :  OFE Tome 1 Little One  (LowerVRAM 01)
+Known running demos from CPCRulez demoscene in another VRAM area :  OFE Tome 1 Little One  (LowerVRAM 01), Cast premiere (LowerVRAM 00 upperVRAM 01)
 
 You can select VRAM area (LowerVRAM/upperVRAM) in OSD menu. Default one are 10 and 11.
 
