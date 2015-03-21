@@ -3,7 +3,7 @@
 
 == Introduction ==
 
-In this wiki page, you'll find all the Amstrad MiST Core development strategy : deployment of FPGAmstrad project on this lovely MIST-board final FPGA platform.
+In this wiki page, you'll find all the Amstrad MiST Core development strategy : deployment of FPGAmstrad project on this lovely MiST-board final FPGA platform.
 
 In FPGAmstrad's page http://www.cpcwiki.eu/index.php/FPGAmstrad, you'll find all about game bug localisation, and a TODO-list.
 
