@@ -112,6 +112,12 @@ I also patched my aZRaEL_vram2vgaAmstradMiaow component by parametering vertical
 
 Now I can use my 16KB free RAM in VRAM double buffer. Reaching a full FGPAmstrad project deploy on MiST-board, unlocking others games : it is what is done in realise 002 of Amstrad core. I tested ChaseHQ does now run fine.
 
+= Source code =
+
+[https://drive.google.com/file/d/0B-5y_zO_t-TnQkdzVS1ILXRibG8/view?usp=sharing BuildYourOwnZ80ComputerMiST_v0.49_lowerVRAM_upperVRAM_select.zip]
+
+Compiling OK in Quartus II 13.0 (Altera IDE), and a few in ISE Design Suite 14.7 (Xilinx IDE) - I have to report back some modifications from my deploy platform(Altera MiST-board) to my dev platform (Xilinx NEXYS4 from Digilent Inc.)
+
 = Future =
 Next actions are same as FPGAmstrad's TODO-list.
 
