@@ -3,7 +3,7 @@
 
 == Introduction ==
 
-In this wiki page, you'll find all the FPGAmstrad development strategy.
+In this wiki page, you'll find all the Amstrad MiST Core development strategy.
 
 In FPGAmstrad's page http://www.cpcwiki.eu/index.php/FPGAmstrad, you'll find all about game bug localisation, and a TODO-list.
 
