@@ -47,7 +47,7 @@ Single-game arcade boards
 
 = Other stuff =
 New HDL designs that don't re-implement or emulate an existing machine
-|| *Platform* || *Link* ||
-|| Multicomp || http://searle.hostei.com/grant/Multicomp/index.html ||
-|| TG68MiniSOC || https://github.com/robinsonb5/TG68_MiniSOC ||
-|| ZPUFlex || http://retroramblings.net/?page_id=832 ||
+|| *Platform* || *Source* || *Link* ||
+|| Multicomp || https://github.com/wsoltys/multicomp || http://searle.hostei.com/grant/Multicomp/index.html ||
+|| TG68MiniSOC || || https://github.com/robinsonb5/TG68_MiniSOC ||
+|| ZPUFlex || || http://retroramblings.net/?page_id=832 ||
