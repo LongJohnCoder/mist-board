@@ -2,6 +2,16 @@
 #labels Featured
 #sidebar CoreDocTOC
 
+
+= Atari ST Highlights =
+
+  * ST/STE and Mega STE compatibility
+  * Floppy/HDD emulation via SD card
+  * Max CPU speed on par with Atari TT
+  * Up to 14 MB real ST RAM
+  * 1280x1024 high resolution video
+  * USB/Ethernet support
+
 = What you need =
 
 The MIST board was designed for simplicity. Getting it up and running is thus pretty easy. First of all you'll need a few additional things.
