@@ -1,5 +1,5 @@
 #summary Rom Management for the MIST FPGA using RomVault
-
+#sidebar CoreDocTOC
 = Rom Management =
 
 _Rom Management for the MIST FPGA_
