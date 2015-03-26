@@ -16,7 +16,7 @@ In this case we use !RomVault because its very easy to use and we can build a Di
 
 A Dat is a simple Text file with the Name of the Game and in my case 2 Checksums. A CRC and MD5 Checksum. In other Words, it's a Database. !RomVault compares each Rom/Disk/.. against the Database. It does this by comparing the Checksum of each found file against the Checksum of the Database. If both are the same, the Rom/Disk/.. is a “good” one and all other ones who are not found from !RomVault are Dupes and Bad Dumps.
 
-=Isn't that a lot of Work=
+=Isn't that a lot of Work ?=
 
 To be Honest...No. Once the Preparations are done, you only click 4 Icons. Update Dats, Scan Roms, Find Fixes and Fix Roms. After that we need to mass unzip all files which will be done by using !ExtractNow. That's all to build a clean Set of Games with nearly No Dupes and No Bad Dumps.
 
