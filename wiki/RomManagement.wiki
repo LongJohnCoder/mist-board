@@ -2,9 +2,6 @@
 #sidebar CoreDocTOC
 = Rom Management =
 
-_Rom Management for the MIST FPGA_
-
-
 
 = Do you know this ? =
 You found a nice Collection of old Games on the Web, put it on your SD card with the needed core and start it on your MIST. Thousands of Roms/Disks/whatsoever are now floating on your SD. Plenty of Duplicates, Bad Dumps are also now on your SD Card too which are not needed.
