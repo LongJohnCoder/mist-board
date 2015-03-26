@@ -1,4 +1,4 @@
-#Rom Management for the MIST FPGA using RomVault
+#summary Rom Management for the MIST FPGA using RomVault
 
 = Rom Management =
 
