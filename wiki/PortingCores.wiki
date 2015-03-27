@@ -2,7 +2,7 @@
 #sidebar CoreDocTOC
 
 The MIST is not the first FPGA board and not the first FPGA
-project. ListOfFPGAProjects lists FPGA based projects that may be
+project. [ListOfFPGAProjects] lists FPGA based projects that may be
 interesting for the MIST board as well. The effort of porting depends
 very much on the complexity of the project to be ported.
 
@@ -26,11 +26,11 @@ provides 3*6 bit video output via VGA and 2 outputs for audio. Many
 FPGA setups use similar outputs and many such projects can directly be
 ported to the MIST by just specifying the correct pins. It's even
 possible to output other signals than VGA on the VGA port. E.g. a
-analog RGB TV signal may be created there and be used with a
+analogue RGB TV signal may be created there and be used with a
 simple VGA to SCART cable like the "hama 43192".
 
 The two audio outputs are connected to a low pass filter stage so that
-pwm signals can be used to create analog signals.
+pwm signals can be used to create analogue signals.
 
 = SDRAM =
 
