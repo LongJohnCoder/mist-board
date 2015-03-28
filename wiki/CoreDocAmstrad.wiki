@@ -36,7 +36,7 @@ Known running [http://www.cpc-power.com games] : Asphalt, *Bruce Lee*, *Buggy Bo
 
 Known running games in another VRAM area : *XOR* (LowerVRAM 01), *Crazy Car* (LowerVRAM 00), Crazy Car II (welcome overscan : LowerVRAM 10, game : LowerVRAM 00), *P47* (LowerVRAM 01), Paper Boy (LowerVRAM 01), Action Fighter (LowerVRAM 01), Classiques Volume 1 & 2 (LowerVRAM 00).
 
-Known running ROM games : *Light Force* (|LIGHTFORCE), Superkid In Space.
+Known running ROM games : *Light Force* (do just enter *|LIGHTFORCE* instruction), Superkid In Space.
 
 Known running demos from [http://cpcrulez.fr/Scene_Demos/index.php CPCRulez demoscene] : -Circles, Crazy Demo, Genesis Demo, GPA Demo 1, IFE Demo, TMS Demo 2 (compacted one), *-Nibou*, Buck Demo Micro Escape Demo 7, Bugs party 2, CF Magic demo 2 (part3 <3), Crawling death demo, DSS intro v1.2, GPA Demo 2, JCP Mega Music, Majectic Demo, MCS demos (#2 <3), Murphy I the mega demo, Murphy II Death demo, Read Only Advert, Spaghetti Party 2, TBB Demo 3 (press a key after org), TBB last intro.
 
