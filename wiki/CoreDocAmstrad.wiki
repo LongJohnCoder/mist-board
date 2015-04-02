@@ -32,7 +32,7 @@ You can then enter *run"file.bas* to run the choosen executable.
 
 = Compatibility = 
 
-Please take also a look at [http://code.google.com/p/mist-board/wiki/RomManagement MiST-board RomManagement] project : about 2000 games were tested ok !
+Please take a look at [http://code.google.com/p/mist-board/wiki/RomManagement MiST-board RomManagement] project : about 2000 games were tested ok !
 
 Known running [http://www.cpc-power.com games] : Asphalt, *Bruce Lee*, *Buggy Boy*, Dan Dare 1 & 2, Exolon, *Donkey Kong*, *Fruity Frank*, *Hold-up*, Impossible Mission, *Macadam Bumper*, *Prince of Percia*, RAID (?), Rick Dangerous 1 & 2, *Sapiens*, Spin Dizzy, *Super Ski*, *Trail Blazer*, Wizard's Lair, 1942 1943, Classic Axiens, Classic Invaders,  Ghost'n'Goblins, Ghould'n'Ghosts, *Tempest*, Xevious, Salamander, Arkanoid, *Arkanoid Revenge of Doh*, *ChaseHQ*, *Bomb Jack*, Bomb Jack 2, 3D grand prix, Hyper bowl, Sorcery, Spherica, A view to a kill, Shinobi, Rygar, Realm, Bully's Sporting Darts, animated strip poker, Dizzy 7, Barbarian MH, Barbarian PA, Barbarian 2, *the sacred armor of Antiriad*, *Ikari warrior* (commando like), Bubble Ghost, Lode Runner, The Empire strikes back, Star wars, Gryzor (from romnation), *Boulder Dash*, Mange-Cailloux, Tetris 95, Maze Mania (Pacman variant), Locomotion, Express, *Light Force* (from RomManagement), Superkid In Space (from RomManagement).
 
