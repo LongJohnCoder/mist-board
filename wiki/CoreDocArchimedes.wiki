@@ -10,7 +10,7 @@ This page has operating instructions for the Acorn Archimedes *BETA* core by Ste
 _Mostly you can boot into RISCOS and use a few utilities:_
 
  # Basic internals are implemented. 
- # *No Floppy or hard disk support yet*. 
+ # Basic Floppy disk support 
  # The core emulates a 4Mb A3000 type machine with an ARM2a with caches disabled for now (has an A3010 style joystick interface). 
  # Core runs pretty slow at the moment due to a memory controller bug. 
 
@@ -19,7 +19,7 @@ If someone has an MMC driver/podule then please mention it in the forums so it c
 
 = Links =
 
-  * Core binaries (TBA)
+  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/archimedes/ Core binaries]
   * Source code (TBA)
 
 = Installation =
@@ -30,6 +30,9 @@ Copy the Archimedes core into a root folder of the SD card. To make the MiST sta
 
 Copy a version of a RiscOS ROM into the root folder, renaming it to `riscos.rom`. 
 
+= Floppy disk images =
+
+Currently only one floppy disk is supported. There's no OSD support for this yet and you need to place a 819200 bytes ADF floppy disk image named flopp0.adf into the root directory of the SD card.
 
 ----
 
@@ -65,3 +68,4 @@ The core itself is dual licensed LGPL/BSD.
 == Desktop videos ==
 
 <wiki:video url="http://www.youtube.com/watch?v=h0TMT6Tp068"/>
+<wiki:video url="http://www.youtube.com/watch?v=YG_RhA6UBnk"/>
