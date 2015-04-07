@@ -5,7 +5,7 @@
 
 This page has operating instructions for the Acorn Archimedes *BETA* core by Stephen Leary.
 
-*CURRENTLY THIS CORE IS IN BETA STATUS AND LACKS FLOPPY EMULATION*
+*CURRENTLY THIS CORE IS IN BETA STATUS*
 
 _Mostly you can boot into RISCOS and use a few utilities:_
 
