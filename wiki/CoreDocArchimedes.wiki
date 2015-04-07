@@ -32,7 +32,7 @@ Copy a version of a RiscOS ROM into the root folder, renaming it to `riscos.rom`
 
 = Floppy disk images =
 
-Currently only one floppy disk is supported. There's no OSD support for this yet and you need to place a 819200 bytes ADF floppy disk image named flopp0.adf into the root directory of the SD card.
+Currently only one floppy disk is supported. There's no OSD support for this yet and you need to place a 819200 bytes ADF floppy disk image named `floppy0.adf` into the root directory of the SD card.
 
 ----
 
