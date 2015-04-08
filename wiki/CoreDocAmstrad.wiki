@@ -15,7 +15,7 @@ This is a deployment of FPGAmstrad into MiST-board.
 You need :
   * MiST-board platform, with firmware updated [https://code.google.com/p/mist-board/source/browse/trunk/bin/firmware/ >= firmware_150315_r841.upg]
   * [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/amstrad amstrad core rbf file]
-  * [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/amstrad/OS6128_BASIC1-1_AMSDOS_MAXAM amstrad ROMs and a dsk]
+  * [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/amstrad/OS6128_BASIC1-1_AMSDOS_MAXAM amstrad ROMs and a dsk] (OS6128.ROM, BASIC1-1.e00, AMSDOS.e07, AST-Equinox.dsk)
 
 
 
