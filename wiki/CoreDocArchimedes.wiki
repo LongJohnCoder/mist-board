@@ -21,6 +21,7 @@ If someone has an MMC driver/podule then please mention it in the forums so it c
 
   * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/archimedes/ Core binaries]
   * Source code (TBA)
+  * [http://opencores.org/project,amber The Amber CPU core]
 
 = Installation =
 
