@@ -28,7 +28,7 @@ You can then enter *run"file.bas* to run the choosen executable.
  * _F1_ _F2_ _F3_ at the top are mapped correctly.
  * _left_ _shift_ is the true shift key. _Right_ _shift_ one is used just to map flipper key in Macadam Bumper (I like playing flipper using shift keys).
  * _shift+arrow_ does move the second cursor, and _insert_ does copy letters that are under the second cursor. Basically, _insert_ key is mapped to the Amstrad's original _copy_ key.
- * _Page up_ will reset the Amstrad
+ * _Page up_ will reset the Amstrad (it's my mute key...)
 
 = Compatibility = 
 
