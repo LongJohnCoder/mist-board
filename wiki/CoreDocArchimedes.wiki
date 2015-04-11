@@ -11,8 +11,10 @@ _Mostly you can boot into RISCOS and use a few utilities:_
 
  # Basic internals are implemented. 
  # Basic Floppy disk support 
+ # Sound support added but may not work in all situations.
  # The core emulates a 4Mb A3000 type machine with an ARM2a with caches disabled for now (has an A3010 style joystick interface). 
- # Core runs pretty slow at the moment due to a memory controller bug. 
+ # Core runs at ~91% of an ARM2 @ 8Mhz when using VGA Modes.
+ # Some games now run. Expect issues.
 
 If someone has an MMC driver/podule then please mention it in the forums so it can be include it in the core.
 
