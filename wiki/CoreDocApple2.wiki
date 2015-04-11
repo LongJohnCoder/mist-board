@@ -43,7 +43,7 @@ The core will start with a blank screen. Press F12 to enter the OSD menu:
 
 = Monitor Options =
 
-Here is a comparison of the four video choices. Color monitor displays either a color display (simulating NTSC composite, top left) or a raw B&W display (bottom left). On the right are the two monochrome modes (green on top, amber on bottom).
+Here is a comparison of the four video choices. Color monitor shows either Apple II colors (simulating NTSC composite, top left) or a raw B&W display (bottom left). On the right are the two monochrome modes (green on top, amber on bottom).
 
 This image uses scanlines, the result is a little brighter if scanlines are switched off. 
 
