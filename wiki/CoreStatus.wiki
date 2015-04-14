@@ -11,8 +11,9 @@
 = Computers =
 
 || *System* || *Docs* || *Binary URL* || *Core Project* ||
+|| Acorn Archimedes || (tba) || (tba) || ||
 || Amiga (AGA in beta)|| [CoreDocAmiga documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fminimig binaries] || Minimig ||
-|| Amstrad CPC || [CoreDocAmstrad documentation] || [https://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Famstrad binaries] || [http://www.cpcwiki.eu/index.php/FPGAmstrad FPGAmstrad] ||
+|| Amstrad CPC || [CoreDocAmstrad documentation] || [https://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Famstrad binaries] || [http://www.cpcwiki.eu/index.php/FPGAmstrad FPGAmstrad] || 
 || Apple II+ || [CoreDocApple2 documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fappleii%2B binaries] ||  [http://www1.cs.columbia.edu/~sedwards/apple2fpga/ Apple2FPGA] ||
 || Atari ST || [GettingStarted documentation] || [http://code.google.com/p/mist-board/source/browse/#svn/trunk/bin/cores/mist binaries]|| MiST ||
 || Atari 800 || [CoreDocAtari800 documentation] ||  [http://www.scrameta.net/autobuild/ binaries] || [http://atariage.com/forums/topic/213827-potential-new-hardware/ foft's thread in AtariAge] ||
@@ -27,6 +28,7 @@
 || *System* || *Docs* || *Binary URL* || *Core Project* ||
 || Atari 2600 || [CoreDocAtari2600 documentation]  || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fa2600 binaries] || [http://retromaster.wordpress.com/a2601/ A2601] ||
 || Atari 5200 || [CoreDocAtari5200 documentation] || [http://www.scrameta.net/autobuild/ binaries]|| [http://atariage.com/forums/topic/216991-5200-in-fpga/ foft's thread in AtariAge] ||
+|| Bally Astrocade || (tba)|| [https://code.google.com/p/mist-board/source/browse/trunk/bin/cores/astrocade binaries] || (tba) ||
 || Chip8|| [https://bitbucket.org/csoren/fpga-chip8/overview documentation] || [https://bitbucket.org/csoren/fpga-chip8/overview binaries] || [https://bitbucket.org/csoren/fpga-chip8/overview FPGA SuperChip] ||
 || Colecovision || [CoreDocColeco documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fcolecovision binaries] || [http://ws0.org/tag/colecovision/ PACE Colecovision] ||
 || Master System || [CoreDocSMS documentation] || [http://code.google.com/p/mist-board/source/browse/#svn%2Ftrunk%2Fbin%2Fcores%2Fsms binaries] || [http://fpga-hacks.blogspot.de/ Project SMS] ||
