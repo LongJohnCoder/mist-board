@@ -7,17 +7,14 @@ This page has operating instructions for the Acorn Archimedes *BETA* core by Ste
 
 *CURRENTLY THIS CORE IS IN BETA STATUS*
 
-_Mostly you can boot into RISCOS and use a few utilities:_
-
  # Basic internals are implemented. 
- # Basic Floppy disk support 
+ # Basic Floppy disk support
  # Sound support added but may not work in all situations.
  # The core emulates a 4Mb A3000 type machine with an ARM2a with caches disabled for now (has an A3010 style joystick interface). 
  # Core runs at ~91% of an ARM2 @ 8Mhz when using VGA Modes.
  # Some games now run. Expect issues.
 
-If someone has an MMC driver/podule then please mention it in the forums so it can be include it in the core.
-
+If someone has an MMC/SD card driver/podule then please mention it in the forums so it can be include it in the core.
 
 = Links =
 
@@ -37,7 +34,7 @@ Copy a version of a RiscOS ROM into the root folder, renaming it to `riscos.rom`
 
 The current version supports two floppy drives. Floppy disk images ADF format and of exactly 819200 bytes in size are currently required. This is the most common format for the Acorn Archimedes.
 
-Images named `floppy0.adf` and `floppy1.adf` are auto-inserted into the floppy disk drives on startup. Other images can be selected via the on-screen-display (OSD) which can be opened using the "Prt Scrn" key.
+Images named `floppy0.adf` and `floppy1.adf` are auto-inserted into the floppy disk drives on startup. Other images can be selected via the on-screen-display (OSD) which can be opened using the *Print Screen* key.
 
 ----
 
@@ -59,7 +56,7 @@ You can move to other pages of settings by pressing the right arrow key:
  * For best results it's best to use this as the startup core.
  * If the core does not start try resetting the MiST (first button next to the SD card slot) 
  * Only RISCOS 3 supports VGA. 
- * Older RISCOS versions will need a VGA to SCART at present (future versions may have a scandoubler).
+ * Older RISCOS versions will need a VGA to SCART cable at present (future versions may have a scandoubler).
 
 == License notes ==
 
