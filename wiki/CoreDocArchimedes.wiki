@@ -35,7 +35,9 @@ Copy a version of a RiscOS ROM into the root folder, renaming it to `riscos.rom`
 
 = Floppy disk images =
 
-Currently only one floppy disk is supported. There's no OSD support for this yet and you need to place a 819200 bytes ADF floppy disk image named `floppy0.adf` into the root directory of the SD card.
+The current version supports two floppy drives. Floppy disk images ADF format and of exactly 819200 bytes in size are currently required. This is the most common format for the Acorn Archimedes.
+
+Images named `floppy0.adf` and `floppy1.adf` are auto-inserted into the floppy disk drives on startup. Other images can be selected via the on-screen-display (OSD) which can be opened using the "Prt Scrn" key.
 
 ----
 
@@ -44,13 +46,13 @@ Currently only one floppy disk is supported. There's no OSD support for this yet
 If the ROM is recognized the core should boot into Risc OS.
 Press *Print Screen* to open the OSD menu.
 
- * OS ROM: choose the RISCOS rom to use
- * Firmware & Core: change MiST core or upgrade firmware
- * Save config: save current config for next boot
+ * Floppy 0: Choose the floppy disk images to use for floppy 0
+ * Floppy 1: Choose the floppy disk images to use for floppy 1
+ * OS ROM: Choose the RISCOS rom to use
+ * Firmware & Core: Change MiST core or upgrade firmware
+ * Save config: Save current config for next boot
  
 You can move to other pages of settings by pressing the right arrow key:
-
-
 
 == Notes ==
 
@@ -59,12 +61,10 @@ You can move to other pages of settings by pressing the right arrow key:
  * Only RISCOS 3 supports VGA. 
  * Older RISCOS versions will need a VGA to SCART at present (future versions may have a scandoubler).
 
-
 == License notes ==
 
 This core uses the Amber CPU core from OpenCores which is LGPL. 
 The core itself is dual licensed LGPL/BSD. 
-
 
 ----
 
