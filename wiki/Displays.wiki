@@ -24,9 +24,9 @@ Using a video upscaler increases compatibility significantly, as HDMI input is g
 
 || *Device* || *Rating * || *Output* || *50Hz* || *15kHz RGBHV* || *Comments* || *Example * ||
 || Micomsoft XRGB-Mini + Arcadeforge UMSA || 99% || HDMI || Yes || Yes || 15khz mode works great. 50hz mode has pink tint on C64, MSX, PCE cores. || [https://www.youtube.com/watch?v=1uN4RDPfnKc video] ||
-|| Gonbes 8220 RGB to VGA PCB  || 75% || VGA || Yes || No || Most cores work, see [https://docs.google.com/spreadsheets/d/1P1LPndBDkcSSG9Cxco8NGMnihYyO-4FIvz1kcyZ7vi4/ Core status sheet]. || - ||
-|| VGA+R/L TO HDMI adapter - HD2022 || 75% || HDMI || Yes || No || Looks same as VGA output but incompatble with upscalers || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
-|| MINI VGA2HDMI || 75% || HDMI || Yes || No || uses same converter chip as the above adapter || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
+|| Gonbes 8220 RGB to VGA PCB  || 80% || VGA || Yes || No || Most cores work, see [https://docs.google.com/spreadsheets/d/1P1LPndBDkcSSG9Cxco8NGMnihYyO-4FIvz1kcyZ7vi4/ Core status sheet]. || - ||
+|| VGA+R/L TO HDMI adapter - HD2022 || 70% || HDMI || Yes || No || Looks same as VGA output but incompatble with upscalers || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
+|| MINI VGA2HDMI || 70% || HDMI || Yes || No || uses same converter chip as the above adapter || [https://www.youtube.com/watch?v=O7YPvfFW-gA video] ||
 
 
 = Gonbes Notes =
