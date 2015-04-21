@@ -5,9 +5,22 @@ The following explanations are not 100% exact. Instead they are simplifying cert
 
 = What is the MIST board? =
 
-The MIST board is built around a so called FPGA chip. So the question what the MIST board is leads to the question what an FPGA is. 
+The MIST board is built around a so-called FPGA chip with "cores" written in HDL. So the question what the MIST board is leads to the question what an FPGA is. 
 
-== What is an FPGA? ==
+== What is FPGA and this HDL it uses?==
+
+They are essentially a custom microchip used to build a System-On-a-Chip on demand. 
+
+Nornally creating microchips requires a large factory and schematics of the hardware. This led to the development languages to describe schematics (HDL) and tools to prototype chip designs before they are "baked" onto silicon (at which point can no longer be changed). These tools are programmable chips such as FPGAs.
+
+Recently the price of FPGAs has gone down significantly, at which point it is cheaper to sell devices with an FPGA inside rather than producing dedicated chips that can no longer be changed. Each units is more expensive but they cost less to build and are upgradeable.
+
+Other examples of devices with FPGAs are the SD2SNES cartridge, the EverDrive N8 cartridge, and the XRGB-Mini upscaler.
+
+
+
+
+== So what exactly is an FPGA? (detailed) ==
 
 An FPGA is an intengrated semiconductor. It consists if millions (sometimes even billions) of small logic elements just like any microprocessor, memory chip or IO chip in a standard PC. In a microprocessor the logic elements are wired in a way that they finally show the behaviour that the microprocessors vendor intended. In a memory chip the logic elements are wired in a way that data can be stored inside the chip. This is achieved by the manufacuturers by selecting exactly the logic elements the intended chip type requires and by wiring them up inside the chip to perform exactly the function the manufacturer wants them to do. 
 
