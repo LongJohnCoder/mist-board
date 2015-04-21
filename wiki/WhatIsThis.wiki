@@ -14,8 +14,9 @@ They are essentially a custom microchip used to build a System-On-a-Chip on dema
 Nornally creating microchips requires a large factory and schematics of the hardware. This led to the development languages to describe schematics (HDL) and tools to prototype chip designs before they are "baked" onto silicon (at which point can no longer be changed). These tools are programmable chips such as FPGAs.
 
 Recently the price of FPGAs has gone down significantly, at which point it is cheaper to sell devices with an FPGA inside rather than producing dedicated chips that can no longer be changed. Each units is more expensive but they cost less to build and are upgradeable.
+The availability of free HDL development tools, and HDL code for most cores being open source  means that each device can be its own development kit allowing anybody to tinker.
 
-Other examples of devices with FPGAs are the SD2SNES cartridge, the EverDrive N8 cartridge, and the XRGB-Mini upscaler.
+Other examples of devices with FPGAs are the SD2SNES cartridge, the EverDrive N8 cartridge, and the XRGB-Mini upscaler (not all use open source cores, though).
 
 
 
