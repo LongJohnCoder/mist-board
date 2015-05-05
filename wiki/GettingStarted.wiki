@@ -38,9 +38,16 @@ First you have to prepare the SD card. Place the following files in the root dir
 
 == Atari ST ==
 
-  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/core.rbf The Atari ST FPGA core (core.rbf)]
+  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/core.rbf The original Atari ST FPGA core (core.rbf)] or
+  * [http://mist-board.googlecode.com/svn/trunk/bin/cores/mist/core_150413_r1017.rbf The recent Atari ST FPGA core)]
   * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/tos.img A (Emu-)TOS rom image (tos.img)]
   * [http://mist-board.googlecode.com/svn/wiki/disk_a.st A default floppy disk image for drive A:]
+
+== The pre-installed firmware version  ==
+
+On may 2015 Lotharek started to sell board with a firmware dated 10th april 2015. That version also requires the recent core (see above). You need to rename this core to `core.rbf` before placing them on the SD card. If you purchased your board before may 2015 or if you got an older board from the third party you need to use the original core mentioned above for your first tests. It doesn't hurt of your confuse the core versions. They'll just not work. Replace them with the correct version and you'll be fine again. Technically all boards are the same and once you are successful with your initial tests you may update any board to the latest firmware and latest core. You can always check the firmware version by opening the OSD (by pressing F12) and then selecting "Firmware & Core". This will show the installed firmware version under "ARM s/w ver." as depiced below.
+
+<img title="OSD Firmware version" src="http://mist-board.googlecode.com/svn/wiki/img_docs/osd_fw_ver.jpg" />
 
 The Atari [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/system.fnt system.fnt] can optionally be placed on the SD card and will then be used for initial boot messages (otherwise the same font as for the OSD is being used).
 
