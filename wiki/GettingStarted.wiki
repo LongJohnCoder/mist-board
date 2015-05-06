@@ -2,15 +2,9 @@
 #labels Featured
 #sidebar CoreDocTOC
 
+= Introduction =
 
-= Atari ST Highlights =
-
-  * ST/STE and Mega STE compatibility
-  * Floppy/HDD emulation via SD card
-  * Max CPU speed on par with Atari TT
-  * Up to 14 MB real ST RAM
-  * 1280x1024 high resolution video
-  * USB/Ethernet support
+This page will tell you how to do the initial setup of your MiST FPGA board. It explains how to setup a SD card to boot into an Atari ST or Amiga setup for the first time. Afterwards you can continue [HowToInstallTheFirmware updating your board to the latest firmware and core] or start using other cores.
 
 = What you need =
 
@@ -27,7 +21,7 @@ Mandatory:
 Optional:
 
   * A USB mouse
-  * A classic Atari style joystick 
+  * A classic Atari style joystick or USB joystick or gamepad
   * A set of PC speakers
 
 For potential compatibility issues see the [Peripherals peripherals wiki page].
@@ -38,14 +32,23 @@ First you have to prepare the SD card. Place the following files in the root dir
 
 == Atari ST ==
 
-  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/core.rbf The original Atari ST FPGA core (core.rbf)] or
-  * [http://mist-board.googlecode.com/svn/trunk/bin/cores/mist/core_150413_r1017.rbf The recent Atari ST FPGA core)]
+  * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/core.rbf The early Atari ST FPGA core (core.rbf) for boards purchased before May 2015] or
+  * [http://mist-board.googlecode.com/svn/trunk/bin/cores/mist/core_150413_r1017.rbf The Atari ST FPGA core for boards purchased May 2015 or later]
   * [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/tos.img A (Emu-)TOS rom image (tos.img)]
   * [http://mist-board.googlecode.com/svn/wiki/disk_a.st A default floppy disk image for drive A:]
 
 == The pre-installed firmware version  ==
 
-On may 2015 Lotharek started to sell board with a firmware dated 10th april 2015. That version also requires the recent core (see above). You need to rename this core to `core.rbf` before placing them on the SD card. If you purchased your board before may 2015 or if you got an older board from the third party you need to use the original core mentioned above for your first tests. It doesn't hurt of your confuse the core versions. They'll just not work. Replace them with the correct version and you'll be fine again. Technically all boards are the same and once you are successful with your initial tests you may update any board to the latest firmware and latest core. You can always check the firmware version by opening the OSD (by pressing F12) and then selecting "Firmware & Core". This will show the installed firmware version under "ARM s/w ver." as depiced below.
+The MIST board uses a permanently installed firmware in on-board flash as well as the called FPGA core file on SD card. Since both parts evolve over the time they need to be from roughly the same time. If the versions of the firmware and the core differ too much then the core may not boot (but no harm will/can be done).
+
+Up to now two firmware versions have been installed in MIST boards before shipment.
+
+If you purchased your board before May 2015 or if you got an older board from the third party you need to use the [http://code.google.com/p/mist-board/source/browse/trunk/bin/cores/mist/core.rbf early core] mentioned for your first tests. 
+
+
+Since May 2015 Lotharek started to flash boards with a firmware from April 2015. That version requires a [http://mist-board.googlecode.com/svn/trunk/bin/cores/mist/core_150413_r1017.rbf more recent core]. You need to rename this core to `core.rbf` before placing it on the SD card. 
+
+It doesn't cause any harm if you confuse the core versions. They'll just not boot and you'll probably get a messed video output. Replace the wrong core with the correct version and you'll be fine again. Technically all boards are the same and once you are successful with your initial tests you may update any board to the latest firmware and latest core. You can always check the firmware version by opening the OSD (by pressing F12) and then selecting "Firmware & Core". This will show the installed firmware version under "ARM s/w ver." as depiced below.
 
 <img title="OSD Firmware version" src="http://mist-board.googlecode.com/svn/wiki/img_docs/osd_fw_ver.jpg" />
 
