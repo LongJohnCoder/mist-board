@@ -23,6 +23,9 @@ Using the OSD menu (F12), do select a dsk.
 You can enter *cat* instruction to list dsk content. Executables are files in *.bas* or *.bin*.
 You can then enter *run"file.bas* to run the choosen executable.
 
+== Known bug ==
+If you feel like if some files are corrupted after a hard-reboot, do defrag your sdcard (I have to fix that in next versions)
+
 = Controls =
 
  * _F1_ _F2_ _F3_ at the top are mapped correctly.
