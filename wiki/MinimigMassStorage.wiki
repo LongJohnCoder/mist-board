@@ -126,5 +126,5 @@ Alternally it's possible to mount such images directly on the MiST using the "ha
 = Related =
 
   * [http://fs-uae.net/ FS-UAE home page]
-  * [http://faranheit.dyndns.org:8080/Minimig/HDF_Creation_Minimig_English.pdf Tutorial for setting up a harddisk inside minimig (PDF)]
+  * [http://amiga.amedia-computer.com/document/Minimig/HDF_Creation_Minimig_English.pdf Tutorial for setting up a harddisk inside minimig (PDF)]
   * [http://www.amigafuture.de/downloads.php?view=detail&df_id=3614&sid=acf7382d5067cbdab656dd08a8418de6 Directory Opus 5.5]
