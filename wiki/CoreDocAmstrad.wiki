@@ -26,7 +26,7 @@ You can then enter *run"file.bas* to run the choosen executable.
 == Note about installation : known bug ==
 If you feel like if some files are corrupted after a hard-reboot, do defrag your sdcard (I have to fix that in next versions)
 
-Robust test you can do also in r003 : copy files from SD to hard disk, quick format, copy back files from hard disk to SD. If succeed, it's a file fragment problem so fixable in next versions... if not please contact me.
+Robust test you can do also in amstrad_150418_r003.4 : copy files from SD to hard disk, quick format, copy back files from hard disk to SD. If succeed, it's a file fragment problem so fixable in next versions... if not please contact me.
 
 = Controls =
 
