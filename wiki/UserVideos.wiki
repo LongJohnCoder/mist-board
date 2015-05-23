@@ -3,9 +3,9 @@
 
 = Youtube captures =
 
-A few playlists maintained by Newsdee:
-
 [https://www.youtube.com/watch?v=UeKNDUG6PrE&index=1&list=PLYQepv0fYuEewWx50ipom1cElG4hgZ3wL  Amiga playlist]
+
+
 
 
 = Other videos =
@@ -15,6 +15,9 @@ MIST Atari ST
 
 <wiki:video url="http://www.youtube.com/watch?v=-2FaAtZO-98"/>
 Minimig core on MIST
+
+<wikie:video url="http://www.youtube.com/watch?v=UeKNDUG6PrE" />
+Minimig AGA core on MIST
 
 <wiki:video url="http://www.youtube.com/watch?v=WiaG75EFUaY"/>
 Unboxing the MIST
