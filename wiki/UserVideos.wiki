@@ -3,9 +3,9 @@
 
 = Youtube captures =
 
-[https://www.youtube.com/watch?v=UeKNDUG6PrE&index=1&list=PLYQepv0fYuEewWx50ipom1cElG4hgZ3wL  Amiga playlist]
+[http://www.youtube.com/watch?v=UeKNDUG6PrE&index=1&list=PLYQepv0fYuEewWx50ipom1cElG4hgZ3wL  Amiga playlist]
 
-
+[http://www.youtube.com/watch?v=fzATnELZXwg&list=PLYQepv0fYuEdCFucECgy85P6EbejWUdP6  ZX Spectrum playlist]
 
 
 = Other videos =
@@ -16,7 +16,7 @@ MIST Atari ST
 <wiki:video url="http://www.youtube.com/watch?v=-2FaAtZO-98"/>
 Minimig core on MIST
 
-<wikie:video url="http://www.youtube.com/watch?v=UeKNDUG6PrE" />
+<wiki:video url="http://www.youtube.com/watch?v=UeKNDUG6PrE" />
 Minimig AGA core on MIST
 
 <wiki:video url="http://www.youtube.com/watch?v=WiaG75EFUaY"/>
