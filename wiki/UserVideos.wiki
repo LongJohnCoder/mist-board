@@ -1,7 +1,9 @@
 #summary User videos
 #sidebar CoreDocTOC
 
-= YouTube captures =
+= Youtube captures =
+
+A few playlists maintained by Newsdee:
 
 [https://www.youtube.com/watch?v=UeKNDUG6PrE&index=1&list=PLYQepv0fYuEewWx50ipom1cElG4hgZ3wL  Amiga playlist]
 
