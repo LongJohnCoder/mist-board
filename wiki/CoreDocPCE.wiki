@@ -63,7 +63,7 @@ Most games seem to work with the PC Engine mode; so it is recommended to use thi
 
 <wiki:video url="http://www.youtube.com/watch?v=eqkAILkPe5I"/>
 
-<wiki:video url="http://www.youtube.com/watch?v=4dA1-ohB_Ak"/> 
+<wiki:video url="http://www.youtube.com/watch?v=4l58HPSzfjQ" />
 
 <wiki:video url="http://www.youtube.com/watch?v=CzeHW-gyMSI"/>
 
