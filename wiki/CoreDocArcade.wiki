@@ -83,6 +83,7 @@ _MiST Front panel buttons:_
 == Space Invaders ==
 
 This core has sound.
+USB pads are not supported - use the DB9 connections.
 
 _MiST front panel buttons:_
   # Reset MiST to default core
