@@ -36,39 +36,6 @@ _Gameplay_
 
 ----
 
-== Galaxian ==
-
-Thia core does not currently have sound.
-
-The display is vertical (unlike the rest of the arcade cores);
-for best results use a rotated display.
-
-_MiST front panel buttons:_
-  # Reset MiST to default core
-  # Insert Coin
-  # Start
-
-_Controls__
-  * Left/Right: move ship
-  * button 1: fire
-
-_Gameplay_
-
-<wiki:video url="http://www.youtube.com/watch?v=TL4Ehy2uSfQ"/>
-
-----
- 
-== Pengo ==
-
-This core does not have sound at the moment.
-
-_MiST Front panel buttons:_
-  # Reset MiST to default core
-  # Insert Coin
-  # Start
-
-----
-
 == Moon Patrol ==
 
 This core does not have sound at the moment.
@@ -99,3 +66,57 @@ _MiST front panel buttons:_
 _Gameplay_
 
 <wiki:video url="http://www.youtube.com/watch?v=FZXAsBAKiRQ"/>
+
+----
+
+== Frogger ==
+
+This core does not currently have sound.
+
+The display is vertical (unlike the rest of the arcade cores);
+for best results use a rotated display.
+
+_MiST front panel buttons:_
+  # Reset MiST to default core
+  # Insert Coin
+  # Start
+
+_Controls__
+  * Joystick: move frog
+
+<wiki:video url="http://www.youtube.com/watch?v=0ytiqnRhcxw"/>
+
+----
+
+== Galaxian ==
+
+This core does not currently have sound.
+
+The display is vertical (unlike the rest of the arcade cores);
+for best results use a rotated display.
+
+_MiST front panel buttons:_
+  # Reset MiST to default core
+  # Insert Coin
+  # Start
+
+_Controls__
+  * Left/Right: move ship
+  * button 1: fire
+
+_Gameplay_
+
+<wiki:video url="http://www.youtube.com/watch?v=TL4Ehy2uSfQ"/>
+
+----
+ 
+== Pengo ==
+
+This core does not have sound at the moment.
+
+_MiST Front panel buttons:_
+  # Reset MiST to default core
+  # Insert Coin
+  # Start
+
+----
