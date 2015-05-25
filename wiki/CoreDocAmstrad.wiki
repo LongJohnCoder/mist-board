@@ -54,6 +54,8 @@ You can select VRAM area (LowerVRAM/upperVRAM) in OSD menu. Default one are 10 a
 = Gameplay Videos =
 <wiki:video url="http://www.youtube.com/watch?v=mTHb0kCSCdc"/>
 
+<wiki:video url="https://www.youtube.com/watch?v=43itc-Kv-Wk"/>
+
 ----
 
 = Development details / acknowledgments =
