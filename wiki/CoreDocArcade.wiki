@@ -80,6 +80,10 @@ _MiST Front panel buttons:_
 
 To start a one player game, push the middle button once then the right button. Press middle button twice for a two-player game.
 
+_Gameplay_
+
+<wiki:video url="http://www.youtube.com/watch?v=UeP1oDhdQE8"/>
+
 ----
 
 == Space Invaders ==
