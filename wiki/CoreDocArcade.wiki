@@ -88,3 +88,7 @@ _MiST front panel buttons:_
   # Reset MiST to default core
   # Insert Coin
   # Start
+
+_Gameplay_
+
+<wiki:video url="http://www.youtube.com/watch?v=FZXAsBAKiRQ"/>
