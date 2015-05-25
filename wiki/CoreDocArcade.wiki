@@ -75,8 +75,10 @@ This core does not have sound at the moment.
 
 _MiST Front panel buttons:_
   # Reset MiST to default core
-  # Insert Coin
-  # Start
+  # Insert Coin / 2P Start
+  # 1P Start
+
+To start a one player game, push the middle button once then the right button. Press middle button twice for a two-player game.
 
 ----
 
