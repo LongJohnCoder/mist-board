@@ -58,6 +58,7 @@ You can move to other pages of settings by pressing the right arrow key:
 
   * PAL video mode is 720x576p at 50hz
   * NTSC video mode is 720x480p at 60hz
+  * On the AGA core, use 24MB Fast RAM to enable full speed.
 
 ----
 
