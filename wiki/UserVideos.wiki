@@ -29,6 +29,9 @@ Minimig core on MIST
 <wiki:video url="http://www.youtube.com/watch?v=UeKNDUG6PrE" />
 Minimig AGA core on MIST
 
+<wiki:video url="http://www.youtube.com/watch?v=tALPsNAL958" />
+Minimig AGA core performance
+
 <wiki:video url="http://www.youtube.com/watch?v=WV0I8n1uMTo&index=2&list=PLYQepv0fYuEdCFucECgy85P6EbejWUdP6" />
 ZX Spectrum core on MIST
 
